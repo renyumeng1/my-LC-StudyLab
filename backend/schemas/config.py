@@ -1,4 +1,4 @@
-from typing import Any, NotRequired, Optional, TypedDict
+from typing import Annotated, Any, NotRequired, Optional, TypedDict
 
 
 
@@ -16,3 +16,20 @@ class ModelConfig(OpenAIConfig):
     """
     streaming:bool
     model_kwargs:NotRequired[dict[str,Any]]
+    
+
+class ModelPreset(TypedDict):
+    """模型预设配置的类型定义
+    """
+    model_name:str
+    temperature:float
+    description:str
+    
+
+class ModelPresetConfig(TypedDict):
+    """模型预设配置的类型定义
+    """
+    default: ModelPreset
+    fast: ModelPreset
+    precise: ModelPreset
+    creative: ModelPreset

@@ -126,6 +126,12 @@ class Settings(BaseSettings):
         description="是否启用调试模式"
     )
     
+    # ==================== 高德地图配置 ====================
+    amap_key: str = Field(
+        default="",
+        description="高德地图 API 密钥（可选，用于天气查询等服务）"
+    )
+    
     
     # ================= Agent配置 =================
     
