@@ -11,6 +11,17 @@ from .weather import (
     WeatherStatus,
 )
 
+from .tavily import (
+    TavilyAutoParameters,
+    TavilySearchDepth,
+    TavilySearchErrorResponse,
+    TavilySearchImage,
+    TavilySearchParams,
+    TavilySearchResponse,
+    TavilySearchResultItem,
+    TavilyTopic,
+    TavilyUsage,
+)
 
 __all__ = [
     "OpenAIConfig",
@@ -26,4 +37,13 @@ __all__ = [
     "WeatherExtensions",
     "WeatherOutput",
     "WeatherStatus",
+    "TavilyAutoParameters",
+    "TavilySearchDepth",
+    "TavilySearchErrorResponse",
+    "TavilySearchImage",
+    "TavilySearchParams",
+    "TavilySearchResponse",
+    "TavilySearchResultItem",
+    "TavilyTopic",
+    "TavilyUsage",
 ]

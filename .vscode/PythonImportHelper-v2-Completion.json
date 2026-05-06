@@ -1,0 +1,1271 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "NotRequired",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "NotRequired",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "BaseLanguageModel",
+        "importPath": "langchain_core.language_models",
+        "description": "langchain_core.language_models",
+        "isExtraImport": true,
+        "detail": "langchain_core.language_models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseChatModel",
+        "importPath": "langchain_core.language_models",
+        "description": "langchain_core.language_models",
+        "isExtraImport": true,
+        "detail": "langchain_core.language_models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTool",
+        "importPath": "langchain_core.tools",
+        "description": "langchain_core.tools",
+        "isExtraImport": true,
+        "detail": "langchain_core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain.tools",
+        "description": "langchain.tools",
+        "isExtraImport": true,
+        "detail": "langchain.tools",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain.tools",
+        "description": "langchain.tools",
+        "isExtraImport": true,
+        "detail": "langchain.tools",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain.tools",
+        "description": "langchain.tools",
+        "isExtraImport": true,
+        "detail": "langchain.tools",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain.tools",
+        "description": "langchain.tools",
+        "isExtraImport": true,
+        "detail": "langchain.tools",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "venv",
+        "description": "venv",
+        "isExtraImport": true,
+        "detail": "venv",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AmapWeatherResponse",
+        "importPath": "backend.schemas.weather",
+        "description": "backend.schemas.weather",
+        "isExtraImport": true,
+        "detail": "backend.schemas.weather",
+        "documentation": {}
+    },
+    {
+        "label": "TavilySearch",
+        "importPath": "langchain_tavily",
+        "description": "langchain_tavily",
+        "isExtraImport": true,
+        "detail": "langchain_tavily",
+        "documentation": {}
+    },
+    {
+        "label": "dedent",
+        "importPath": "textwrap",
+        "description": "textwrap",
+        "isExtraImport": true,
+        "detail": "textwrap",
+        "documentation": {}
+    },
+    {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "BaseAgent",
+        "kind": 6,
+        "importPath": "backend.agent.base_agent",
+        "description": "backend.agent.base_agent",
+        "peekOfCode": "class BaseAgent:\n    \"\"\"Agent基类封装langchain的create_agent\n    \"\"\"\n    # NOTE:这里的model可以是一个字符串，也可以是一个BaseLanguageModel对象，如果是字符串，就会被ChatOpenAI识别为模型名称，创建一个ChatOpenAI对象；如果是BaseLanguageModel对象，就直接使用这个对象作为模型。\n    def __init__(\n        self,\n        model:Optional[str | BaseLanguageModel] = None\n                 ):\n        pass",
+        "detail": "backend.agent.base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logging",
+        "kind": 2,
+        "importPath": "backend.config.logging",
+        "description": "backend.config.logging",
+        "peekOfCode": "def setup_logging(\n    log_level:Optional[str] = None,\n    log_file:Optional[str] = None,\n    rotation:Optional[str] = None,\n    retention:Optional[str] = None\n) -> None:\n    log_level = log_level or settings.log_level\n    log_file = log_file or settings.log_file\n    rotation = rotation or settings.log_rotation\n    retention = retention or settings.log_retention",
+        "detail": "backend.config.logging",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "kind": 2,
+        "importPath": "backend.config.logging",
+        "description": "backend.config.logging",
+        "peekOfCode": "def get_logger(name:str):\n    \"\"\"\n    获取指定名称的 logger\n    Args:\n        name: logger 名称，通常使用模块的 __name__\n    Returns:\n        配置好的 logger 实例\n    Example:\n        >>> from config import get_logger\n        >>> logger = get_logger(__name__)",
+        "detail": "backend.config.logging",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "backend.config.setting",
+        "description": "backend.config.setting",
+        "peekOfCode": "class Settings(BaseSettings):\n    \"\"\"配置类，使用pydantic_settings进行管理\n    \"\"\"\n    model_config = SettingsConfigDict(\n        env_file=\".env\",\n        env_file_encoding=\"utf-8\",\n        case_sensitive=False,\n        extra=\"ignore\"\n    )\n    def validate_required_keys(self) -> None:",
+        "detail": "backend.config.setting",
+        "documentation": {}
+    },
+    {
+        "label": "validate_settings",
+        "kind": 2,
+        "importPath": "backend.config.setting",
+        "description": "backend.config.setting",
+        "peekOfCode": "def validate_settings() -> None:\n    \"\"\"验证配置项的有效性\n    \"\"\"\n    try:\n        settings.validate_required_keys()\n    except ValueError as e:\n        if settings.debug:\n            print(f\"配置警告：{e}\")\n        else:\n            raise",
+        "detail": "backend.config.setting",
+        "documentation": {}
+    },
+    {
+        "label": "ResearchFileSystem",
+        "kind": 6,
+        "importPath": "backend.core.tools.filesystem",
+        "description": "backend.core.tools.filesystem",
+        "peekOfCode": "class ResearchFileSystem:\n    def __init__(self,thread_id:str,base_path:Optional[str] = None) -> None:\n        \"\"\"\n        初始化研究文件系统\n        Args:\n            thread_id: 研究任务的唯一标识符\n            base_path: 文件系统根目录，默认使用配置中的路径\n        \"\"\"\n        if base_path is None:\n            base_path = os.path.join(settings.DATA_DIR,\"research\")",
+        "detail": "backend.core.tools.filesystem",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.core.tools.filesystem",
+        "description": "backend.core.tools.filesystem",
+        "peekOfCode": "logger = get_logger(__name__)\nclass ResearchFileSystem:\n    def __init__(self,thread_id:str,base_path:Optional[str] = None) -> None:\n        \"\"\"\n        初始化研究文件系统\n        Args:\n            thread_id: 研究任务的唯一标识符\n            base_path: 文件系统根目录，默认使用配置中的路径\n        \"\"\"\n        if base_path is None:",
+        "detail": "backend.core.tools.filesystem",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_time",
+        "kind": 2,
+        "importPath": "backend.core.tools.time_tools",
+        "description": "backend.core.tools.time_tools",
+        "peekOfCode": "def get_current_time() -> str:\n    \"\"\"获取当前时间\n    **注意：查询天气时不需要调用此工具！天气工具内部已经知道了当前时间！**\n    Returns:\n        str: 当前时间的字符串表示。\n    Example:\n        >>> get_current_time()\n        '当前时间是：2024-06-01 12:34:56'\n    \"\"\" \n    current_time = datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\")",
+        "detail": "backend.core.tools.time_tools",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_date",
+        "kind": 2,
+        "importPath": "backend.core.tools.time_tools",
+        "description": "backend.core.tools.time_tools",
+        "peekOfCode": "def get_current_date() -> str:\n    \"\"\"获取当前日期和星期。\n    仅当用户明确询问日期相关问题时使用，例如：\n    - 今天是几号\n    - 今天星期几\n    - 当前日期是什么\n    **不要在天气查询前调用此工具。天气工具已经知道了当前日期。**\n    Returns:\n        str: 当前日期和星期，格式为 ``今天是：YYYY-MM-DD （星期X）``。\n    Example:",
+        "detail": "backend.core.tools.time_tools",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.core.tools.time_tools",
+        "description": "backend.core.tools.time_tools",
+        "peekOfCode": "logger = get_logger(__name__)\n@tool\ndef get_current_time() -> str:\n    \"\"\"获取当前时间\n    **注意：查询天气时不需要调用此工具！天气工具内部已经知道了当前时间！**\n    Returns:\n        str: 当前时间的字符串表示。\n    Example:\n        >>> get_current_time()\n        '当前时间是：2024-06-01 12:34:56'",
+        "detail": "backend.core.tools.time_tools",
+        "documentation": {}
+    },
+    {
+        "label": "get_weather",
+        "kind": 2,
+        "importPath": "backend.core.tools.weather",
+        "description": "backend.core.tools.weather",
+        "peekOfCode": "def get_weather(\n    city:str,\n    extensions:Literal[\"base\", \"all\"] = \"base\",\n)->str:\n    \"\"\"\n    查询指定城市的天气信息\n    支持查询实况天气和预报天气：\n    - base: 返回实况天气（当前天气状况）\n    - all: 返回预报天气（未来3天预报）\n    Args:",
+        "detail": "backend.core.tools.weather",
+        "documentation": {}
+    },
+    {
+        "label": "get_weather_forecast",
+        "kind": 2,
+        "importPath": "backend.core.tools.weather",
+        "description": "backend.core.tools.weather",
+        "peekOfCode": "def get_weather_forecast(city:str)->str:\n    \"\"\"\n    查询指定城市未来3天的天气预报\n    这是 get_weather 的便捷版本，直接返回预报天气。\n    Args:\n        city: 城市名称或城市编码（adcode）\n              例如：\"北京\"、\"上海\"、\"广州\"\n    Returns:\n        格式化的天气预报信息字符串\n    Example:",
+        "detail": "backend.core.tools.weather",
+        "documentation": {}
+    },
+    {
+        "label": "get_daily_weather",
+        "kind": 2,
+        "importPath": "backend.core.tools.weather",
+        "description": "backend.core.tools.weather",
+        "peekOfCode": "def get_daily_weather(\n    city: str,\n    day: Literal[\"today\", \"tomorrow\", \"day_after_tomorrow\"] = \"tomorrow\",\n) -> str:\n    \"\"\"查询指定城市某一天的天气预报。\n    这个工具内部会直接查询预报天气接口，不需要先调用 get_current_date 或\n    get_current_time。\n    当用户问“今天天气”“明天天气”“后天天气”时，优先使用这个工具，并显式传入\n    day 参数。\n    Args:",
+        "detail": "backend.core.tools.weather",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.core.tools.weather",
+        "description": "backend.core.tools.weather",
+        "peekOfCode": "logger = get_logger(__name__)\ndef _get_weather_impl(\n    city: str,\n    extensions: Literal[\"base\", \"all\"] = \"base\",\n    day_offset: Optional[int] = None,\n) -> str:\n    \"\"\"天气查询函数底层实现函数\n    Args:\n        city (str): 城市名称或城市编码\n        extensions (Literal[\"base\",\"all\"], optional): 气象类型（\"base\"或\"all\"）. Defaults to \"base\".",
+        "detail": "backend.core.tools.weather",
+        "documentation": {}
+    },
+    {
+        "label": "__all__",
+        "kind": 5,
+        "importPath": "backend.core.tools.weather",
+        "description": "backend.core.tools.weather",
+        "peekOfCode": "__all__ = [\n    \"get_weather\",\n    \"get_weather_forecast\",\n    \"get_daily_weather\",\n]",
+        "detail": "backend.core.tools.weather",
+        "documentation": {}
+    },
+    {
+        "label": "create_tavily_search_tool",
+        "kind": 2,
+        "importPath": "backend.core.tools.web_search",
+        "description": "backend.core.tools.web_search",
+        "peekOfCode": "def create_tavily_search_tool(\n    max_results: Optional[int] = None,\n    search_depth: Literal[\"advanced\", \"basic\", \"fast\", \"ultra-fast\"] = \"advanced\",\n    include_domains: Optional[list[str]] = None,\n    exclude_domains: Optional[list[str]] = None,\n) -> TavilySearch:\n    \"\"\"创建 Tavily 搜索工具。\n    Args:\n        max_results: 最大返回结果数量。为 ``None`` 时使用配置项\n            ``settings.tavily_max_results``。",
+        "detail": "backend.core.tools.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "web_search",
+        "kind": 2,
+        "importPath": "backend.core.tools.web_search",
+        "description": "backend.core.tools.web_search",
+        "peekOfCode": "def web_search(query: str) -> str:\n    \"\"\"使用 Tavily 执行网络搜索并返回摘要文本。\"\"\"\n    logger.info(f\"执行 Web 搜索工具，查询: {query}\")\n    try:\n        if not settings.tavily_api_key:\n            logger.warning(\"Tavily API Key 未配置，无法执行 Web 搜索\")\n            return (\n                \"抱歉，网络搜索功能暂时不可用（未配置 Tavily API Key）。\"\n                \"请在 .env 文件中设置 TAVILY_API_KEY。\"\n            )",
+        "detail": "backend.core.tools.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "web_search_tool_simple",
+        "kind": 2,
+        "importPath": "backend.core.tools.web_search",
+        "description": "backend.core.tools.web_search",
+        "peekOfCode": "def web_search_tool_simple(query: str) -> str:\n    \"\"\"使用 Tavily 执行快速网络搜索，只返回标题和来源链接。\"\"\"\n    logger.info(f\"🔍 执行快速搜索: {query}\")\n    try:\n        if not settings.tavily_api_key:\n            return \"网络搜索功能暂时不可用（未配置 API Key）\"\n        search_response = _invoke_tavily_search(\n            query,\n            max_results=3,\n            search_depth=\"basic\",",
+        "detail": "backend.core.tools.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.core.tools.web_search",
+        "description": "backend.core.tools.web_search",
+        "peekOfCode": "logger = get_logger(__name__)\nfrom langchain_tavily import TavilySearch\ndef create_tavily_search_tool(\n    max_results: Optional[int] = None,\n    search_depth: Literal[\"advanced\", \"basic\", \"fast\", \"ultra-fast\"] = \"advanced\",\n    include_domains: Optional[list[str]] = None,\n    exclude_domains: Optional[list[str]] = None,\n) -> TavilySearch:\n    \"\"\"创建 Tavily 搜索工具。\n    Args:",
+        "detail": "backend.core.tools.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "__all__",
+        "kind": 5,
+        "importPath": "backend.core.tools.web_search",
+        "description": "backend.core.tools.web_search",
+        "peekOfCode": "__all__ = [\n    \"web_search\",\n    \"web_search_tool_simple\",\n    \"create_tavily_search_tool\",\n]\nif __name__ == \"__main__\":\n    # 简单测试\n    result = web_search.invoke({\"query\": \"deepseek最新模型是什么？\"})\n    print(result)",
+        "detail": "backend.core.tools.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "get_chat_model",
+        "kind": 2,
+        "importPath": "backend.core.model",
+        "description": "backend.core.model",
+        "peekOfCode": "def get_chat_model(\n    model_name: Optional[str] = None,\n    temperature: Optional[float] = None,\n    max_tokens: Optional[int] = None,\n    streaming: Optional[bool] = None,\n    **kwargs:Any\n) -> BaseChatModel:\n    \"\"\"获取配置好的聊天模型示例\n    Args:\n        model_name (Optional[str], optional): 模型名称. Defaults to None.",
+        "detail": "backend.core.model",
+        "documentation": {}
+    },
+    {
+        "label": "get_streaming_model",
+        "kind": 2,
+        "importPath": "backend.core.model",
+        "description": "backend.core.model",
+        "peekOfCode": "def get_streaming_model(\n    model:Optional[str] = None,\n    temperature:Optional[float] = None,\n    **kwargs:Any\n) -> BaseChatModel:\n    \"\"\"获取配置好的流式聊天模型示例，强制启用streaming=True\n    Args:\n        model (Optional[str], optional): 模型名称. Defaults to None.\n        temperature (Optional[float], optional): 模型温度. Defaults to None.\n    Returns:",
+        "detail": "backend.core.model",
+        "documentation": {}
+    },
+    {
+        "label": "get_structured_output_model",
+        "kind": 2,
+        "importPath": "backend.core.model",
+        "description": "backend.core.model",
+        "peekOfCode": "def get_structured_output_model(\n    model:Optional[str] = None,\n    temperature:Optional[float] = None,\n    **kwargs:Any\n) -> BaseChatModel:\n    \"\"\"获取配置好的结构化输出模型示例，强制启用streaming=False\n    Args:\n        model (Optional[str], optional): 模型名称. Defaults to None.\n        temperature (Optional[float], optional): 模型温度. Defaults to None.\n    Returns:",
+        "detail": "backend.core.model",
+        "documentation": {}
+    },
+    {
+        "label": "get_model_by_preset",
+        "kind": 2,
+        "importPath": "backend.core.model",
+        "description": "backend.core.model",
+        "peekOfCode": "def get_model_by_preset(preset:str = \"default\", **kwargs:Any) -> BaseChatModel:\n    \"\"\"根据预设名称获取配置好的聊天模型示例\n    Args:\n        preset (str, optional): 预设名称，支持\"default\"、\"fast\"、\"precise\"、\"creative\". Defaults to \"default\".\n    Returns:\n        BaseChatModel: 模型实例\n    \"\"\" \n    if preset not in MODEL_PRESETS_CONFIG:\n        available = \", \".join(MODEL_PRESETS_CONFIG.keys())\n        raise ValueError(f\"未知的预设: {preset}. 可用预设: {available}\")",
+        "detail": "backend.core.model",
+        "documentation": {}
+    },
+    {
+        "label": "get_model_string",
+        "kind": 2,
+        "importPath": "backend.core.model",
+        "description": "backend.core.model",
+        "peekOfCode": "def get_model_string(\n    model_name: Optional[str] = None,\n    provider:str=\"openai\"\n) -> str:\n    model_name = model_name or settings.model_name\n    model_string = f\"{provider}:{model_name}\"\n    logger.debug(f\"🔤 生成模型标识符: {model_string}\")\n    return model_string",
+        "detail": "backend.core.model",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.core.model",
+        "description": "backend.core.model",
+        "peekOfCode": "logger = get_logger(__name__)\ndef get_chat_model(\n    model_name: Optional[str] = None,\n    temperature: Optional[float] = None,\n    max_tokens: Optional[int] = None,\n    streaming: Optional[bool] = None,\n    **kwargs:Any\n) -> BaseChatModel:\n    \"\"\"获取配置好的聊天模型示例\n    Args:",
+        "detail": "backend.core.model",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_PRESETS_CONFIG:ModelPresetConfig",
+        "kind": 5,
+        "importPath": "backend.core.model",
+        "description": "backend.core.model",
+        "peekOfCode": "MODEL_PRESETS_CONFIG:ModelPresetConfig = ModelPresetConfig(\n    default=ModelPreset(\n        model_name=\"gpt-5.5\",\n        temperature=0.7,\n        description=\"默认预设，适用于大多数场景，平衡了速度和准确性。\"\n    ),\n    fast=ModelPreset(\n        model_name=\"deepseek-v4-flash\",\n        temperature=0.7,\n        description=\"快速预设，适用于对响应速度要求较高的场景，可能牺牲部分准确性。\"",
+        "detail": "backend.core.model",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_prompt",
+        "kind": 2,
+        "importPath": "backend.core.prompts",
+        "description": "backend.core.prompts",
+        "peekOfCode": "def get_system_prompt(\n    mode:str =\"default\",\n    custom_instructions:Optional[str] = None,\n    include_time: bool = True\n) ->str:\n    if mode not in SYSTEM_PROMPTS:\n        available_modes = \", \".join(SYSTEM_PROMPTS.keys())\n        raise ValueError(f\"未知的提示词模式: {mode}. 可用模式: {available_modes}\")\n    prompt:str = SYSTEM_PROMPTS[mode]\n    if include_time:",
+        "detail": "backend.core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "create_custom_prompt",
+        "kind": 2,
+        "importPath": "backend.core.prompts",
+        "description": "backend.core.prompts",
+        "peekOfCode": "def create_custom_prompt(\n    role:str,\n    capabilities:list[str],\n    principles:list[str],\n    additional_context:Optional[str] = None\n) -> str:\n    prompt_parts = [f\"你是 {role}。\"]\n    if capabilities:\n        prompt_parts.append(\"\\n你的能力包括：\")\n        for i,cap in enumerate(capabilities,1):",
+        "detail": "backend.core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "get_prompt_with_tools",
+        "kind": 2,
+        "importPath": "backend.core.prompts",
+        "description": "backend.core.prompts",
+        "peekOfCode": "def get_prompt_with_tools(mode:str = \"default\") -> str:\n    base_prompt = get_system_prompt(mode)\n    return f\"{base_prompt}\\n\\n{TOOL_USAGE_INSTRUCTIONS}\"",
+        "detail": "backend.core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "WRITER_GUIDELINES",
+        "kind": 5,
+        "importPath": "backend.core.prompts",
+        "description": "backend.core.prompts",
+        "peekOfCode": "WRITER_GUIDELINES = (\n    \"组织内容时根据主题动态选择结构；避免僵化模板。\"\n    \"以概念与动机开始，随后给出核心用法与API，\"\n    \"提供真实示例或代码片段，总结最佳实践与常见陷阱，\"\n    \"必要时加入对比与FAQ。\"\n    \"强调信息整合与洞察表达，避免机械化标题与占位语。\"\n    \"引用权威来源并使用内联引用与参考列表。\"\n)\ndef get_system_prompt(\n    mode:str =\"default\",",
+        "detail": "backend.core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "TOOL_USAGE_INSTRUCTIONS",
+        "kind": 5,
+        "importPath": "backend.core.prompts",
+        "description": "backend.core.prompts",
+        "peekOfCode": "TOOL_USAGE_INSTRUCTIONS = dedent(\"\"\"\\\n    工具使用规则（必须遵守）：\n    一、总原则\n    - 只要用户问题依赖实时信息、最新事实、当前天气、当前日期时间或精确计算，就必须优先调用工具。\n    - 工具结果优先于模型记忆；不得用过时记忆替代工具结果。\n    - 每次工具调用前先判断目标是否明确；缺少必要参数时，只问一个最关键的澄清问题。\n    - 避免重复调用同一工具；已有足够工具结果时，直接基于结果回答。\n    - 不要向用户暴露内部工具路由规则，只输出自然、准确的答案。\n    二、可用工具\n    - web_search：搜索互联网，获取新闻、政策、价格、版本、人物职位、赛事、资料来源等最新信息。",
+        "detail": "backend.core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIConfig",
+        "kind": 6,
+        "importPath": "backend.schemas.config",
+        "description": "backend.schemas.config",
+        "peekOfCode": "class OpenAIConfig(TypedDict):\n    \"\"\"OpenAI相关配置的类型定义\n    \"\"\"\n    api_key:str\n    base_url:str\n    model:str\n    temperature:float\n    max_tokens:NotRequired[int]\nclass ModelConfig(OpenAIConfig):\n    \"\"\"模型相关配置的类型定义，继承自OpenAIConfig",
+        "detail": "backend.schemas.config",
+        "documentation": {}
+    },
+    {
+        "label": "ModelConfig",
+        "kind": 6,
+        "importPath": "backend.schemas.config",
+        "description": "backend.schemas.config",
+        "peekOfCode": "class ModelConfig(OpenAIConfig):\n    \"\"\"模型相关配置的类型定义，继承自OpenAIConfig\n    \"\"\"\n    streaming:bool\n    model_kwargs:NotRequired[dict[str,Any]]\nclass ModelPreset(TypedDict):\n    \"\"\"模型预设配置的类型定义\n    \"\"\"\n    model_name:str\n    temperature:float",
+        "detail": "backend.schemas.config",
+        "documentation": {}
+    },
+    {
+        "label": "ModelPreset",
+        "kind": 6,
+        "importPath": "backend.schemas.config",
+        "description": "backend.schemas.config",
+        "peekOfCode": "class ModelPreset(TypedDict):\n    \"\"\"模型预设配置的类型定义\n    \"\"\"\n    model_name:str\n    temperature:float\n    description:str\nclass ModelPresetConfig(TypedDict):\n    \"\"\"模型预设配置的类型定义\n    \"\"\"\n    default: ModelPreset",
+        "detail": "backend.schemas.config",
+        "documentation": {}
+    },
+    {
+        "label": "ModelPresetConfig",
+        "kind": 6,
+        "importPath": "backend.schemas.config",
+        "description": "backend.schemas.config",
+        "peekOfCode": "class ModelPresetConfig(TypedDict):\n    \"\"\"模型预设配置的类型定义\n    \"\"\"\n    default: ModelPreset\n    fast: ModelPreset\n    precise: ModelPreset\n    creative: ModelPreset",
+        "detail": "backend.schemas.config",
+        "documentation": {}
+    },
+    {
+        "label": "SystemPrompt",
+        "kind": 6,
+        "importPath": "backend.schemas.prompts",
+        "description": "backend.schemas.prompts",
+        "peekOfCode": "class SystemPrompt(TypedDict):\n    \"\"\"系统提示的类型定义\n    \"\"\"\n    default:str\n    coding:str\n    research:str\n    concise:str\n    detailed:str",
+        "detail": "backend.schemas.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "TavilySearchParams",
+        "kind": 6,
+        "importPath": "backend.schemas.tavily",
+        "description": "backend.schemas.tavily",
+        "peekOfCode": "class TavilySearchParams(TypedDict):\n    max_results: int\n    search_depth: TavilySearchDepth\n    tavily_api_key: str\n    include_domains: NotRequired[list[str]]\n    exclude_domains: NotRequired[list[str]]\nclass TavilySearchImage(BaseModel):\n    \"\"\"Tavily 搜索返回的图片信息。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    url: str = Field(description=\"图片 URL\")",
+        "detail": "backend.schemas.tavily",
+        "documentation": {}
+    },
+    {
+        "label": "TavilySearchImage",
+        "kind": 6,
+        "importPath": "backend.schemas.tavily",
+        "description": "backend.schemas.tavily",
+        "peekOfCode": "class TavilySearchImage(BaseModel):\n    \"\"\"Tavily 搜索返回的图片信息。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    url: str = Field(description=\"图片 URL\")\n    description: str | None = Field(default=None, description=\"图片描述\")\nclass TavilySearchResultItem(BaseModel):\n    \"\"\"Tavily 搜索结果列表中的单条网页结果。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    title: str = Field(default=\"\", description=\"网页标题\")\n    url: str = Field(default=\"\", description=\"网页 URL\")",
+        "detail": "backend.schemas.tavily",
+        "documentation": {}
+    },
+    {
+        "label": "TavilySearchResultItem",
+        "kind": 6,
+        "importPath": "backend.schemas.tavily",
+        "description": "backend.schemas.tavily",
+        "peekOfCode": "class TavilySearchResultItem(BaseModel):\n    \"\"\"Tavily 搜索结果列表中的单条网页结果。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    title: str = Field(default=\"\", description=\"网页标题\")\n    url: str = Field(default=\"\", description=\"网页 URL\")\n    content: str = Field(default=\"\", description=\"搜索结果摘要或相关片段\")\n    score: float | None = Field(default=None, description=\"结果相关性评分\")\n    raw_content: str | None = Field(default=None, description=\"原始网页正文内容\")\n    favicon: str | None = Field(default=None, description=\"网站 favicon URL\")\n    images: list[TavilySearchImage | str] = Field(",
+        "detail": "backend.schemas.tavily",
+        "documentation": {}
+    },
+    {
+        "label": "TavilyAutoParameters",
+        "kind": 6,
+        "importPath": "backend.schemas.tavily",
+        "description": "backend.schemas.tavily",
+        "peekOfCode": "class TavilyAutoParameters(BaseModel):\n    \"\"\"auto_parameters 开启时 Tavily 自动选择的参数。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    topic: TavilyTopic | None = Field(default=None, description=\"自动选择的搜索主题\")\n    search_depth: TavilySearchDepth | None = Field(\n        default=None,\n        description=\"自动选择的搜索深度\",\n    )\nclass TavilyUsage(BaseModel):\n    \"\"\"Tavily 请求用量信息。\"\"\"",
+        "detail": "backend.schemas.tavily",
+        "documentation": {}
+    },
+    {
+        "label": "TavilyUsage",
+        "kind": 6,
+        "importPath": "backend.schemas.tavily",
+        "description": "backend.schemas.tavily",
+        "peekOfCode": "class TavilyUsage(BaseModel):\n    \"\"\"Tavily 请求用量信息。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    credits: int | float | None = Field(default=None, description=\"本次请求消耗的额度\")\nclass TavilySearchResponse(BaseModel):\n    \"\"\"``TavilySearch.invoke`` 成功时返回的搜索响应。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    query: str = Field(description=\"实际执行的搜索查询\")\n    answer: str | None = Field(default=None, description=\"LLM 生成的简短回答\")\n    follow_up_questions: list[str] | None = Field(",
+        "detail": "backend.schemas.tavily",
+        "documentation": {}
+    },
+    {
+        "label": "TavilySearchResponse",
+        "kind": 6,
+        "importPath": "backend.schemas.tavily",
+        "description": "backend.schemas.tavily",
+        "peekOfCode": "class TavilySearchResponse(BaseModel):\n    \"\"\"``TavilySearch.invoke`` 成功时返回的搜索响应。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    query: str = Field(description=\"实际执行的搜索查询\")\n    answer: str | None = Field(default=None, description=\"LLM 生成的简短回答\")\n    follow_up_questions: list[str] | None = Field(\n        default=None,\n        description=\"后续追问建议，部分版本可能返回该字段\",\n    )\n    images: list[TavilySearchImage | str] = Field(",
+        "detail": "backend.schemas.tavily",
+        "documentation": {}
+    },
+    {
+        "label": "TavilySearchErrorResponse",
+        "kind": 6,
+        "importPath": "backend.schemas.tavily",
+        "description": "backend.schemas.tavily",
+        "peekOfCode": "class TavilySearchErrorResponse(BaseModel):\n    \"\"\"``TavilySearch.invoke`` 捕获底层异常时可能返回的错误响应。\"\"\"\n    model_config = ConfigDict(arbitrary_types_allowed=True, extra=\"ignore\")\n    error: Any = Field(description=\"底层 Tavily 调用返回的错误对象或错误信息\")",
+        "detail": "backend.schemas.tavily",
+        "documentation": {}
+    },
+    {
+        "label": "TavilySearchDepth",
+        "kind": 5,
+        "importPath": "backend.schemas.tavily",
+        "description": "backend.schemas.tavily",
+        "peekOfCode": "TavilySearchDepth = Literal[\"advanced\", \"basic\", \"fast\", \"ultra-fast\"]\nTavilyTopic = Literal[\"general\", \"news\", \"finance\"]\nclass TavilySearchParams(TypedDict):\n    max_results: int\n    search_depth: TavilySearchDepth\n    tavily_api_key: str\n    include_domains: NotRequired[list[str]]\n    exclude_domains: NotRequired[list[str]]\nclass TavilySearchImage(BaseModel):\n    \"\"\"Tavily 搜索返回的图片信息。\"\"\"",
+        "detail": "backend.schemas.tavily",
+        "documentation": {}
+    },
+    {
+        "label": "TavilyTopic",
+        "kind": 5,
+        "importPath": "backend.schemas.tavily",
+        "description": "backend.schemas.tavily",
+        "peekOfCode": "TavilyTopic = Literal[\"general\", \"news\", \"finance\"]\nclass TavilySearchParams(TypedDict):\n    max_results: int\n    search_depth: TavilySearchDepth\n    tavily_api_key: str\n    include_domains: NotRequired[list[str]]\n    exclude_domains: NotRequired[list[str]]\nclass TavilySearchImage(BaseModel):\n    \"\"\"Tavily 搜索返回的图片信息。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")",
+        "detail": "backend.schemas.tavily",
+        "documentation": {}
+    },
+    {
+        "label": "AmapWeatherRequestParams",
+        "kind": 6,
+        "importPath": "backend.schemas.weather",
+        "description": "backend.schemas.weather",
+        "peekOfCode": "class AmapWeatherRequestParams(BaseModel):\n    \"\"\"高德天气接口请求参数。\"\"\"\n    key: str = Field(description=\"高德地图 Web 服务 API Key\")\n    city: str = Field(description=\"城市 adcode\")\n    extensions: WeatherExtensions = Field(\n        default=\"base\",\n        description=\"气象类型，base 返回实况天气，all 返回预报天气\",\n    )\n    output: WeatherOutput = Field(default=\"JSON\", description=\"返回格式\")\nclass AmapLiveWeather(BaseModel):",
+        "detail": "backend.schemas.weather",
+        "documentation": {}
+    },
+    {
+        "label": "AmapLiveWeather",
+        "kind": 6,
+        "importPath": "backend.schemas.weather",
+        "description": "backend.schemas.weather",
+        "peekOfCode": "class AmapLiveWeather(BaseModel):\n    \"\"\"高德实况天气数据。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    province: str | None = Field(default=None, description=\"省份名\")\n    city: str | None = Field(default=None, description=\"城市名\")\n    adcode: str | None = Field(default=None, description=\"区域编码\")\n    weather: str | None = Field(default=None, description=\"天气现象\")\n    temperature: str | None = Field(default=None, description=\"实时气温，单位：摄氏度\")\n    winddirection: str | None = Field(default=None, description=\"风向描述\")\n    windpower: str | None = Field(default=None, description=\"风力级别\")",
+        "detail": "backend.schemas.weather",
+        "documentation": {}
+    },
+    {
+        "label": "AmapForecastCast",
+        "kind": 6,
+        "importPath": "backend.schemas.weather",
+        "description": "backend.schemas.weather",
+        "peekOfCode": "class AmapForecastCast(BaseModel):\n    \"\"\"高德单日预报天气数据。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    date: str | None = Field(default=None, description=\"日期\")\n    week: str | None = Field(default=None, description=\"星期几\")\n    dayweather: str | None = Field(default=None, description=\"白天天气现象\")\n    nightweather: str | None = Field(default=None, description=\"晚上天气现象\")\n    daytemp: str | None = Field(default=None, description=\"白天温度\")\n    nighttemp: str | None = Field(default=None, description=\"晚上温度\")\n    daywind: str | None = Field(default=None, description=\"白天风向\")",
+        "detail": "backend.schemas.weather",
+        "documentation": {}
+    },
+    {
+        "label": "AmapForecastWeather",
+        "kind": 6,
+        "importPath": "backend.schemas.weather",
+        "description": "backend.schemas.weather",
+        "peekOfCode": "class AmapForecastWeather(BaseModel):\n    \"\"\"高德预报天气数据。\"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    city: str | None = Field(default=None, description=\"城市名称\")\n    adcode: str | None = Field(default=None, description=\"城市编码\")\n    province: str | None = Field(default=None, description=\"省份名称\")\n    reporttime: str | None = Field(default=None, description=\"预报发布时间\")\n    casts: list[AmapForecastCast] = Field(\n        default_factory=list,\n        description=\"预报数据，按顺序为当天、第二天、第三天等\",",
+        "detail": "backend.schemas.weather",
+        "documentation": {}
+    },
+    {
+        "label": "AmapWeatherResponse",
+        "kind": 6,
+        "importPath": "backend.schemas.weather",
+        "description": "backend.schemas.weather",
+        "peekOfCode": "class AmapWeatherResponse(BaseModel):\n    \"\"\"高德天气接口响应数据。\n    extensions=\"base\" 时返回 lives；extensions=\"all\" 时返回 forecasts。\n    \"\"\"\n    model_config = ConfigDict(extra=\"ignore\")\n    status: WeatherStatus = Field(description=\"返回状态，1 表示成功，0 表示失败\")\n    count: str = Field(description=\"返回结果总数目\")\n    info: str = Field(default=\"\",description=\"返回的状态信息\")\n    infocode: str = Field(description=\"返回状态说明，10000 代表正确\")\n    lives: list[AmapLiveWeather] = Field(default_factory=list, description=\"实况天气数据\")",
+        "detail": "backend.schemas.weather",
+        "documentation": {}
+    },
+    {
+        "label": "WeatherStatus",
+        "kind": 5,
+        "importPath": "backend.schemas.weather",
+        "description": "backend.schemas.weather",
+        "peekOfCode": "WeatherStatus = Literal[\"0\", \"1\"]\nWeatherExtensions = Literal[\"base\", \"all\"]\nWeatherOutput = Literal[\"JSON\", \"XML\"]\nclass AmapWeatherRequestParams(BaseModel):\n    \"\"\"高德天气接口请求参数。\"\"\"\n    key: str = Field(description=\"高德地图 Web 服务 API Key\")\n    city: str = Field(description=\"城市 adcode\")\n    extensions: WeatherExtensions = Field(\n        default=\"base\",\n        description=\"气象类型，base 返回实况天气，all 返回预报天气\",",
+        "detail": "backend.schemas.weather",
+        "documentation": {}
+    },
+    {
+        "label": "WeatherExtensions",
+        "kind": 5,
+        "importPath": "backend.schemas.weather",
+        "description": "backend.schemas.weather",
+        "peekOfCode": "WeatherExtensions = Literal[\"base\", \"all\"]\nWeatherOutput = Literal[\"JSON\", \"XML\"]\nclass AmapWeatherRequestParams(BaseModel):\n    \"\"\"高德天气接口请求参数。\"\"\"\n    key: str = Field(description=\"高德地图 Web 服务 API Key\")\n    city: str = Field(description=\"城市 adcode\")\n    extensions: WeatherExtensions = Field(\n        default=\"base\",\n        description=\"气象类型，base 返回实况天气，all 返回预报天气\",\n    )",
+        "detail": "backend.schemas.weather",
+        "documentation": {}
+    },
+    {
+        "label": "WeatherOutput",
+        "kind": 5,
+        "importPath": "backend.schemas.weather",
+        "description": "backend.schemas.weather",
+        "peekOfCode": "WeatherOutput = Literal[\"JSON\", \"XML\"]\nclass AmapWeatherRequestParams(BaseModel):\n    \"\"\"高德天气接口请求参数。\"\"\"\n    key: str = Field(description=\"高德地图 Web 服务 API Key\")\n    city: str = Field(description=\"城市 adcode\")\n    extensions: WeatherExtensions = Field(\n        default=\"base\",\n        description=\"气象类型，base 返回实况天气，all 返回预报天气\",\n    )\n    output: WeatherOutput = Field(default=\"JSON\", description=\"返回格式\")",
+        "detail": "backend.schemas.weather",
+        "documentation": {}
+    },
+    {
+        "label": "weather_modules",
+        "kind": 2,
+        "importPath": "backend.tests.test_weather_tools",
+        "description": "backend.tests.test_weather_tools",
+        "peekOfCode": "def weather_modules(monkeypatch: pytest.MonkeyPatch):\n    monkeypatch.setenv(\"DEBUG\", \"false\")\n    monkeypatch.setenv(\"OPENAI_API_KEY\", \"test-openai-key\")\n    monkeypatch.setenv(\"AMAP_KEY\", \"test-amap-key\")\n    tools_package = importlib.import_module(\"backend.core.tools\")\n    weather_module = importlib.import_module(\"backend.core.tools.weather\")\n    return tools_package, weather_module\ndef test_get_weather_routes_to_weather_impl(\n    weather_modules: tuple[Any, Any],\n    monkeypatch: pytest.MonkeyPatch,",
+        "detail": "backend.tests.test_weather_tools",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_weather_routes_to_weather_impl",
+        "kind": 2,
+        "importPath": "backend.tests.test_weather_tools",
+        "description": "backend.tests.test_weather_tools",
+        "peekOfCode": "def test_get_weather_routes_to_weather_impl(\n    weather_modules: tuple[Any, Any],\n    monkeypatch: pytest.MonkeyPatch,\n) -> None:\n    tools_package, weather_module = weather_modules\n    calls: list[dict[str, Any]] = []\n    def fake_get_weather_impl(**kwargs: Any) -> str:\n        calls.append(kwargs)\n        return \"live weather\"\n    monkeypatch.setattr(weather_module, \"_get_weather_impl\", fake_get_weather_impl)",
+        "detail": "backend.tests.test_weather_tools",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_weather_forecast_routes_to_forecast_impl",
+        "kind": 2,
+        "importPath": "backend.tests.test_weather_tools",
+        "description": "backend.tests.test_weather_tools",
+        "peekOfCode": "def test_get_weather_forecast_routes_to_forecast_impl(\n    weather_modules: tuple[Any, Any],\n    monkeypatch: pytest.MonkeyPatch,\n) -> None:\n    tools_package, weather_module = weather_modules\n    calls: list[dict[str, Any]] = []\n    def fake_get_weather_impl(**kwargs: Any) -> str:\n        calls.append(kwargs)\n        return \"forecast weather\"\n    monkeypatch.setattr(weather_module, \"_get_weather_impl\", fake_get_weather_impl)",
+        "detail": "backend.tests.test_weather_tools",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_daily_weather_maps_day_to_day_offset",
+        "kind": 2,
+        "importPath": "backend.tests.test_weather_tools",
+        "description": "backend.tests.test_weather_tools",
+        "peekOfCode": "def test_get_daily_weather_maps_day_to_day_offset(\n    weather_modules: tuple[Any, Any],\n    monkeypatch: pytest.MonkeyPatch,\n    day: str,\n    expected_offset: int,\n) -> None:\n    tools_package, weather_module = weather_modules\n    calls: list[dict[str, Any]] = []\n    def fake_get_weather_impl(**kwargs: Any) -> str:\n        calls.append(kwargs)",
+        "detail": "backend.tests.test_weather_tools",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_daily_weather_defaults_to_tomorrow",
+        "kind": 2,
+        "importPath": "backend.tests.test_weather_tools",
+        "description": "backend.tests.test_weather_tools",
+        "peekOfCode": "def test_get_daily_weather_defaults_to_tomorrow(\n    weather_modules: tuple[Any, Any],\n    monkeypatch: pytest.MonkeyPatch,\n) -> None:\n    tools_package, weather_module = weather_modules\n    calls: list[dict[str, Any]] = []\n    def fake_get_weather_impl(**kwargs: Any) -> str:\n        calls.append(kwargs)\n        return \"daily weather\"\n    monkeypatch.setattr(weather_module, \"_get_weather_impl\", fake_get_weather_impl)",
+        "detail": "backend.tests.test_weather_tools",
+        "documentation": {}
+    },
+    {
+        "label": "real_amap_key",
+        "kind": 2,
+        "importPath": "backend.tests.test_weather_tools_integration",
+        "description": "backend.tests.test_weather_tools_integration",
+        "peekOfCode": "def real_amap_key() -> str:\n    backend_dir = Path(__file__).resolve().parents[1]\n    project_root = backend_dir.parent\n    amap_key = (\n        os.environ.get(\"AMAP_KEY\")\n        or _read_env_value(backend_dir / \".env\", \"AMAP_KEY\")\n        or _read_env_value(project_root / \".env\", \"AMAP_KEY\")\n    )\n    if not amap_key or amap_key.startswith(\"test-\"):\n        pytest.skip(\"需要设置真实 AMAP_KEY 才能运行高德天气真实请求测试\")",
+        "detail": "backend.tests.test_weather_tools_integration",
+        "documentation": {}
+    },
+    {
+        "label": "weather_tools",
+        "kind": 2,
+        "importPath": "backend.tests.test_weather_tools_integration",
+        "description": "backend.tests.test_weather_tools_integration",
+        "peekOfCode": "def weather_tools(real_amap_key: str) -> Any:\n    os.environ[\"DEBUG\"] = \"false\"\n    os.environ.setdefault(\"OPENAI_API_KEY\", \"test-openai-key\")\n    os.environ[\"AMAP_KEY\"] = real_amap_key\n    import backend.core.tools.weather as weather_module\n    weather_module.settings.amap_key = real_amap_key\n    return weather_module\n@pytest.mark.integration\ndef test_get_weather_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_weather.invoke({\"city\": \"110101\"})",
+        "detail": "backend.tests.test_weather_tools_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_weather_real_request",
+        "kind": 2,
+        "importPath": "backend.tests.test_weather_tools_integration",
+        "description": "backend.tests.test_weather_tools_integration",
+        "peekOfCode": "def test_get_weather_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_weather.invoke({\"city\": \"110101\"})\n    assert not result.startswith(\"错误：\")\n    assert \"地区：\" in result\n    assert \"天气：\" in result\n    assert \"温度：\" in result\n@pytest.mark.integration\ndef test_get_weather_forecast_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_weather_forecast.invoke({\"city\": \"110101\"})\n    assert not result.startswith(\"错误：\")",
+        "detail": "backend.tests.test_weather_tools_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_weather_forecast_real_request",
+        "kind": 2,
+        "importPath": "backend.tests.test_weather_tools_integration",
+        "description": "backend.tests.test_weather_tools_integration",
+        "peekOfCode": "def test_get_weather_forecast_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_weather_forecast.invoke({\"city\": \"110101\"})\n    assert not result.startswith(\"错误：\")\n    assert \"📍 地区：\" in result\n    assert \"⏰ 预报发布时间：\" in result\n    assert \"📅 今天\" in result\n@pytest.mark.integration\ndef test_get_daily_weather_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_daily_weather.invoke(\n        {\"city\": \"110101\", \"day\": \"tomorrow\"}",
+        "detail": "backend.tests.test_weather_tools_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_daily_weather_real_request",
+        "kind": 2,
+        "importPath": "backend.tests.test_weather_tools_integration",
+        "description": "backend.tests.test_weather_tools_integration",
+        "peekOfCode": "def test_get_daily_weather_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_daily_weather.invoke(\n        {\"city\": \"110101\", \"day\": \"tomorrow\"}\n    )\n    assert not result.startswith(\"错误：\")\n    assert \"📍 地区：\" in result\n    assert \"📅 明天\" in result\n    assert \"🌞 白天：\" in result\n    assert \"🌙 夜间：\" in result",
+        "detail": "backend.tests.test_weather_tools_integration",
+        "documentation": {}
+    },
+    {
+        "label": "real_tavily_key",
+        "kind": 2,
+        "importPath": "backend.tests.test_web_search_integration",
+        "description": "backend.tests.test_web_search_integration",
+        "peekOfCode": "def real_tavily_key() -> str:\n    backend_dir = Path(__file__).resolve().parents[1]\n    project_root = backend_dir.parent\n    tavily_key = (\n        os.environ.get(\"TAVILY_API_KEY\")\n        or _read_env_value(backend_dir / \".env\", \"TAVILY_API_KEY\")\n        or _read_env_value(project_root / \".env\", \"TAVILY_API_KEY\")\n    )\n    if not tavily_key or tavily_key.startswith(\"test-\"):\n        pytest.skip(\"需要设置真实 TAVILY_API_KEY 才能运行 Tavily 真实请求测试\")",
+        "detail": "backend.tests.test_web_search_integration",
+        "documentation": {}
+    },
+    {
+        "label": "web_search_tools",
+        "kind": 2,
+        "importPath": "backend.tests.test_web_search_integration",
+        "description": "backend.tests.test_web_search_integration",
+        "peekOfCode": "def web_search_tools(real_tavily_key: str) -> Any:\n    os.environ[\"DEBUG\"] = \"false\"\n    os.environ.setdefault(\"OPENAI_API_KEY\", \"test-openai-key\")\n    os.environ[\"TAVILY_API_KEY\"] = real_tavily_key\n    web_search_module = importlib.import_module(\"backend.core.tools.web_search\")\n    web_search_module.settings.tavily_api_key = real_tavily_key\n    return web_search_module\n@pytest.mark.integration\ndef test_web_search_real_request(web_search_tools: Any) -> None:\n    result = web_search_tools.web_search.invoke({\"query\": \"Tavily search API documentation\"})",
+        "detail": "backend.tests.test_web_search_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_web_search_real_request",
+        "kind": 2,
+        "importPath": "backend.tests.test_web_search_integration",
+        "description": "backend.tests.test_web_search_integration",
+        "peekOfCode": "def test_web_search_real_request(web_search_tools: Any) -> None:\n    result = web_search_tools.web_search.invoke({\"query\": \"Tavily search API documentation\"})\n    assert not result.startswith(\"抱歉\")\n    assert \"找到\" in result\n    assert \"来源：\" in result\n    assert \"http\" in result\n@pytest.mark.integration\ndef test_web_search_tool_simple_real_request(web_search_tools: Any) -> None:\n    result = web_search_tools.web_search_tool_simple.invoke(\n        {\"query\": \"LangChain TavilySearch documentation\"}",
+        "detail": "backend.tests.test_web_search_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_web_search_tool_simple_real_request",
+        "kind": 2,
+        "importPath": "backend.tests.test_web_search_integration",
+        "description": "backend.tests.test_web_search_integration",
+        "peekOfCode": "def test_web_search_tool_simple_real_request(web_search_tools: Any) -> None:\n    result = web_search_tools.web_search_tool_simple.invoke(\n        {\"query\": \"LangChain TavilySearch documentation\"}\n    )\n    assert not result.startswith(\"搜索失败\")\n    assert result.startswith(\"快速搜索结果\")\n    assert \"http\" in result",
+        "detail": "backend.tests.test_web_search_integration",
+        "documentation": {}
+    }
+]

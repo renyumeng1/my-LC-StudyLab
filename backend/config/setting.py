@@ -132,6 +132,26 @@ class Settings(BaseSettings):
         description="高德地图 API 密钥（可选，用于天气查询等服务）"
     )
     
+    # ==================== Tavily 搜索配置 ====================
+    tavily_api_key: str = Field(
+        default="",
+        description="Tavily API Key（可选，用于Web搜索工具）"
+    )
+    
+    tavily_max_results:int = Field(
+        default=5,
+        ge=1,
+        le=20,
+        description="Tavily搜索结果的最大数量，默认为5，范围为1-20"
+    )
+    
+    
+    # ==================== 数据目录配置 ====================
+    DATA_DIR: str = Field(
+        default="data",
+        description="数据存储根目录"
+    )
+    
     
     # ================= Agent配置 =================
     

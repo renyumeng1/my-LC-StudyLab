@@ -1,0 +1,51 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug backend module",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "${input:backendModule}",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "env": {
+                "DEBUG": "false",
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Python: Debug backend pytest",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "${input:pytestTarget}",
+                "-s"
+            ],
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "env": {
+                "DEBUG": "false",
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ],
+    "inputs": [
+        {
+            "id": "backendModule",
+            "type": "promptString",
+            "description": "Backend module name, e.g. backend.core.tools.web_search",
+            "default": "backend.core.tools.web_search"
+        },
+        {
+            "id": "pytestTarget",
+            "type": "promptString",
+            "description": "Pytest target, e.g. backend/tests/test_web_search_integration.py -m integration",
+            "default": "backend/tests"
+        }
+    ]
+}

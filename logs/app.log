@@ -2,3 +2,18 @@
 2026-04-29 17:29:59.034 | INFO     | backend.core.tools.weather:_format_forecast_weather:216 | ✅ 预报天气查询成功: 东城区 明天
 2026-04-29 17:30:21.969 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
 2026-04-29 17:30:22.049 | INFO     | backend.core.tools.weather:_format_forecast_weather:216 | ✅ 预报天气查询成功: 东城区 明天
+2026-04-29 22:39:09.695 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-04-29 22:43:32.373 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-04-29 22:44:32.288 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-04-29 22:56:56.661 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-04-29 22:56:56.894 | INFO     | backend.core.tools.web_search:web_search:120 | 执行 Web 搜索工具，查询: Tavily search API documentation
+2026-04-29 22:56:56.894 | INFO     | backend.core.tools.web_search:create_tavily_search_tool:38 | 🔍 创建 Tavily 搜索工具 (max_results=5, depth=advanced)
+2026-04-29 22:56:58.319 | INFO     | backend.core.tools.web_search:web_search:138 | ✅ 搜索完成，找到 5 条结果
+2026-04-29 23:01:06.507 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-04-29 23:01:06.894 | INFO     | __main__:web_search:120 | 执行 Web 搜索工具，查询: deepseek最新模型是什么？
+2026-04-29 23:01:06.895 | INFO     | __main__:create_tavily_search_tool:38 | 🔍 创建 Tavily 搜索工具 (max_results=5, depth=advanced)
+2026-04-29 23:01:09.921 | INFO     | __main__:web_search:138 | ✅ 搜索完成，找到 5 条结果
+2026-04-29 23:01:57.083 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-04-29 23:01:57.441 | INFO     | __main__:web_search:120 | 执行 Web 搜索工具，查询: deepseek最新模型是什么？
+2026-04-29 23:01:57.441 | INFO     | __main__:create_tavily_search_tool:38 | 🔍 创建 Tavily 搜索工具 (max_results=5, depth=advanced)
+2026-04-29 23:01:59.214 | INFO     | __main__:web_search:138 | ✅ 搜索完成，找到 5 条结果
