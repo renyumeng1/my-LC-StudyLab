@@ -308,6 +308,22 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "AgentState",
         "importPath": "langchain.agents",
         "description": "langchain.agents",
@@ -433,6 +449,14 @@
         "description": "langchain_core.runnables",
         "isExtraImport": true,
         "detail": "langchain_core.runnables",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -700,6 +724,15 @@
         "description": "textwrap",
         "isExtraImport": true,
         "detail": "textwrap",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
         "documentation": {}
     },
     {
@@ -1396,129 +1429,219 @@
         "documentation": {}
     },
     {
+        "label": "_TokenWithContentBlocks",
+        "kind": 6,
+        "importPath": "backend.tests.agent.test_base_agent",
+        "description": "backend.tests.agent.test_base_agent",
+        "peekOfCode": "class _TokenWithContentBlocks:\n    def __init__(self, text: str) -> None:\n        self.content_blocks = [{\"type\": \"text\", \"text\": text}]\nclass _FakeGraph:\n    def __init__(\n        self,\n        *,\n        invoke_result: dict[str, Any] | None = None,\n        ainvoke_result: dict[str, Any] | None = None,\n        stream_chunks: list[Any] | None = None,",
+        "detail": "backend.tests.agent.test_base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "_FakeGraph",
+        "kind": 6,
+        "importPath": "backend.tests.agent.test_base_agent",
+        "description": "backend.tests.agent.test_base_agent",
+        "peekOfCode": "class _FakeGraph:\n    def __init__(\n        self,\n        *,\n        invoke_result: dict[str, Any] | None = None,\n        ainvoke_result: dict[str, Any] | None = None,\n        stream_chunks: list[Any] | None = None,\n        astream_chunks: list[Any] | None = None,\n    ) -> None:\n        self.invoke_result = invoke_result or {}",
+        "detail": "backend.tests.agent.test_base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "base_agent_module",
+        "kind": 2,
+        "importPath": "backend.tests.agent.test_base_agent",
+        "description": "backend.tests.agent.test_base_agent",
+        "peekOfCode": "def base_agent_module(monkeypatch: pytest.MonkeyPatch) -> Any:\n    monkeypatch.setenv(\"DEBUG\", \"false\")\n    monkeypatch.setenv(\"OPENAI_API_KEY\", \"test-openai-key\")\n    return importlib.import_module(\"backend.agent.base_agent\")\nclass _TokenWithContentBlocks:\n    def __init__(self, text: str) -> None:\n        self.content_blocks = [{\"type\": \"text\", \"text\": text}]\nclass _FakeGraph:\n    def __init__(\n        self,",
+        "detail": "backend.tests.agent.test_base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "test_invoke_returns_last_ai_message_and_passes_input",
+        "kind": 2,
+        "importPath": "backend.tests.agent.test_base_agent",
+        "description": "backend.tests.agent.test_base_agent",
+        "peekOfCode": "def test_invoke_returns_last_ai_message_and_passes_input(base_agent_module: Any) -> None:\n    graph = _FakeGraph(\n        invoke_result={\n            \"messages\": [\n                base_agent_module.AIMessage(content=\"first\"),\n                base_agent_module.AIMessage(content=\"sync final\"),\n            ]\n        }\n    )\n    agent = _agent_with_graph(base_agent_module, graph)",
+        "detail": "backend.tests.agent.test_base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "test_ainvoke_returns_last_ai_message_and_passes_config",
+        "kind": 2,
+        "importPath": "backend.tests.agent.test_base_agent",
+        "description": "backend.tests.agent.test_base_agent",
+        "peekOfCode": "def test_ainvoke_returns_last_ai_message_and_passes_config(\n    base_agent_module: Any,\n) -> None:\n    graph = _FakeGraph(\n        ainvoke_result={\n            \"messages\": [\n                base_agent_module.AIMessage(content=\"first\"),\n                base_agent_module.AIMessage(content=\"async final\"),\n            ]\n        }",
+        "detail": "backend.tests.agent.test_base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "test_stream_supports_messages_and_updates_for_v1_and_v2",
+        "kind": 2,
+        "importPath": "backend.tests.agent.test_base_agent",
+        "description": "backend.tests.agent.test_base_agent",
+        "peekOfCode": "def test_stream_supports_messages_and_updates_for_v1_and_v2(\n    base_agent_module: Any,\n    stream_mode: str,\n    version: str,\n    chunk_factory: Any,\n    expected: list[str],\n) -> None:\n    graph = _FakeGraph(stream_chunks=chunk_factory(base_agent_module))\n    agent = _agent_with_graph(base_agent_module, graph)\n    result = list(agent.stream(\"current\", stream_mode=stream_mode, version=version))",
+        "detail": "backend.tests.agent.test_base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "test_astream_supports_messages_and_updates_for_v1_and_v2",
+        "kind": 2,
+        "importPath": "backend.tests.agent.test_base_agent",
+        "description": "backend.tests.agent.test_base_agent",
+        "peekOfCode": "def test_astream_supports_messages_and_updates_for_v1_and_v2(\n    base_agent_module: Any,\n    stream_mode: str,\n    version: str,\n    chunk_factory: Any,\n    expected: list[str],\n) -> None:\n    graph = _FakeGraph(astream_chunks=chunk_factory(base_agent_module))\n    agent = _agent_with_graph(base_agent_module, graph)\n    async def collect() -> list[str]:",
+        "detail": "backend.tests.agent.test_base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "real_openai_config",
+        "kind": 2,
+        "importPath": "backend.tests.agent.test_base_agent_integration",
+        "description": "backend.tests.agent.test_base_agent_integration",
+        "peekOfCode": "def real_openai_config() -> dict[str, str]:\n    backend_dir = _backend_dir()\n    api_key = _read_config_value(backend_dir, \"OPENAI_API_KEY\")\n    model = _read_config_value(backend_dir, \"MODEL_NAME\") or _read_config_value(\n        backend_dir, \"OPENAI_MODEL\"\n    )\n    base_url = _read_config_value(backend_dir, \"OPENAI_BASE_URL\")\n    if not api_key or api_key.startswith(\"test-\"):\n        pytest.skip(\"需要设置真实 OPENAI_API_KEY 才能运行 BaseAgent 真实 API 测试\")\n    if not model or model.startswith(\"test-\"):",
+        "detail": "backend.tests.agent.test_base_agent_integration",
+        "documentation": {}
+    },
+    {
+        "label": "real_base_agent",
+        "kind": 2,
+        "importPath": "backend.tests.agent.test_base_agent_integration",
+        "description": "backend.tests.agent.test_base_agent_integration",
+        "peekOfCode": "def real_base_agent(real_openai_config: dict[str, str]) -> Any:\n    base_agent_module = importlib.import_module(\"backend.agent.base_agent\")\n    base_agent_module.settings.model_name = real_openai_config[\"model\"]\n    base_agent_module.settings.openai_api_key = real_openai_config[\"api_key\"]\n    if real_openai_config[\"base_url\"]:\n        base_agent_module.settings.openai_base_url = real_openai_config[\"base_url\"]\n    return base_agent_module.BaseAgent(\n        model=f\"openai:{real_openai_config['model']}\",\n        tools=[],\n        system_prompt=\"你是一个用于集成测试的助手。回答必须简短。\",",
+        "detail": "backend.tests.agent.test_base_agent_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_base_agent_real_api_all_call_styles_output_answers",
+        "kind": 2,
+        "importPath": "backend.tests.agent.test_base_agent_integration",
+        "description": "backend.tests.agent.test_base_agent_integration",
+        "peekOfCode": "def test_base_agent_real_api_all_call_styles_output_answers(real_base_agent: Any) -> None:\n    sync_answer = real_base_agent.invoke(\"请只回答：同步非流式真实 API 调用成功。\")\n    _print_answer(\"AI invoke answer\", sync_answer)\n    assert sync_answer.strip()\n    assert not sync_answer.startswith(\"抱歉\")\n    async_answer = asyncio.run(\n        real_base_agent.ainvoke(\"请只回答：异步非流式真实 API 调用成功。\")\n    )\n    _print_answer(\"AI ainvoke answer\", async_answer)\n    assert async_answer.strip()",
+        "detail": "backend.tests.agent.test_base_agent_integration",
+        "documentation": {}
+    },
+    {
         "label": "weather_modules",
         "kind": 2,
-        "importPath": "backend.tests.test_weather_tools",
-        "description": "backend.tests.test_weather_tools",
+        "importPath": "backend.tests.core.tools.test_weather_tools",
+        "description": "backend.tests.core.tools.test_weather_tools",
         "peekOfCode": "def weather_modules(monkeypatch: pytest.MonkeyPatch):\n    monkeypatch.setenv(\"DEBUG\", \"false\")\n    monkeypatch.setenv(\"OPENAI_API_KEY\", \"test-openai-key\")\n    monkeypatch.setenv(\"AMAP_KEY\", \"test-amap-key\")\n    tools_package = importlib.import_module(\"backend.core.tools\")\n    weather_module = importlib.import_module(\"backend.core.tools.weather\")\n    return tools_package, weather_module\ndef test_get_weather_routes_to_weather_impl(\n    weather_modules: tuple[Any, Any],\n    monkeypatch: pytest.MonkeyPatch,",
-        "detail": "backend.tests.test_weather_tools",
+        "detail": "backend.tests.core.tools.test_weather_tools",
         "documentation": {}
     },
     {
         "label": "test_get_weather_routes_to_weather_impl",
         "kind": 2,
-        "importPath": "backend.tests.test_weather_tools",
-        "description": "backend.tests.test_weather_tools",
+        "importPath": "backend.tests.core.tools.test_weather_tools",
+        "description": "backend.tests.core.tools.test_weather_tools",
         "peekOfCode": "def test_get_weather_routes_to_weather_impl(\n    weather_modules: tuple[Any, Any],\n    monkeypatch: pytest.MonkeyPatch,\n) -> None:\n    tools_package, weather_module = weather_modules\n    calls: list[dict[str, Any]] = []\n    def fake_get_weather_impl(**kwargs: Any) -> str:\n        calls.append(kwargs)\n        return \"live weather\"\n    monkeypatch.setattr(weather_module, \"_get_weather_impl\", fake_get_weather_impl)",
-        "detail": "backend.tests.test_weather_tools",
+        "detail": "backend.tests.core.tools.test_weather_tools",
         "documentation": {}
     },
     {
         "label": "test_get_weather_forecast_routes_to_forecast_impl",
         "kind": 2,
-        "importPath": "backend.tests.test_weather_tools",
-        "description": "backend.tests.test_weather_tools",
+        "importPath": "backend.tests.core.tools.test_weather_tools",
+        "description": "backend.tests.core.tools.test_weather_tools",
         "peekOfCode": "def test_get_weather_forecast_routes_to_forecast_impl(\n    weather_modules: tuple[Any, Any],\n    monkeypatch: pytest.MonkeyPatch,\n) -> None:\n    tools_package, weather_module = weather_modules\n    calls: list[dict[str, Any]] = []\n    def fake_get_weather_impl(**kwargs: Any) -> str:\n        calls.append(kwargs)\n        return \"forecast weather\"\n    monkeypatch.setattr(weather_module, \"_get_weather_impl\", fake_get_weather_impl)",
-        "detail": "backend.tests.test_weather_tools",
+        "detail": "backend.tests.core.tools.test_weather_tools",
         "documentation": {}
     },
     {
         "label": "test_get_daily_weather_maps_day_to_day_offset",
         "kind": 2,
-        "importPath": "backend.tests.test_weather_tools",
-        "description": "backend.tests.test_weather_tools",
+        "importPath": "backend.tests.core.tools.test_weather_tools",
+        "description": "backend.tests.core.tools.test_weather_tools",
         "peekOfCode": "def test_get_daily_weather_maps_day_to_day_offset(\n    weather_modules: tuple[Any, Any],\n    monkeypatch: pytest.MonkeyPatch,\n    day: str,\n    expected_offset: int,\n) -> None:\n    tools_package, weather_module = weather_modules\n    calls: list[dict[str, Any]] = []\n    def fake_get_weather_impl(**kwargs: Any) -> str:\n        calls.append(kwargs)",
-        "detail": "backend.tests.test_weather_tools",
+        "detail": "backend.tests.core.tools.test_weather_tools",
         "documentation": {}
     },
     {
         "label": "test_get_daily_weather_defaults_to_tomorrow",
         "kind": 2,
-        "importPath": "backend.tests.test_weather_tools",
-        "description": "backend.tests.test_weather_tools",
+        "importPath": "backend.tests.core.tools.test_weather_tools",
+        "description": "backend.tests.core.tools.test_weather_tools",
         "peekOfCode": "def test_get_daily_weather_defaults_to_tomorrow(\n    weather_modules: tuple[Any, Any],\n    monkeypatch: pytest.MonkeyPatch,\n) -> None:\n    tools_package, weather_module = weather_modules\n    calls: list[dict[str, Any]] = []\n    def fake_get_weather_impl(**kwargs: Any) -> str:\n        calls.append(kwargs)\n        return \"daily weather\"\n    monkeypatch.setattr(weather_module, \"_get_weather_impl\", fake_get_weather_impl)",
-        "detail": "backend.tests.test_weather_tools",
+        "detail": "backend.tests.core.tools.test_weather_tools",
         "documentation": {}
     },
     {
         "label": "real_amap_key",
         "kind": 2,
-        "importPath": "backend.tests.test_weather_tools_integration",
-        "description": "backend.tests.test_weather_tools_integration",
+        "importPath": "backend.tests.core.tools.test_weather_tools_integration",
+        "description": "backend.tests.core.tools.test_weather_tools_integration",
         "peekOfCode": "def real_amap_key() -> str:\n    backend_dir = Path(__file__).resolve().parents[1]\n    project_root = backend_dir.parent\n    amap_key = (\n        os.environ.get(\"AMAP_KEY\")\n        or _read_env_value(backend_dir / \".env\", \"AMAP_KEY\")\n        or _read_env_value(project_root / \".env\", \"AMAP_KEY\")\n    )\n    if not amap_key or amap_key.startswith(\"test-\"):\n        pytest.skip(\"需要设置真实 AMAP_KEY 才能运行高德天气真实请求测试\")",
-        "detail": "backend.tests.test_weather_tools_integration",
+        "detail": "backend.tests.core.tools.test_weather_tools_integration",
         "documentation": {}
     },
     {
         "label": "weather_tools",
         "kind": 2,
-        "importPath": "backend.tests.test_weather_tools_integration",
-        "description": "backend.tests.test_weather_tools_integration",
+        "importPath": "backend.tests.core.tools.test_weather_tools_integration",
+        "description": "backend.tests.core.tools.test_weather_tools_integration",
         "peekOfCode": "def weather_tools(real_amap_key: str) -> Any:\n    os.environ[\"DEBUG\"] = \"false\"\n    os.environ.setdefault(\"OPENAI_API_KEY\", \"test-openai-key\")\n    os.environ[\"AMAP_KEY\"] = real_amap_key\n    import backend.core.tools.weather as weather_module\n    weather_module.settings.amap_key = real_amap_key\n    return weather_module\n@pytest.mark.integration\ndef test_get_weather_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_weather.invoke({\"city\": \"110101\"})",
-        "detail": "backend.tests.test_weather_tools_integration",
+        "detail": "backend.tests.core.tools.test_weather_tools_integration",
         "documentation": {}
     },
     {
         "label": "test_get_weather_real_request",
         "kind": 2,
-        "importPath": "backend.tests.test_weather_tools_integration",
-        "description": "backend.tests.test_weather_tools_integration",
+        "importPath": "backend.tests.core.tools.test_weather_tools_integration",
+        "description": "backend.tests.core.tools.test_weather_tools_integration",
         "peekOfCode": "def test_get_weather_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_weather.invoke({\"city\": \"110101\"})\n    assert not result.startswith(\"错误：\")\n    assert \"地区：\" in result\n    assert \"天气：\" in result\n    assert \"温度：\" in result\n@pytest.mark.integration\ndef test_get_weather_forecast_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_weather_forecast.invoke({\"city\": \"110101\"})\n    assert not result.startswith(\"错误：\")",
-        "detail": "backend.tests.test_weather_tools_integration",
+        "detail": "backend.tests.core.tools.test_weather_tools_integration",
         "documentation": {}
     },
     {
         "label": "test_get_weather_forecast_real_request",
         "kind": 2,
-        "importPath": "backend.tests.test_weather_tools_integration",
-        "description": "backend.tests.test_weather_tools_integration",
+        "importPath": "backend.tests.core.tools.test_weather_tools_integration",
+        "description": "backend.tests.core.tools.test_weather_tools_integration",
         "peekOfCode": "def test_get_weather_forecast_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_weather_forecast.invoke({\"city\": \"110101\"})\n    assert not result.startswith(\"错误：\")\n    assert \"📍 地区：\" in result\n    assert \"⏰ 预报发布时间：\" in result\n    assert \"📅 今天\" in result\n@pytest.mark.integration\ndef test_get_daily_weather_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_daily_weather.invoke(\n        {\"city\": \"110101\", \"day\": \"tomorrow\"}",
-        "detail": "backend.tests.test_weather_tools_integration",
+        "detail": "backend.tests.core.tools.test_weather_tools_integration",
         "documentation": {}
     },
     {
         "label": "test_get_daily_weather_real_request",
         "kind": 2,
-        "importPath": "backend.tests.test_weather_tools_integration",
-        "description": "backend.tests.test_weather_tools_integration",
+        "importPath": "backend.tests.core.tools.test_weather_tools_integration",
+        "description": "backend.tests.core.tools.test_weather_tools_integration",
         "peekOfCode": "def test_get_daily_weather_real_request(weather_tools: Any) -> None:\n    result = weather_tools.get_daily_weather.invoke(\n        {\"city\": \"110101\", \"day\": \"tomorrow\"}\n    )\n    assert not result.startswith(\"错误：\")\n    assert \"📍 地区：\" in result\n    assert \"📅 明天\" in result\n    assert \"🌞 白天：\" in result\n    assert \"🌙 夜间：\" in result",
-        "detail": "backend.tests.test_weather_tools_integration",
+        "detail": "backend.tests.core.tools.test_weather_tools_integration",
         "documentation": {}
     },
     {
         "label": "real_tavily_key",
         "kind": 2,
-        "importPath": "backend.tests.test_web_search_integration",
-        "description": "backend.tests.test_web_search_integration",
+        "importPath": "backend.tests.core.tools.test_web_search_integration",
+        "description": "backend.tests.core.tools.test_web_search_integration",
         "peekOfCode": "def real_tavily_key() -> str:\n    backend_dir = Path(__file__).resolve().parents[1]\n    project_root = backend_dir.parent\n    tavily_key = (\n        os.environ.get(\"TAVILY_API_KEY\")\n        or _read_env_value(backend_dir / \".env\", \"TAVILY_API_KEY\")\n        or _read_env_value(project_root / \".env\", \"TAVILY_API_KEY\")\n    )\n    if not tavily_key or tavily_key.startswith(\"test-\"):\n        pytest.skip(\"需要设置真实 TAVILY_API_KEY 才能运行 Tavily 真实请求测试\")",
-        "detail": "backend.tests.test_web_search_integration",
+        "detail": "backend.tests.core.tools.test_web_search_integration",
         "documentation": {}
     },
     {
         "label": "web_search_tools",
         "kind": 2,
-        "importPath": "backend.tests.test_web_search_integration",
-        "description": "backend.tests.test_web_search_integration",
+        "importPath": "backend.tests.core.tools.test_web_search_integration",
+        "description": "backend.tests.core.tools.test_web_search_integration",
         "peekOfCode": "def web_search_tools(real_tavily_key: str) -> Any:\n    os.environ[\"DEBUG\"] = \"false\"\n    os.environ.setdefault(\"OPENAI_API_KEY\", \"test-openai-key\")\n    os.environ[\"TAVILY_API_KEY\"] = real_tavily_key\n    web_search_module = importlib.import_module(\"backend.core.tools.web_search\")\n    web_search_module.settings.tavily_api_key = real_tavily_key\n    return web_search_module\n@pytest.mark.integration\ndef test_web_search_real_request(web_search_tools: Any) -> None:\n    result = web_search_tools.web_search.invoke({\"query\": \"Tavily search API documentation\"})",
-        "detail": "backend.tests.test_web_search_integration",
+        "detail": "backend.tests.core.tools.test_web_search_integration",
         "documentation": {}
     },
     {
         "label": "test_web_search_real_request",
         "kind": 2,
-        "importPath": "backend.tests.test_web_search_integration",
-        "description": "backend.tests.test_web_search_integration",
+        "importPath": "backend.tests.core.tools.test_web_search_integration",
+        "description": "backend.tests.core.tools.test_web_search_integration",
         "peekOfCode": "def test_web_search_real_request(web_search_tools: Any) -> None:\n    result = web_search_tools.web_search.invoke({\"query\": \"Tavily search API documentation\"})\n    assert not result.startswith(\"抱歉\")\n    assert \"找到\" in result\n    assert \"来源：\" in result\n    assert \"http\" in result\n@pytest.mark.integration\ndef test_web_search_tool_simple_real_request(web_search_tools: Any) -> None:\n    result = web_search_tools.web_search_tool_simple.invoke(\n        {\"query\": \"LangChain TavilySearch documentation\"}",
-        "detail": "backend.tests.test_web_search_integration",
+        "detail": "backend.tests.core.tools.test_web_search_integration",
         "documentation": {}
     },
     {
         "label": "test_web_search_tool_simple_real_request",
         "kind": 2,
-        "importPath": "backend.tests.test_web_search_integration",
-        "description": "backend.tests.test_web_search_integration",
+        "importPath": "backend.tests.core.tools.test_web_search_integration",
+        "description": "backend.tests.core.tools.test_web_search_integration",
         "peekOfCode": "def test_web_search_tool_simple_real_request(web_search_tools: Any) -> None:\n    result = web_search_tools.web_search_tool_simple.invoke(\n        {\"query\": \"LangChain TavilySearch documentation\"}\n    )\n    assert not result.startswith(\"搜索失败\")\n    assert result.startswith(\"快速搜索结果\")\n    assert \"http\" in result",
-        "detail": "backend.tests.test_web_search_integration",
+        "detail": "backend.tests.core.tools.test_web_search_integration",
         "documentation": {}
     }
 ]
