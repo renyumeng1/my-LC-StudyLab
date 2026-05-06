@@ -69,6 +69,11 @@ class Settings(BaseSettings):
         description="模型名称，默认为gpt-5.4"
     )
     
+    openai_model:str = Field(
+        default="gpt-5.4",
+        description="模型名称，默认为gpt-5.4"
+    )
+    
     
     openai_temperature:float = Field(
         default=0.7,
@@ -166,6 +171,28 @@ class Settings(BaseSettings):
         default=None,
         description="Agent 最大执行时间（秒），None 表示无限制"
     )
+    
+    # ==================== rag配置 ====================
+    embedding_model:str = Field(
+        default="BAAI/bge-large-zh-v1.5",
+        description="用于生成嵌入的模型名称，默认为BAAI/bge-large-zh-v1.5"
+    )
+    
+    embedding_batch_size:int = Field(
+        default=50,
+        ge=1,
+        le=1000,
+        description="嵌入批处理大小，默认为50，范围为1-1000"
+    )
+    
+    
+    chunk_size:int =Field(
+        default=1000,
+        ge=100,
+        le=10000,
+        description="文本块大小，默认为1000，范围为100-10000"
+    )
+    
     
 settings: Settings = Settings()
 

@@ -17,3 +17,54 @@
 2026-04-29 23:01:57.441 | INFO     | __main__:web_search:120 | 执行 Web 搜索工具，查询: deepseek最新模型是什么？
 2026-04-29 23:01:57.441 | INFO     | __main__:create_tavily_search_tool:38 | 🔍 创建 Tavily 搜索工具 (max_results=5, depth=advanced)
 2026-04-29 23:01:59.214 | INFO     | __main__:web_search:138 | ✅ 搜索完成，找到 5 条结果
+2026-05-06 22:34:31.503 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-06 22:35:20.666 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-06 22:35:20.939 | INFO     | __main__:create_base_agent:442 | 🏭 创建 Base Agent (mode=default, debug=False)
+2026-05-06 22:35:20.939 | INFO     | __main__:__init__:63 | 🤖 使用默认模型: openai:gpt-5.4
+2026-05-06 22:35:20.939 | INFO     | __main__:__init__:75 | 🔧 使用基础工具集 (3 个工具)
+2026-05-06 22:35:20.940 | INFO     | __main__:__init__:90 | 📝 使用带工具说明的系统提示词 (模式: default)
+2026-05-06 22:35:20.940 | INFO     | __main__:__init__:106 | 🚀 使用langchain V1.2 create_agent API...
+2026-05-06 22:35:22.238 | INFO     | __main__:__init__:116 | ✅ Agent 创建成功（CompiledStateGraph）
+2026-05-06 22:35:22.239 | INFO     | __main__:invoke:150 | 🚀 执行 Agent 调用: 你好，请介绍一下自己...
+2026-05-06 22:35:22.473 | ERROR    | __main__:invoke:193 | ❌ Agent 执行失败: Error code: 400 - {'code': 20012, 'message': 'Model does not exist. Please check it carefully.', 'data': None}
+2026-05-06 22:37:03.238 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-06 22:37:03.468 | INFO     | __main__:create_base_agent:442 | 🏭 创建 Base Agent (mode=default, debug=False)
+2026-05-06 22:37:03.468 | INFO     | __main__:__init__:63 | 🤖 使用默认模型: openai:deepseek-ai/DeepSeek-V3.2
+2026-05-06 22:37:03.468 | INFO     | __main__:__init__:75 | 🔧 使用基础工具集 (3 个工具)
+2026-05-06 22:37:03.468 | INFO     | __main__:__init__:90 | 📝 使用带工具说明的系统提示词 (模式: default)
+2026-05-06 22:37:03.469 | INFO     | __main__:__init__:106 | 🚀 使用langchain V1.2 create_agent API...
+2026-05-06 22:37:04.277 | INFO     | __main__:__init__:116 | ✅ Agent 创建成功（CompiledStateGraph）
+2026-05-06 22:37:04.277 | INFO     | __main__:invoke:150 | 🚀 执行 Agent 调用: 你好，请介绍一下自己...
+2026-05-06 22:37:15.850 | INFO     | __main__:invoke:185 | ✅ Agent 调用成功，响应长度: 428
+2026-05-06 23:11:33.373 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-06 23:11:33.597 | INFO     | __main__:create_base_agent:442 | 🏭 创建 Base Agent (mode=default, debug=False)
+2026-05-06 23:11:33.597 | INFO     | __main__:__init__:63 | 🤖 使用默认模型: openai:deepseek-ai/DeepSeek-V3.2
+2026-05-06 23:11:33.598 | INFO     | __main__:__init__:75 | 🔧 使用基础工具集 (3 个工具)
+2026-05-06 23:11:33.598 | INFO     | __main__:__init__:90 | 📝 使用带工具说明的系统提示词 (模式: default)
+2026-05-06 23:11:33.598 | INFO     | __main__:__init__:106 | 🚀 使用langchain V1.2 create_agent API...
+2026-05-06 23:11:34.396 | INFO     | __main__:__init__:116 | ✅ Agent 创建成功（CompiledStateGraph）
+2026-05-06 23:11:34.397 | INFO     | __main__:stream:230 | 🌊 执行 Agent 流式调用: 讲个笑话...
+2026-05-06 23:20:56.564 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-06 23:20:56.791 | INFO     | __main__:create_base_agent:466 | 🏭 创建 Base Agent (mode=default, debug=False)
+2026-05-06 23:20:56.791 | INFO     | __main__:__init__:63 | 🤖 使用默认模型: openai:deepseek-ai/DeepSeek-V3.2
+2026-05-06 23:20:56.791 | INFO     | __main__:__init__:75 | 🔧 使用基础工具集 (3 个工具)
+2026-05-06 23:20:56.792 | INFO     | __main__:__init__:90 | 📝 使用带工具说明的系统提示词 (模式: default)
+2026-05-06 23:20:56.792 | INFO     | __main__:__init__:106 | 🚀 使用langchain V1.2 create_agent API...
+2026-05-06 23:20:57.583 | INFO     | __main__:__init__:116 | ✅ Agent 创建成功（CompiledStateGraph）
+2026-05-06 23:20:57.584 | INFO     | __main__:stream:230 | 🌊 执行 Agent 流式调用: 讲个笑话...
+2026-05-06 23:32:37.720 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-06 23:32:37.955 | INFO     | __main__:create_base_agent:447 | 🏭 创建 Base Agent (mode=default, debug=False)
+2026-05-06 23:32:37.955 | INFO     | __main__:__init__:60 | 🤖 使用默认模型: openai:deepseek-ai/DeepSeek-V3.2
+2026-05-06 23:32:37.955 | INFO     | __main__:__init__:70 | 🔧 使用基础工具集 (3 个工具)
+2026-05-06 23:32:37.955 | INFO     | __main__:__init__:84 | 📝 使用带工具说明的系统提示词 (模式: default)
+2026-05-06 23:32:37.956 | INFO     | __main__:__init__:97 | 🚀 使用langchain V1.2 create_agent API...
+2026-05-06 23:32:38.765 | INFO     | __main__:__init__:106 | ✅ Agent 创建成功（CompiledStateGraph）
+2026-05-06 23:32:38.765 | INFO     | __main__:stream:207 | 🌊 执行 Agent 流式调用: 讲个笑话...
+2026-05-06 23:33:00.053 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-06 23:33:00.294 | INFO     | __main__:create_base_agent:447 | 🏭 创建 Base Agent (mode=default, debug=False)
+2026-05-06 23:33:00.294 | INFO     | __main__:__init__:60 | 🤖 使用默认模型: openai:deepseek-ai/DeepSeek-V3.2
+2026-05-06 23:33:00.294 | INFO     | __main__:__init__:70 | 🔧 使用基础工具集 (3 个工具)
+2026-05-06 23:33:00.295 | INFO     | __main__:__init__:84 | 📝 使用带工具说明的系统提示词 (模式: default)
+2026-05-06 23:33:00.295 | INFO     | __main__:__init__:97 | 🚀 使用langchain V1.2 create_agent API...
+2026-05-06 23:33:01.124 | INFO     | __main__:__init__:106 | ✅ Agent 创建成功（CompiledStateGraph）
+2026-05-06 23:33:01.125 | INFO     | __main__:stream:207 | 🌊 执行 Agent 流式调用: 讲个笑话...

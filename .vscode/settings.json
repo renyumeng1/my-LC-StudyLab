@@ -1,0 +1,6 @@
+{
+    "unifyChatProvider.commitMessageGeneration.model": {
+        "vendor": "copilot",
+        "id": "auto"
+    }
+}

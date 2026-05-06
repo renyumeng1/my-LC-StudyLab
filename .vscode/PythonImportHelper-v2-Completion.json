@@ -44,6 +44,30 @@
         "documentation": {}
     },
     {
+        "label": "AsyncIterator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -61,6 +85,14 @@
     },
     {
         "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -276,6 +308,54 @@
         "documentation": {}
     },
     {
+        "label": "AgentState",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "create_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "BaseChatModel",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain.messages",
+        "description": "langchain.messages",
+        "isExtraImport": true,
+        "detail": "langchain.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AnyMessage",
+        "importPath": "langchain.messages",
+        "description": "langchain.messages",
+        "isExtraImport": true,
+        "detail": "langchain.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain.messages",
+        "description": "langchain.messages",
+        "isExtraImport": true,
+        "detail": "langchain.messages",
+        "documentation": {}
+    },
+    {
         "label": "ChatOpenAI",
         "importPath": "langchain_openai",
         "description": "langchain_openai",
@@ -321,6 +401,38 @@
         "description": "langchain_core.tools",
         "isExtraImport": true,
         "detail": "langchain_core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesState",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "StreamMode",
+        "importPath": "langgraph.types",
+        "description": "langgraph.types",
+        "isExtraImport": true,
+        "detail": "langgraph.types",
+        "documentation": {}
+    },
+    {
+        "label": "RunnableConfig",
+        "importPath": "langchain_core.runnables",
+        "description": "langchain_core.runnables",
+        "isExtraImport": true,
+        "detail": "langchain_core.runnables",
         "documentation": {}
     },
     {
@@ -453,30 +565,6 @@
         "documentation": {}
     },
     {
-        "label": "get_logger",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "get_logger",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -558,6 +646,22 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
         "label": "logger",
         "importPath": "venv",
         "description": "venv",
@@ -619,82 +723,82 @@
     {
         "label": "bin_dir",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "base",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"PATH\"]",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV\"]",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "prev_length",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.path[:]",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
         "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.real_prefix",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
         "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.prefix",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
         "peekOfCode": "sys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
@@ -702,7 +806,16 @@
         "kind": 6,
         "importPath": "backend.agent.base_agent",
         "description": "backend.agent.base_agent",
-        "peekOfCode": "class BaseAgent:\n    \"\"\"Agent基类封装langchain的create_agent\n    \"\"\"\n    # NOTE:这里的model可以是一个字符串，也可以是一个BaseLanguageModel对象，如果是字符串，就会被ChatOpenAI识别为模型名称，创建一个ChatOpenAI对象；如果是BaseLanguageModel对象，就直接使用这个对象作为模型。\n    def __init__(\n        self,\n        model:Optional[str | BaseLanguageModel] = None,\n        tools:Optional[Sequence[BaseTool]] = None,\n        system_prompt:Optional[str]=None,\n        prompt_mode:str = \"default\",",
+        "peekOfCode": "class BaseAgent:\n    \"\"\"Agent基类封装langchain的create_agent\"\"\"\n    # NOTE:这里的model可以是一个字符串，也可以是一个BaseLanguageModel对象，如果是字符串，就会被ChatOpenAI识别为模型名称，创建一个ChatOpenAI对象；如果是BaseLanguageModel对象，就直接使用这个对象作为模型。\n    def __init__(\n        self,\n        model: Optional[str | BaseLanguageModel] = None,\n        tools: Optional[Sequence[BaseTool]] = None,\n        system_prompt: Optional[str] = None,\n        prompt_mode: str = \"default\",\n        debug: bool = False,",
+        "detail": "backend.agent.base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "create_base_agent",
+        "kind": 2,
+        "importPath": "backend.agent.base_agent",
+        "description": "backend.agent.base_agent",
+        "peekOfCode": "def create_base_agent(\n    model: Optional[str | BaseChatModel] = None,\n    tools: Optional[Sequence[BaseTool]] = None,\n    prompt_mode: str = \"default\",\n    debug: bool = False,\n    **kwargs: Any,\n) -> BaseAgent:\n    \"\"\"\n    创建基础 Agent 的便捷工厂函数\n    根据 LangChain V1.2 的规范创建 Agent。",
         "detail": "backend.agent.base_agent",
         "documentation": {}
     },
@@ -711,7 +824,7 @@
         "kind": 5,
         "importPath": "backend.agent.base_agent",
         "description": "backend.agent.base_agent",
-        "peekOfCode": "logger = get_logger(__name__)\nclass BaseAgent:\n    \"\"\"Agent基类封装langchain的create_agent\n    \"\"\"\n    # NOTE:这里的model可以是一个字符串，也可以是一个BaseLanguageModel对象，如果是字符串，就会被ChatOpenAI识别为模型名称，创建一个ChatOpenAI对象；如果是BaseLanguageModel对象，就直接使用这个对象作为模型。\n    def __init__(\n        self,\n        model:Optional[str | BaseLanguageModel] = None,\n        tools:Optional[Sequence[BaseTool]] = None,\n        system_prompt:Optional[str]=None,",
+        "peekOfCode": "logger = get_logger(__name__)\nclass BaseAgent:\n    \"\"\"Agent基类封装langchain的create_agent\"\"\"\n    # NOTE:这里的model可以是一个字符串，也可以是一个BaseLanguageModel对象，如果是字符串，就会被ChatOpenAI识别为模型名称，创建一个ChatOpenAI对象；如果是BaseLanguageModel对象，就直接使用这个对象作为模型。\n    def __init__(\n        self,\n        model: Optional[str | BaseLanguageModel] = None,\n        tools: Optional[Sequence[BaseTool]] = None,\n        system_prompt: Optional[str] = None,\n        prompt_mode: str = \"default\",",
         "detail": "backend.agent.base_agent",
         "documentation": {}
     },
