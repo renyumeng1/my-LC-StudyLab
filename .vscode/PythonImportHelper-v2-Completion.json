@@ -52,6 +52,22 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -61,6 +77,14 @@
     },
     {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -292,11 +316,11 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
+        "label": "tool",
+        "importPath": "langchain_core.tools",
+        "description": "langchain_core.tools",
         "isExtraImport": true,
-        "detail": "dotenv",
+        "detail": "langchain_core.tools",
         "documentation": {}
     },
     {
@@ -420,6 +444,39 @@
         "documentation": {}
     },
     {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -501,22 +558,6 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "get_logger",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
         "label": "logger",
         "importPath": "venv",
         "description": "venv",
@@ -578,82 +619,82 @@
     {
         "label": "bin_dir",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "base",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"PATH\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "prev_length",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.path[:]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.real_prefix",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.prefix",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
@@ -661,7 +702,16 @@
         "kind": 6,
         "importPath": "backend.agent.base_agent",
         "description": "backend.agent.base_agent",
-        "peekOfCode": "class BaseAgent:\n    \"\"\"Agent基类封装langchain的create_agent\n    \"\"\"\n    # NOTE:这里的model可以是一个字符串，也可以是一个BaseLanguageModel对象，如果是字符串，就会被ChatOpenAI识别为模型名称，创建一个ChatOpenAI对象；如果是BaseLanguageModel对象，就直接使用这个对象作为模型。\n    def __init__(\n        self,\n        model:Optional[str | BaseLanguageModel] = None\n                 ):\n        pass",
+        "peekOfCode": "class BaseAgent:\n    \"\"\"Agent基类封装langchain的create_agent\n    \"\"\"\n    # NOTE:这里的model可以是一个字符串，也可以是一个BaseLanguageModel对象，如果是字符串，就会被ChatOpenAI识别为模型名称，创建一个ChatOpenAI对象；如果是BaseLanguageModel对象，就直接使用这个对象作为模型。\n    def __init__(\n        self,\n        model:Optional[str | BaseLanguageModel] = None,\n        tools:Optional[Sequence[BaseTool]] = None,\n        system_prompt:Optional[str]=None,\n        prompt_mode:str = \"default\",",
+        "detail": "backend.agent.base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.agent.base_agent",
+        "description": "backend.agent.base_agent",
+        "peekOfCode": "logger = get_logger(__name__)\nclass BaseAgent:\n    \"\"\"Agent基类封装langchain的create_agent\n    \"\"\"\n    # NOTE:这里的model可以是一个字符串，也可以是一个BaseLanguageModel对象，如果是字符串，就会被ChatOpenAI识别为模型名称，创建一个ChatOpenAI对象；如果是BaseLanguageModel对象，就直接使用这个对象作为模型。\n    def __init__(\n        self,\n        model:Optional[str | BaseLanguageModel] = None,\n        tools:Optional[Sequence[BaseTool]] = None,\n        system_prompt:Optional[str]=None,",
         "detail": "backend.agent.base_agent",
         "documentation": {}
     },
@@ -702,6 +752,24 @@
         "documentation": {}
     },
     {
+        "label": "calculator",
+        "kind": 2,
+        "importPath": "backend.core.tools.calculator",
+        "description": "backend.core.tools.calculator",
+        "peekOfCode": "def calculator(expression: str) -> str:\n    \"\"\"\n    计算数学表达式\n    支持基本的数学运算：加法(+)、减法(-)、乘法(*)、除法(/)、括号()\n    Args:\n        expression: 要计算的数学表达式，例如 \"2 + 2\" 或 \"(10 + 5) * 3\"\n    Returns:\n        计算结果的字符串表示\n    Example:\n        >>> calculator(\"2 + 2\")",
+        "detail": "backend.core.tools.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.core.tools.calculator",
+        "description": "backend.core.tools.calculator",
+        "peekOfCode": "logger = get_logger(__name__)\ndef _safe_eval(expression: str) -> Union[float, int, str]:\n    \"\"\"\n    安全地计算数学表达式\n    只允许基本的数学运算，防止代码注入攻击。\n    Args:\n        expression: 数学表达式字符串\n    Returns:\n        计算结果或错误信息\n    \"\"\"",
+        "detail": "backend.core.tools.calculator",
+        "documentation": {}
+    },
+    {
         "label": "ResearchFileSystem",
         "kind": 6,
         "importPath": "backend.core.tools.filesystem",
@@ -711,11 +779,83 @@
         "documentation": {}
     },
     {
+        "label": "get_filesystem",
+        "kind": 2,
+        "importPath": "backend.core.tools.filesystem",
+        "description": "backend.core.tools.filesystem",
+        "peekOfCode": "def get_filesystem(thread_id:str) -> ResearchFileSystem:\n    \"\"\"创建或获取文件系统示例\n    Args:\n        thread_id (str): 线程 id\n    Returns:\n        ResearchFileSystem: 文件系统示例\n    \"\"\"\n    if thread_id not in _filesystem_cache:\n        _filesystem_cache[thread_id] = ResearchFileSystem(thread_id)\n    return _filesystem_cache[thread_id]",
+        "detail": "backend.core.tools.filesystem",
+        "documentation": {}
+    },
+    {
+        "label": "write_research_file",
+        "kind": 2,
+        "importPath": "backend.core.tools.filesystem",
+        "description": "backend.core.tools.filesystem",
+        "peekOfCode": "def write_research_file(\n    filename: str,\n    content: str,\n    thread_id: str,\n    subdirectory: str = \"notes\",\n) -> str:\n    \"\"\"\n    写入研究文件\n    将研究过程中的内容保存到文件系统。\n    适用于保存研究计划、笔记、中间结果等。",
+        "detail": "backend.core.tools.filesystem",
+        "documentation": {}
+    },
+    {
+        "label": "read_research_file",
+        "kind": 2,
+        "importPath": "backend.core.tools.filesystem",
+        "description": "backend.core.tools.filesystem",
+        "peekOfCode": "def read_research_file(\n    filename: str,\n    thread_id: str,\n    subdirectory: str = \"notes\",\n) -> str:\n    \"\"\"\n    读取研究文件\n    从文件系统读取之前保存的文件内容。\n    Args:\n        filename: 文件名",
+        "detail": "backend.core.tools.filesystem",
+        "documentation": {}
+    },
+    {
+        "label": "list_research_files",
+        "kind": 2,
+        "importPath": "backend.core.tools.filesystem",
+        "description": "backend.core.tools.filesystem",
+        "peekOfCode": "def list_research_files(\n    thread_id: str,\n    subdirectory: Optional[str] = None,\n) -> str:\n    \"\"\"\n    列出研究文件\n    列出工作空间中的所有文件。\n    Args:\n        thread_id: 研究任务 ID\n        subdirectory: 子目录（可选），不指定则列出所有文件",
+        "detail": "backend.core.tools.filesystem",
+        "documentation": {}
+    },
+    {
+        "label": "search_research_files",
+        "kind": 2,
+        "importPath": "backend.core.tools.filesystem",
+        "description": "backend.core.tools.filesystem",
+        "peekOfCode": "def search_research_files(\n    keyword: str,\n    thread_id: str,\n    subdirectory: Optional[str] = None,\n) -> str:\n    \"\"\"\n    搜索研究文件\n    在文件内容中搜索关键词。\n    Args:\n        keyword: 搜索关键词",
+        "detail": "backend.core.tools.filesystem",
+        "documentation": {}
+    },
+    {
         "label": "logger",
         "kind": 5,
         "importPath": "backend.core.tools.filesystem",
         "description": "backend.core.tools.filesystem",
         "peekOfCode": "logger = get_logger(__name__)\nclass ResearchFileSystem:\n    def __init__(self,thread_id:str,base_path:Optional[str] = None) -> None:\n        \"\"\"\n        初始化研究文件系统\n        Args:\n            thread_id: 研究任务的唯一标识符\n            base_path: 文件系统根目录，默认使用配置中的路径\n        \"\"\"\n        if base_path is None:",
+        "detail": "backend.core.tools.filesystem",
+        "documentation": {}
+    },
+    {
+        "label": "_filesystem_cache:dict[str,ResearchFileSystem]",
+        "kind": 5,
+        "importPath": "backend.core.tools.filesystem",
+        "description": "backend.core.tools.filesystem",
+        "peekOfCode": "_filesystem_cache:dict[str,ResearchFileSystem] = {}\ndef get_filesystem(thread_id:str) -> ResearchFileSystem:\n    \"\"\"创建或获取文件系统示例\n    Args:\n        thread_id (str): 线程 id\n    Returns:\n        ResearchFileSystem: 文件系统示例\n    \"\"\"\n    if thread_id not in _filesystem_cache:\n        _filesystem_cache[thread_id] = ResearchFileSystem(thread_id)",
+        "detail": "backend.core.tools.filesystem",
+        "documentation": {}
+    },
+    {
+        "label": "FILE_SYSTEM_TOOLS",
+        "kind": 5,
+        "importPath": "backend.core.tools.filesystem",
+        "description": "backend.core.tools.filesystem",
+        "peekOfCode": "FILE_SYSTEM_TOOLS = [\n    write_research_file,\n    read_research_file,\n    list_research_files,\n    search_research_files\n]   \nFILESYSTEM_TOOL_NAMES = [tool.name for tool in FILE_SYSTEM_TOOLS]   \nlogger.info(f\"✅ 文件系统工具已加载: {', '.join(FILESYSTEM_TOOL_NAMES)}\")",
+        "detail": "backend.core.tools.filesystem",
+        "documentation": {}
+    },
+    {
+        "label": "FILESYSTEM_TOOL_NAMES",
+        "kind": 5,
+        "importPath": "backend.core.tools.filesystem",
+        "description": "backend.core.tools.filesystem",
+        "peekOfCode": "FILESYSTEM_TOOL_NAMES = [tool.name for tool in FILE_SYSTEM_TOOLS]   \nlogger.info(f\"✅ 文件系统工具已加载: {', '.join(FILESYSTEM_TOOL_NAMES)}\")",
         "detail": "backend.core.tools.filesystem",
         "documentation": {}
     },
@@ -810,11 +950,11 @@
         "documentation": {}
     },
     {
-        "label": "web_search_tool_simple",
+        "label": "web_search_simple",
         "kind": 2,
         "importPath": "backend.core.tools.web_search",
         "description": "backend.core.tools.web_search",
-        "peekOfCode": "def web_search_tool_simple(query: str) -> str:\n    \"\"\"使用 Tavily 执行快速网络搜索，只返回标题和来源链接。\"\"\"\n    logger.info(f\"🔍 执行快速搜索: {query}\")\n    try:\n        if not settings.tavily_api_key:\n            return \"网络搜索功能暂时不可用（未配置 API Key）\"\n        search_response = _invoke_tavily_search(\n            query,\n            max_results=3,\n            search_depth=\"basic\",",
+        "peekOfCode": "def web_search_simple(query: str) -> str:\n    \"\"\"使用 Tavily 执行快速网络搜索，只返回标题和来源链接。\"\"\"\n    logger.info(f\"🔍 执行快速搜索: {query}\")\n    try:\n        if not settings.tavily_api_key:\n            return \"网络搜索功能暂时不可用（未配置 API Key）\"\n        search_response = _invoke_tavily_search(\n            query,\n            max_results=3,\n            search_depth=\"basic\",",
         "detail": "backend.core.tools.web_search",
         "documentation": {}
     },
@@ -832,7 +972,7 @@
         "kind": 5,
         "importPath": "backend.core.tools.web_search",
         "description": "backend.core.tools.web_search",
-        "peekOfCode": "__all__ = [\n    \"web_search\",\n    \"web_search_tool_simple\",\n    \"create_tavily_search_tool\",\n]\nif __name__ == \"__main__\":\n    # 简单测试\n    result = web_search.invoke({\"query\": \"deepseek最新模型是什么？\"})\n    print(result)",
+        "peekOfCode": "__all__ = [\n    \"web_search\",\n    \"web_search_simple\",\n    \"create_tavily_search_tool\",\n]\nif __name__ == \"__main__\":\n    # 简单测试\n    result = web_search.invoke({\"query\": \"deepseek最新模型是什么？\"})\n    print(result)",
         "detail": "backend.core.tools.web_search",
         "documentation": {}
     },

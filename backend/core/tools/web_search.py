@@ -144,7 +144,7 @@ def web_search(query: str) -> str:
             
 
 @tool
-def web_search_tool_simple(query: str) -> str:
+def web_search_simple(query: str) -> str:
     """使用 Tavily 执行快速网络搜索，只返回标题和来源链接。"""
 
     logger.info(f"🔍 执行快速搜索: {query}")
@@ -173,7 +173,7 @@ def web_search_tool_simple(query: str) -> str:
 
 __all__ = [
     "web_search",
-    "web_search_tool_simple",
+    "web_search_simple",
     "create_tavily_search_tool",
 ]
 
