@@ -196,6 +196,38 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Annotated",
         "importPath": "typing",
         "description": "typing",
@@ -388,6 +420,14 @@
         "documentation": {}
     },
     {
+        "label": "OpenAIEmbeddings",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
         "label": "BaseLanguageModel",
         "importPath": "langchain_core.language_models",
         "description": "langchain_core.language_models",
@@ -492,6 +532,14 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "logger",
         "importPath": "loguru",
         "description": "loguru",
@@ -525,6 +573,14 @@
     },
     {
         "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "SecretStr",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -727,6 +783,70 @@
         "documentation": {}
     },
     {
+        "label": "Embeddings",
+        "importPath": "langchain.embeddings",
+        "description": "langchain.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "PyPDFLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "TextLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "UnstructuredMarkdownLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "UnstructuredHTMLLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "JSONLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "DirectoryLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
         "label": "asyncio",
         "kind": 6,
         "isExtraImport": true,
@@ -756,82 +876,82 @@
     {
         "label": "bin_dir",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "base",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"PATH\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "prev_length",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.path[:]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.real_prefix",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.prefix",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
@@ -1228,6 +1348,123 @@
         "description": "backend.core.prompts",
         "peekOfCode": "TOOL_USAGE_INSTRUCTIONS = dedent(\"\"\"\\\n    工具使用规则（必须遵守）：\n    一、总原则\n    - 只要用户问题依赖实时信息、最新事实、当前天气、当前日期时间或精确计算，就必须优先调用工具。\n    - 工具结果优先于模型记忆；不得用过时记忆替代工具结果。\n    - 每次工具调用前先判断目标是否明确；缺少必要参数时，只问一个最关键的澄清问题。\n    - 避免重复调用同一工具；已有足够工具结果时，直接基于结果回答。\n    - 不要向用户暴露内部工具路由规则，只输出自然、准确的答案。\n    二、可用工具\n    - web_search：搜索互联网，获取新闻、政策、价格、版本、人物职位、赛事、资料来源等最新信息。",
         "detail": "backend.core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "get_embeddings",
+        "kind": 2,
+        "importPath": "backend.rag.embeddings",
+        "description": "backend.rag.embeddings",
+        "peekOfCode": "def get_embeddings(\n    model:Optional[str] = None,\n    batch_size: Optional[int] = None,\n    **kwargs: Any\n) -> Embeddings:\n    \"\"\"获取 embedding 模型实例\n    Args:\n        model (Optional[str], optional): 模型名称默认使用 setting 中配置的模型. Defaults to None.\n        batch_size (Optional[int], optional): 批处理大小，默认使用配置值. Defaults to None.\n    Returns:",
+        "detail": "backend.rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding_dimension",
+        "kind": 2,
+        "importPath": "backend.rag.embeddings",
+        "description": "backend.rag.embeddings",
+        "peekOfCode": "def get_embedding_dimension(model: Optional[str] = None) -> int:\n    \"\"\"获取 embedding 维度\n    Args:\n        model (Optional[str], optional): 模型名称默认使用 setting 中配置的模型. Defaults to None.\n    Returns:\n        int: 维度\n    \"\"\"\n    dimensions = {\n    \"BAAI/bge-large-zh-v1.5\": 1024,\n    \"BAAI/bge-large-en-v1.5\": 1024,",
+        "detail": "backend.rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "estimate_embedding_cost",
+        "kind": 2,
+        "importPath": "backend.rag.embeddings",
+        "description": "backend.rag.embeddings",
+        "peekOfCode": "def estimate_embedding_cost(num_tokens:int,model: Optional[str] = None) -> float:\n    \"\"\"估算 embedding 成本\n    Args:\n        num_tokens (int): 消耗 Token 数量\n        model (Optional[str], optional): 模型名称. Defaults to None.\n    Returns:\n        float: 估算成本\n    \"\"\"\n    model = model or settings.embedding_model\n    pricing = {",
+        "detail": "backend.rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "test_embeddings",
+        "kind": 2,
+        "importPath": "backend.rag.embeddings",
+        "description": "backend.rag.embeddings",
+        "peekOfCode": "def test_embeddings(\n    model: Optional[str] = None,\n    test_text:str = \"这是一个测试文本\"\n) -> bool:\n    \"\"\"测试 embedding 模型是否可用\n    Args:\n        model (Optional[str], optional): 模型名称. Defaults to None.\n        test_text (str, optional): 测试文本. Defaults to \"这是一个测试文本\".\n    Returns:\n        bool: 是否成功",
+        "detail": "backend.rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "get_embeddings_by_preset",
+        "kind": 2,
+        "importPath": "backend.rag.embeddings",
+        "description": "backend.rag.embeddings",
+        "peekOfCode": "def get_embeddings_by_preset(\n    preset: str = \"fast\",\n    **kwargs: Any,\n) -> Embeddings:\n    \"\"\"\n    根据预设配置获取 Embedding 模型\n    Args:\n        preset: 预设名称\n            - \"fast\": 快速模型（text-embedding-3-small）\n            - \"quality\": 高质量模型（text-embedding-3-large）",
+        "detail": "backend.rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.rag.embeddings",
+        "description": "backend.rag.embeddings",
+        "peekOfCode": "logger = get_logger(__name__)\ndef get_embeddings(\n    model:Optional[str] = None,\n    batch_size: Optional[int] = None,\n    **kwargs: Any\n) -> Embeddings:\n    \"\"\"获取 embedding 模型实例\n    Args:\n        model (Optional[str], optional): 模型名称默认使用 setting 中配置的模型. Defaults to None.\n        batch_size (Optional[int], optional): 批处理大小，默认使用配置值. Defaults to None.",
+        "detail": "backend.rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "get_supported_extensions",
+        "kind": 2,
+        "importPath": "backend.rag.loaders",
+        "description": "backend.rag.loaders",
+        "peekOfCode": "def get_supported_extensions() -> dict[str, str]:\n    \"\"\"\n    获取支持的文件扩展名\n    Returns:\n        扩展名到类型的映射字典\n    Example:\n        >>> extensions = get_supported_extensions()\n        >>> print(extensions)\n        {'.pdf': 'pdf', '.txt': 'text', ...}\n    \"\"\"",
+        "detail": "backend.rag.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "get_loader_for_file",
+        "kind": 2,
+        "importPath": "backend.rag.loaders",
+        "description": "backend.rag.loaders",
+        "peekOfCode": "def get_loader_for_file(file_path: str | Path) -> Optional[Any]:\n    \"\"\"\n    根据文件类型获取合适的文档加载器\n    Args:\n        file_path: 文件路径\n    Returns:\n        对应的 Loader 实例，如果不支持则返回 None\n    Example:\n        >>> loader = get_loader_for_file(\"document.pdf\")\n        >>> documents = loader.load()",
+        "detail": "backend.rag.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "load_document",
+        "kind": 2,
+        "importPath": "backend.rag.loaders",
+        "description": "backend.rag.loaders",
+        "peekOfCode": "def load_document(\n    file_path: str | Path,\n    add_metadata: bool = True,\n) -> list[Document]:\n    \"\"\"\n    加载单个文档\n    Args:\n        file_path: 文件路径\n        add_metadata: 是否添加额外的元数据（文件名、路径等）\n    Returns:",
+        "detail": "backend.rag.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "load_directory",
+        "kind": 2,
+        "importPath": "backend.rag.loaders",
+        "description": "backend.rag.loaders",
+        "peekOfCode": "def load_directory(\n    directory_path: str | Path,\n    glob_pattern: str = \"**/*\",\n    exclude_patterns: Optional[list[str]] = None,\n    recursive: bool = True,\n    show_progress: bool = True,\n    max_files: Optional[int] = None,\n) -> list[Document]:\n    \"\"\"\n    批量加载目录中的文档",
+        "detail": "backend.rag.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "load_documents_from_paths",
+        "kind": 2,
+        "importPath": "backend.rag.loaders",
+        "description": "backend.rag.loaders",
+        "peekOfCode": "def load_documents_from_paths(\n    file_paths: list[str],\n    show_progress: bool = True,\n) -> list[Document]:\n    \"\"\"\n    从文件路径列表加载文档\n    Args:\n        file_paths: 文件路径列表\n        show_progress: 是否显示加载进度\n    Returns:",
+        "detail": "backend.rag.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.rag.loaders",
+        "description": "backend.rag.loaders",
+        "peekOfCode": "logger = get_logger(__name__)\nSUPPORTED_EXTENSIONS = {\n    \".pdf\": \"pdf\",\n    \".txt\": \"text\",\n    \".md\": \"markdown\",\n    \".mdx\": \"markdown\",\n    \".html\": \"html\",\n    \".htm\": \"html\",\n    \".json\": \"json\",\n}",
+        "detail": "backend.rag.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "SUPPORTED_EXTENSIONS",
+        "kind": 5,
+        "importPath": "backend.rag.loaders",
+        "description": "backend.rag.loaders",
+        "peekOfCode": "SUPPORTED_EXTENSIONS = {\n    \".pdf\": \"pdf\",\n    \".txt\": \"text\",\n    \".md\": \"markdown\",\n    \".mdx\": \"markdown\",\n    \".html\": \"html\",\n    \".htm\": \"html\",\n    \".json\": \"json\",\n}\ndef get_supported_extensions() -> dict[str, str]:",
+        "detail": "backend.rag.loaders",
         "documentation": {}
     },
     {

@@ -68,3 +68,9 @@
 2026-05-06 23:33:00.295 | INFO     | __main__:__init__:97 | 🚀 使用langchain V1.2 create_agent API...
 2026-05-06 23:33:01.124 | INFO     | __main__:__init__:106 | ✅ Agent 创建成功（CompiledStateGraph）
 2026-05-06 23:33:01.125 | INFO     | __main__:stream:207 | 🌊 执行 Agent 流式调用: 讲个笑话...
+2026-05-07 16:33:00.420 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-07 16:33:00.421 | INFO     | __main__:test_embeddings:137 | 🔍 测试 Embedding 模型: None，使用测试文本: '这是一个测试文本'
+2026-05-07 16:33:00.421 | INFO     | __main__:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-07 16:33:06.378 | INFO     | __main__:test_embeddings:143 | ✅ Embedding 模型测试成功，向量维度: 1024
+2026-05-07 16:33:06.545 | INFO     | __main__:test_embeddings:150 | ✅ Embedding 模型批量测试成功，向量数量: 3
+2026-05-07 16:33:06.545 | INFO     | __main__:test_embeddings:152 | 测试通过
