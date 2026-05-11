@@ -41,6 +41,14 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -508,6 +516,62 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "AgentState",
         "importPath": "langchain.agents",
         "description": "langchain.agents",
@@ -661,6 +725,38 @@
         "documentation": {}
     },
     {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesState",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
         "label": "MessagesState",
         "importPath": "langgraph.graph",
         "description": "langgraph.graph",
@@ -682,6 +778,14 @@
         "description": "langchain_core.runnables",
         "isExtraImport": true,
         "detail": "langchain_core.runnables",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -861,6 +965,22 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
@@ -904,6 +1024,14 @@
     },
     {
         "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -2754,12 +2882,102 @@
         "documentation": {}
     },
     {
+        "label": "TestPlannerNodeIntegration",
+        "kind": 6,
+        "importPath": "backend.tests.workflows.nodes.test_planner_node",
+        "description": "backend.tests.workflows.nodes.test_planner_node",
+        "peekOfCode": "class TestPlannerNodeIntegration:\n    \"\"\"planner_node 真实 LLM 请求集成测试\"\"\"\n    def test_basic_learning_plan(self, planner_node_module: Any) -> None:\n        \"\"\"基础场景：生成 Python 装饰器学习计划\"\"\"\n        state: dict[str, Any] = {\n            \"user_question\": \"我想学习Python的装饰器（decorator），它是如何工作的？\",\n            \"messages\": [],\n        }\n        result = planner_node_module.planner_node(state)\n        self._assert_no_error(result)",
+        "detail": "backend.tests.workflows.nodes.test_planner_node",
+        "documentation": {}
+    },
+    {
+        "label": "planner_node_module",
+        "kind": 2,
+        "importPath": "backend.tests.workflows.nodes.test_planner_node",
+        "description": "backend.tests.workflows.nodes.test_planner_node",
+        "peekOfCode": "def planner_node_module() -> Any:\n    api_key = _resolve_api_key()\n    if not api_key:\n        pytest.skip(\n            \"需要设置真实 OPENAI_API_KEY（.env 或环境变量）才能运行 planner_node 真实请求测试\"\n        )\n    os.environ[\"OPENAI_API_KEY\"] = api_key\n    import backend.workflows.nodes.planner_node as module\n    return module\n@pytest.mark.integration",
+        "detail": "backend.tests.workflows.nodes.test_planner_node",
+        "documentation": {}
+    },
+    {
         "label": "PROJECT_ROOT",
         "kind": 5,
         "importPath": "backend.tests.conftest",
         "description": "backend.tests.conftest",
         "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[2]\nif str(PROJECT_ROOT) not in sys.path:\n    sys.path.insert(0, str(PROJECT_ROOT))",
         "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "LearningPlanSchema",
+        "kind": 6,
+        "importPath": "backend.workflows.nodes.planner_node",
+        "description": "backend.workflows.nodes.planner_node",
+        "peekOfCode": "class LearningPlanSchema(BaseModel):\n    topic: str = Field(..., description=\"学习主题\")\n    objectives: list[str] = Field(..., description=\"学习目标列表，至少三个\")\n    key_points: list[str] = Field(..., description=\"关键知识点列表，至少五个\")\n    difficulty: str = Field(\n        ..., description=\"难度级别 (beginner/intermediate/advanced)\"\n    )\n    estimated_time: int = Field(..., description=\"预计学习时间（分钟）\")\ndef planner_node(state: StudyFlowState) -> dict[str, Any]:\n    \"\"\"",
+        "detail": "backend.workflows.nodes.planner_node",
+        "documentation": {}
+    },
+    {
+        "label": "planner_node",
+        "kind": 2,
+        "importPath": "backend.workflows.nodes.planner_node",
+        "description": "backend.workflows.nodes.planner_node",
+        "peekOfCode": "def planner_node(state: StudyFlowState) -> dict[str, Any]:\n    \"\"\"\n    学习规划节点\n    功能：\n    1. 分析用户问题\n    2. 生成结构化的学习计划\n    3. 使用 LLM 的结构化输出功能\n    Args:\n        state: 当前工作流状态\n    Returns:",
+        "detail": "backend.workflows.nodes.planner_node",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.workflows.nodes.planner_node",
+        "description": "backend.workflows.nodes.planner_node",
+        "peekOfCode": "logger = get_logger(__name__)\nclass LearningPlanSchema(BaseModel):\n    topic: str = Field(..., description=\"学习主题\")\n    objectives: list[str] = Field(..., description=\"学习目标列表，至少三个\")\n    key_points: list[str] = Field(..., description=\"关键知识点列表，至少五个\")\n    difficulty: str = Field(\n        ..., description=\"难度级别 (beginner/intermediate/advanced)\"\n    )\n    estimated_time: int = Field(..., description=\"预计学习时间（分钟）\")\ndef planner_node(state: StudyFlowState) -> dict[str, Any]:",
+        "detail": "backend.workflows.nodes.planner_node",
+        "documentation": {}
+    },
+    {
+        "label": "StudyFlowState",
+        "kind": 6,
+        "importPath": "backend.workflows.state",
+        "description": "backend.workflows.state",
+        "peekOfCode": "class StudyFlowState(MessagesState):\n    \"\"\"学习工作流的全局状态\n    在整个工作流执行过程被传递和更新，包含了用户输入到输出的所有信息\n    \"\"\"\n    user_question:str\n    \"\"\"用户输入的问题\n    \"\"\"\n    # ==================== 规划阶段 ====================\n    learning_plan:Optional[dict[str,Any]]\n    \"\"\"学习计划，包含：",
+        "detail": "backend.workflows.state",
+        "documentation": {}
+    },
+    {
+        "label": "QuizQuestion",
+        "kind": 6,
+        "importPath": "backend.workflows.state",
+        "description": "backend.workflows.state",
+        "peekOfCode": "class QuizQuestion(TypedDict):\n    \"\"\"练习题单题结构\"\"\"\n    id: str\n    type: str  # multiple_choice, fill_blank, short_answer\n    question: str\n    options: Optional[list[str]]  # 选择题选项\n    answer: str\n    explanation: str\n    points: int\nclass LearningPlan(TypedDict):",
+        "detail": "backend.workflows.state",
+        "documentation": {}
+    },
+    {
+        "label": "LearningPlan",
+        "kind": 6,
+        "importPath": "backend.workflows.state",
+        "description": "backend.workflows.state",
+        "peekOfCode": "class LearningPlan(TypedDict):\n    \"\"\"学习计划结构\"\"\"\n    topic: str\n    objectives: list[str]\n    key_points: list[str]\n    difficulty: str  # beginner, intermediate, advanced\n    estimated_time: int  # 分钟\nclass RetrievedDocument(TypedDict):\n    \"\"\"检索文档结构\"\"\"\n    content: str",
+        "detail": "backend.workflows.state",
+        "documentation": {}
+    },
+    {
+        "label": "RetrievedDocument",
+        "kind": 6,
+        "importPath": "backend.workflows.state",
+        "description": "backend.workflows.state",
+        "peekOfCode": "class RetrievedDocument(TypedDict):\n    \"\"\"检索文档结构\"\"\"\n    content: str\n    metadata: dict[str, Any]\n    relevance_score: float\nclass ScoreDetail(TypedDict):\n    \"\"\"评分详情结构\"\"\"\n    question_id: str\n    user_answer: str\n    correct_answer: str",
+        "detail": "backend.workflows.state",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreDetail",
+        "kind": 6,
+        "importPath": "backend.workflows.state",
+        "description": "backend.workflows.state",
+        "peekOfCode": "class ScoreDetail(TypedDict):\n    \"\"\"评分详情结构\"\"\"\n    question_id: str\n    user_answer: str\n    correct_answer: str\n    is_correct: bool\n    points_earned: int\n    points_possible: int\n    feedback: str",
+        "detail": "backend.workflows.state",
         "documentation": {}
     }
 ]

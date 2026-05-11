@@ -74,3 +74,5 @@
 2026-05-07 16:33:06.378 | INFO     | __main__:test_embeddings:143 | ✅ Embedding 模型测试成功，向量维度: 1024
 2026-05-07 16:33:06.545 | INFO     | __main__:test_embeddings:150 | ✅ Embedding 模型批量测试成功，向量数量: 3
 2026-05-07 16:33:06.545 | INFO     | __main__:test_embeddings:152 | 测试通过
+2026-05-11 17:47:15.460 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-11 17:48:55.587 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
