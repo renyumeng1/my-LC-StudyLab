@@ -193,6 +193,51 @@ class Settings(BaseSettings):
         description="文本块大小，默认为1000，范围为100-10000"
     )
     
+    chunk_overlap: int = Field(
+        default=200,
+        ge=0,
+        le=1000,
+        description="文本分块重叠大小（字符数）"
+    )
+    
+    # 向量库配置
+    vector_store_type: str = Field(
+        default="faiss",
+        description="向量库类型：faiss, inmemory, chroma"
+    )
+    
+    vector_store_path: str = Field(
+        default="data/indexes",
+        description="向量库存储路径"
+    )
+    
+    # 检索配置
+    retriever_search_type: str = Field(
+        default="similarity",
+        description="检索类型：similarity, mmr, similarity_score_threshold"
+    )
+    
+    retriever_k: int = Field(
+        default=4,
+        ge=1,
+        le=20,
+        description="检索返回的文档数量"
+    )
+    
+    retriever_score_threshold: float = Field(
+        default=0.5,
+        ge=0.0,
+        le=1.0,
+        description="相似度阈值（仅用于 similarity_score_threshold 模式）"
+    )
+    
+    retriever_fetch_k: int = Field(
+        default=20,
+        ge=1,
+        le=100,
+        description="MMR 检索的候选文档数量"
+    )
+    
     
 settings: Settings = Settings()
 

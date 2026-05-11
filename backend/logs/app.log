@@ -1,0 +1,6 @@
+2026-05-08 14:52:27.222 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-08 14:54:18.599 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-08 14:54:18.599 | INFO     | backend.rag.vector_stores:create_vector_store:69 | 🗄️  创建向量存储: type=inmemory, documents=2
+2026-05-08 14:54:18.599 | INFO     | backend.rag.vector_stores:create_vector_store:89 | ✅ 内存向量库创建成功
+2026-05-08 14:54:18.599 | INFO     | backend.rag.vector_stores:search_vector_store:283 | 🔍 搜索向量库: query='python...', k=2
+2026-05-08 14:54:18.599 | INFO     | backend.rag.vector_stores:search_vector_store:298 | ✅ 找到 2 个相关文档
