@@ -548,6 +548,22 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "TypedDict",
         "importPath": "typing",
         "description": "typing",
@@ -621,6 +637,14 @@
     },
     {
         "label": "HumanMessage",
+        "importPath": "langchain.messages",
+        "description": "langchain.messages",
+        "isExtraImport": true,
+        "detail": "langchain.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
         "importPath": "langchain.messages",
         "description": "langchain.messages",
         "isExtraImport": true,
@@ -1024,6 +1048,14 @@
     },
     {
         "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -1995,7 +2027,7 @@
         "kind": 6,
         "importPath": "backend.rag.index_manager",
         "description": "backend.rag.index_manager",
-        "peekOfCode": "class IndexManager:\n    def __init__(self,base_path:Optional[str]) -> None:\n        self.base_path = Path(base_path or settings.vector_store_path)\n        self.base_path.mkdir(parents=True, exist_ok=True)\n        logger.info(f\"📁 索引管理器初始化: {self.base_path}\")\n    def _get_index_path(self,name:str)->Path:\n        return self.base_path / name\n    def _get_metadata_path(self,name:str) -> Path:\n        return self._get_index_path(name) / \"metadata.json\"\n    def _save_metadata(",
+        "peekOfCode": "class IndexManager:\n    def __init__(self,base_path:Optional[str]=None) -> None:\n        self.base_path = Path(base_path or settings.vector_store_path)\n        self.base_path.mkdir(parents=True, exist_ok=True)\n        logger.info(f\"📁 索引管理器初始化: {self.base_path}\")\n    def _get_index_path(self,name:str)->Path:\n        return self.base_path / name\n    def _get_metadata_path(self,name:str) -> Path:\n        return self._get_index_path(name) / \"metadata.json\"\n    def _save_metadata(",
         "detail": "backend.rag.index_manager",
         "documentation": {}
     },
@@ -2004,7 +2036,7 @@
         "kind": 5,
         "importPath": "backend.rag.index_manager",
         "description": "backend.rag.index_manager",
-        "peekOfCode": "logger = get_logger(__name__)\nclass IndexManager:\n    def __init__(self,base_path:Optional[str]) -> None:\n        self.base_path = Path(base_path or settings.vector_store_path)\n        self.base_path.mkdir(parents=True, exist_ok=True)\n        logger.info(f\"📁 索引管理器初始化: {self.base_path}\")\n    def _get_index_path(self,name:str)->Path:\n        return self.base_path / name\n    def _get_metadata_path(self,name:str) -> Path:\n        return self._get_index_path(name) / \"metadata.json\"",
+        "peekOfCode": "logger = get_logger(__name__)\nclass IndexManager:\n    def __init__(self,base_path:Optional[str]=None) -> None:\n        self.base_path = Path(base_path or settings.vector_store_path)\n        self.base_path.mkdir(parents=True, exist_ok=True)\n        logger.info(f\"📁 索引管理器初始化: {self.base_path}\")\n    def _get_index_path(self,name:str)->Path:\n        return self.base_path / name\n    def _get_metadata_path(self,name:str) -> Path:\n        return self._get_index_path(name) / \"metadata.json\"",
         "detail": "backend.rag.index_manager",
         "documentation": {}
     },
@@ -2933,6 +2965,24 @@
         "description": "backend.workflows.nodes.planner_node",
         "peekOfCode": "logger = get_logger(__name__)\nclass LearningPlanSchema(BaseModel):\n    topic: str = Field(..., description=\"学习主题\")\n    objectives: list[str] = Field(..., description=\"学习目标列表，至少三个\")\n    key_points: list[str] = Field(..., description=\"关键知识点列表，至少五个\")\n    difficulty: str = Field(\n        ..., description=\"难度级别 (beginner/intermediate/advanced)\"\n    )\n    estimated_time: int = Field(..., description=\"预计学习时间（分钟）\")\ndef planner_node(state: StudyFlowState) -> dict[str, Any]:",
         "detail": "backend.workflows.nodes.planner_node",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_node",
+        "kind": 2,
+        "importPath": "backend.workflows.nodes.retrieval_node",
+        "description": "backend.workflows.nodes.retrieval_node",
+        "peekOfCode": "def retrieval_node(state:StudyFlowState) -> dict[str, Any]:\n    \"\"\"\n    文档检索节点\n    功能：\n    1. 根据学习计划的主题和关键点检索相关文档\n    2. 对检索结果进行排序和过滤\n    3. 返回最相关的文档列表\n    Args:\n        state: 当前工作流状态\n    Returns:",
+        "detail": "backend.workflows.nodes.retrieval_node",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.workflows.nodes.retrieval_node",
+        "description": "backend.workflows.nodes.retrieval_node",
+        "peekOfCode": "logger = get_logger(__name__)\ndef retrieval_node(state:StudyFlowState) -> dict[str, Any]:\n    \"\"\"\n    文档检索节点\n    功能：\n    1. 根据学习计划的主题和关键点检索相关文档\n    2. 对检索结果进行排序和过滤\n    3. 返回最相关的文档列表\n    Args:\n        state: 当前工作流状态",
+        "detail": "backend.workflows.nodes.retrieval_node",
         "documentation": {}
     },
     {

@@ -23,7 +23,7 @@ logger = get_logger(__name__)
 class IndexManager:
     
     
-    def __init__(self,base_path:Optional[str]) -> None:
+    def __init__(self,base_path:Optional[str]=None) -> None:
         self.base_path = Path(base_path or settings.vector_store_path)
         self.base_path.mkdir(parents=True, exist_ok=True)
         
