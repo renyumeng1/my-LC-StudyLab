@@ -524,7 +524,39 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -652,6 +684,30 @@
         "documentation": {}
     },
     {
+        "label": "SystemMessage",
+        "importPath": "langchain.messages",
+        "description": "langchain.messages",
+        "isExtraImport": true,
+        "detail": "langchain.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain.messages",
+        "description": "langchain.messages",
+        "isExtraImport": true,
+        "detail": "langchain.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain.messages",
+        "description": "langchain.messages",
+        "isExtraImport": true,
+        "detail": "langchain.messages",
+        "documentation": {}
+    },
+    {
         "label": "ChatOpenAI",
         "importPath": "langchain_openai",
         "description": "langchain_openai",
@@ -714,6 +770,15 @@
         "description": "langchain_core.tools",
         "isExtraImport": true,
         "detail": "langchain_core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "langchain_core.messages",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "detail": "langchain_core.messages",
         "documentation": {}
     },
     {
@@ -1005,6 +1070,22 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
@@ -1087,6 +1168,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "tool",
         "importPath": "langchain.tools",
         "description": "langchain.tools",
@@ -1148,6 +1245,14 @@
         "description": "config",
         "isExtraImport": true,
         "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "venv",
+        "description": "venv",
+        "isExtraImport": true,
+        "detail": "venv",
         "documentation": {}
     },
     {
@@ -1494,82 +1599,82 @@
     {
         "label": "bin_dir",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "base",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"PATH\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "prev_length",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.path[:]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.real_prefix",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.prefix",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
@@ -2941,6 +3046,24 @@
         "documentation": {}
     },
     {
+        "label": "grading_node",
+        "kind": 2,
+        "importPath": "backend.workflows.nodes.grading_node",
+        "description": "backend.workflows.nodes.grading_node",
+        "peekOfCode": "def grading_node(state: StudyFlowState) -> dict[str, Any]:\n    \"\"\"\n    自动评分节点\n    功能：\n    1. 对比用户答案和标准答案\n    2. 对于选择题和填空题，进行精确匹配\n    3. 对于简答题，使用 LLM 进行语义评分\n    4. 生成详细的评分报告\n    Args:\n        state: 当前工作流状态",
+        "detail": "backend.workflows.nodes.grading_node",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.workflows.nodes.grading_node",
+        "description": "backend.workflows.nodes.grading_node",
+        "peekOfCode": "logger = get_logger(__name__)\ndef grading_node(state: StudyFlowState) -> dict[str, Any]:\n    \"\"\"\n    自动评分节点\n    功能：\n    1. 对比用户答案和标准答案\n    2. 对于选择题和填空题，进行精确匹配\n    3. 对于简答题，使用 LLM 进行语义评分\n    4. 生成详细的评分报告\n    Args:",
+        "detail": "backend.workflows.nodes.grading_node",
+        "documentation": {}
+    },
+    {
         "label": "LearningPlanSchema",
         "kind": 6,
         "importPath": "backend.workflows.nodes.planner_node",
@@ -2965,6 +3088,42 @@
         "description": "backend.workflows.nodes.planner_node",
         "peekOfCode": "logger = get_logger(__name__)\nclass LearningPlanSchema(BaseModel):\n    topic: str = Field(..., description=\"学习主题\")\n    objectives: list[str] = Field(..., description=\"学习目标列表，至少三个\")\n    key_points: list[str] = Field(..., description=\"关键知识点列表，至少五个\")\n    difficulty: str = Field(\n        ..., description=\"难度级别 (beginner/intermediate/advanced)\"\n    )\n    estimated_time: int = Field(..., description=\"预计学习时间（分钟）\")\ndef planner_node(state: StudyFlowState) -> dict[str, Any]:",
         "detail": "backend.workflows.nodes.planner_node",
+        "documentation": {}
+    },
+    {
+        "label": "QuizQuestionSchema",
+        "kind": 6,
+        "importPath": "backend.workflows.nodes.quiz_generator_node",
+        "description": "backend.workflows.nodes.quiz_generator_node",
+        "peekOfCode": "class QuizQuestionSchema(BaseModel):\n    \"\"\"单个练习题的结构化输出模式\"\"\"\n    id: str = Field(description=\"题目唯一标识，如 q1, q2\")\n    type: str = Field(description=\"题型：multiple_choice（选择题）、fill_blank（填空题）、short_answer（简答题）\")\n    question: str = Field(description=\"题目内容\")\n    options: list[str] | None = Field(default=None, description=\"选择题的选项列表（A、B、C、D）\")\n    answer: str = Field(description=\"标准答案\")\n    explanation: str = Field(description=\"答案解析，解释为什么这是正确答案\")\n    points: int = Field(description=\"题目分值\")\nclass QuizSchema(BaseModel):",
+        "detail": "backend.workflows.nodes.quiz_generator_node",
+        "documentation": {}
+    },
+    {
+        "label": "QuizSchema",
+        "kind": 6,
+        "importPath": "backend.workflows.nodes.quiz_generator_node",
+        "description": "backend.workflows.nodes.quiz_generator_node",
+        "peekOfCode": "class QuizSchema(BaseModel):\n    \"\"\"完整练习题集的结构化输出模式\"\"\"\n    questions: list[QuizQuestionSchema] = Field(description=\"题目列表，至少5题\")\n    total_points: int = Field(description=\"总分\")\n    time_limit: int = Field(description=\"建议答题时间（分钟）\")\ndef quiz_generator_node(state:StudyFlowState) -> dict[str,Any]:\n    \"\"\"\n    练习题生成节点\n    功能：\n    1. 基于学习计划和检索文档生成练习题",
+        "detail": "backend.workflows.nodes.quiz_generator_node",
+        "documentation": {}
+    },
+    {
+        "label": "quiz_generator_node",
+        "kind": 2,
+        "importPath": "backend.workflows.nodes.quiz_generator_node",
+        "description": "backend.workflows.nodes.quiz_generator_node",
+        "peekOfCode": "def quiz_generator_node(state:StudyFlowState) -> dict[str,Any]:\n    \"\"\"\n    练习题生成节点\n    功能：\n    1. 基于学习计划和检索文档生成练习题\n    2. 生成多种题型（选择题、填空题、简答题）\n    3. 使用结构化输出确保题目格式正确\n    Args:\n        state: 当前工作流状态\n    Returns:",
+        "detail": "backend.workflows.nodes.quiz_generator_node",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.workflows.nodes.quiz_generator_node",
+        "description": "backend.workflows.nodes.quiz_generator_node",
+        "peekOfCode": "logger = get_logger(__name__)\nclass QuizQuestionSchema(BaseModel):\n    \"\"\"单个练习题的结构化输出模式\"\"\"\n    id: str = Field(description=\"题目唯一标识，如 q1, q2\")\n    type: str = Field(description=\"题型：multiple_choice（选择题）、fill_blank（填空题）、short_answer（简答题）\")\n    question: str = Field(description=\"题目内容\")\n    options: list[str] | None = Field(default=None, description=\"选择题的选项列表（A、B、C、D）\")\n    answer: str = Field(description=\"标准答案\")\n    explanation: str = Field(description=\"答案解析，解释为什么这是正确答案\")\n    points: int = Field(description=\"题目分值\")",
+        "detail": "backend.workflows.nodes.quiz_generator_node",
         "documentation": {}
     },
     {
