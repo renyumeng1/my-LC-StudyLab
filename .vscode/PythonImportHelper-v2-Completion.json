@@ -140,6 +140,22 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -524,6 +540,30 @@
         "documentation": {}
     },
     {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Any",
         "importPath": "typing",
         "description": "typing",
@@ -620,6 +660,14 @@
         "documentation": {}
     },
     {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "AgentState",
         "importPath": "langchain.agents",
         "description": "langchain.agents",
@@ -669,6 +717,30 @@
     },
     {
         "label": "HumanMessage",
+        "importPath": "langchain.messages",
+        "description": "langchain.messages",
+        "isExtraImport": true,
+        "detail": "langchain.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain.messages",
+        "description": "langchain.messages",
+        "isExtraImport": true,
+        "detail": "langchain.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain.messages",
+        "description": "langchain.messages",
+        "isExtraImport": true,
+        "detail": "langchain.messages",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessage",
         "importPath": "langchain.messages",
         "description": "langchain.messages",
         "isExtraImport": true,
@@ -854,6 +926,30 @@
         "documentation": {}
     },
     {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
         "label": "StreamMode",
         "importPath": "langgraph.types",
         "description": "langgraph.types",
@@ -867,6 +963,193 @@
         "description": "langchain_core.runnables",
         "isExtraImport": true,
         "detail": "langchain_core.runnables",
+        "documentation": {}
+    },
+    {
+        "label": "RunnableConfig",
+        "importPath": "langchain_core.runnables",
+        "description": "langchain_core.runnables",
+        "isExtraImport": true,
+        "detail": "langchain_core.runnables",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "StreamingResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "SecretStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
         "documentation": {}
     },
     {
@@ -982,125 +1265,12 @@
         "documentation": {}
     },
     {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "ValidationError",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "SecretStr",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "ConfigDict",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "ConfigDict",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "re",
         "description": "re",
         "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
         "documentation": {}
     },
     {
@@ -1129,6 +1299,22 @@
     },
     {
         "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -1562,15 +1748,6 @@
         "documentation": {}
     },
     {
-        "label": "asyncio",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "asyncio",
-        "description": "asyncio",
-        "detail": "asyncio",
-        "documentation": {}
-    },
-    {
         "label": "importlib",
         "kind": 6,
         "isExtraImport": true,
@@ -1597,84 +1774,92 @@
         "documentation": {}
     },
     {
+        "label": "MemorySaver",
+        "importPath": "langgraph.checkpoint.memory",
+        "description": "langgraph.checkpoint.memory",
+        "isExtraImport": true,
+        "detail": "langgraph.checkpoint.memory",
+        "documentation": {}
+    },
+    {
         "label": "bin_dir",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "base",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"PATH\"]",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV\"]",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "prev_length",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
-        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.path[:]",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
         "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.real_prefix",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
         "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.prefix",
         "kind": 5,
-        "importPath": "backend..venv.bin.activate_this",
-        "description": "backend..venv.bin.activate_this",
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
         "peekOfCode": "sys.prefix = base",
-        "detail": "backend..venv.bin.activate_this",
+        "detail": "backend..venv.Scripts.activate_this",
         "documentation": {}
     },
     {
@@ -1702,6 +1887,24 @@
         "description": "backend.agent.base_agent",
         "peekOfCode": "logger = get_logger(__name__)\nclass BaseAgent:\n    \"\"\"Agent基类封装langchain的create_agent\"\"\"\n    # NOTE:这里的model可以是一个字符串，也可以是一个BaseLanguageModel对象，如果是字符串，就会被ChatOpenAI识别为模型名称，创建一个ChatOpenAI对象；如果是BaseLanguageModel对象，就直接使用这个对象作为模型。\n    def __init__(\n        self,\n        model: Optional[str | BaseLanguageModel] = None,\n        tools: Optional[Sequence[BaseTool]] = None,\n        system_prompt: Optional[str] = None,\n        prompt_mode: str = \"default\",",
         "detail": "backend.agent.base_agent",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.api.routers.chat",
+        "description": "backend.api.routers.chat",
+        "peekOfCode": "logger = get_logger(__name__)\nrouter = APIRouter(prefix=\"/chat\",tags=[\"chat\"])\n# ==================== 请求/响应模型 ====================",
+        "detail": "backend.api.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.routers.chat",
+        "description": "backend.api.routers.chat",
+        "peekOfCode": "router = APIRouter(prefix=\"/chat\",tags=[\"chat\"])\n# ==================== 请求/响应模型 ====================",
+        "detail": "backend.api.routers.chat",
         "documentation": {}
     },
     {
@@ -3046,6 +3249,24 @@
         "documentation": {}
     },
     {
+        "label": "feedback_node",
+        "kind": 2,
+        "importPath": "backend.workflows.nodes.feedback_node",
+        "description": "backend.workflows.nodes.feedback_node",
+        "peekOfCode": "def feedback_node(state:StudyFlowState) -> dict[str,Any]:\n    \"\"\"\n    反馈生成节点\n    功能：\n    1. 根据得分生成个性化反馈\n    2. 提供学习建议和改进方向\n    3. 决定是否需要重新出题（得分低于60分且重试次数<3）\n    Args:\n        state: 当前工作流状态\n    Returns:",
+        "detail": "backend.workflows.nodes.feedback_node",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.workflows.nodes.feedback_node",
+        "description": "backend.workflows.nodes.feedback_node",
+        "peekOfCode": "logger = get_logger(__name__)\ndef feedback_node(state:StudyFlowState) -> dict[str,Any]:\n    \"\"\"\n    反馈生成节点\n    功能：\n    1. 根据得分生成个性化反馈\n    2. 提供学习建议和改进方向\n    3. 决定是否需要重新出题（得分低于60分且重试次数<3）\n    Args:\n        state: 当前工作流状态",
+        "detail": "backend.workflows.nodes.feedback_node",
+        "documentation": {}
+    },
+    {
         "label": "grading_node",
         "kind": 2,
         "importPath": "backend.workflows.nodes.grading_node",
@@ -3187,6 +3408,87 @@
         "description": "backend.workflows.state",
         "peekOfCode": "class ScoreDetail(TypedDict):\n    \"\"\"评分详情结构\"\"\"\n    question_id: str\n    user_answer: str\n    correct_answer: str\n    is_correct: bool\n    points_earned: int\n    points_possible: int\n    feedback: str",
         "detail": "backend.workflows.state",
+        "documentation": {}
+    },
+    {
+        "label": "should_continue",
+        "kind": 2,
+        "importPath": "backend.workflows.study_flow_graph",
+        "description": "backend.workflows.study_flow_graph",
+        "peekOfCode": "def should_continue(state:StudyFlowState) -> Literal[\"retry\",\"end\"]:\n    \"\"\"\n    条件路由函数：决定是否需要重新出题\n    规则：\n    - 如果 should_retry 为 True 且重试次数 < 3，则返回 \"retry\"\n    - 否则返回 \"end\"\n    Args:\n        state: 当前工作流状态\n    Returns:\n        \"retry\" 或 \"end\"",
+        "detail": "backend.workflows.study_flow_graph",
+        "documentation": {}
+    },
+    {
+        "label": "create_study_flow_graph",
+        "kind": 2,
+        "importPath": "backend.workflows.study_flow_graph",
+        "description": "backend.workflows.study_flow_graph",
+        "peekOfCode": "def create_study_flow_graph(checkpointer_path: str = None):\n    \"\"\"\n    创建学习工作流图\n    工作流结构：\n    START\n      ↓\n    planner (规划节点)\n      ↓\n    retrieval (检索节点)\n      ↓",
+        "detail": "backend.workflows.study_flow_graph",
+        "documentation": {}
+    },
+    {
+        "label": "get_study_flow_app",
+        "kind": 2,
+        "importPath": "backend.workflows.study_flow_graph",
+        "description": "backend.workflows.study_flow_graph",
+        "peekOfCode": "def get_study_flow_app():\n    \"\"\"\n    获取学习工作流应用实例（单例模式）\n    Returns:\n        编译后的工作流应用\n    \"\"\"\n    global study_flow_app\n    if study_flow_app is None:\n        logger.info(\"[Study Flow Graph] 初始化全局工作流实例\")\n        study_flow_app = create_study_flow_graph()",
+        "detail": "backend.workflows.study_flow_graph",
+        "documentation": {}
+    },
+    {
+        "label": "start_study_flow",
+        "kind": 2,
+        "importPath": "backend.workflows.study_flow_graph",
+        "description": "backend.workflows.study_flow_graph",
+        "peekOfCode": "def start_study_flow(user_question: str, thread_id: str) -> dict:\n    \"\"\"\n    启动新的学习工作流\n    Args:\n        user_question: 用户的学习问题\n        thread_id: 线程 ID（用于标识会话）\n    Returns:\n        工作流执行结果\n    \"\"\"\n    logger.info(f\"[Study Flow] 启动新的学习工作流，thread_id={thread_id}\")",
+        "detail": "backend.workflows.study_flow_graph",
+        "documentation": {}
+    },
+    {
+        "label": "submit_answers",
+        "kind": 2,
+        "importPath": "backend.workflows.study_flow_graph",
+        "description": "backend.workflows.study_flow_graph",
+        "peekOfCode": "def submit_answers(thread_id:str,user_answers:dict) -> dict:\n    \"\"\"\n    提交用户答案，继续执行工作流\n    Args:\n        thread_id: 线程 ID（用于标识会话）\n        user_answers: 用户提交的答案，格式为 {question_id: user_answer, ...}\n    Returns:\n        工作流执行结果\n    \"\"\"\n    logger.info(f\"[Study Flow] 提交答案，thread_id={thread_id}\")",
+        "detail": "backend.workflows.study_flow_graph",
+        "documentation": {}
+    },
+    {
+        "label": "get_workflow_state",
+        "kind": 2,
+        "importPath": "backend.workflows.study_flow_graph",
+        "description": "backend.workflows.study_flow_graph",
+        "peekOfCode": "def get_workflow_state(thread_id: str):\n    \"\"\"\n    获取工作流的当前状态\n    Args:\n        thread_id: 线程 ID\n    Returns:\n        当前状态字典\n    \"\"\"\n    logger.info(f\"[Study Flow] 获取工作流状态，thread_id={thread_id}\")\n    app = get_study_flow_app()",
+        "detail": "backend.workflows.study_flow_graph",
+        "documentation": {}
+    },
+    {
+        "label": "get_workflow_history",
+        "kind": 2,
+        "importPath": "backend.workflows.study_flow_graph",
+        "description": "backend.workflows.study_flow_graph",
+        "peekOfCode": "def get_workflow_history(thread_id: str) -> list:\n    \"\"\"\n    获取工作流的执行历史\n    Args:\n        thread_id: 线程 ID\n    Returns:\n        历史状态列表\n    \"\"\"\n    logger.info(f\"[Study Flow] 获取工作流历史，thread_id={thread_id}\")\n    app = get_study_flow_app()",
+        "detail": "backend.workflows.study_flow_graph",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.workflows.study_flow_graph",
+        "description": "backend.workflows.study_flow_graph",
+        "peekOfCode": "logger = get_logger(__name__)\ndef should_continue(state:StudyFlowState) -> Literal[\"retry\",\"end\"]:\n    \"\"\"\n    条件路由函数：决定是否需要重新出题\n    规则：\n    - 如果 should_retry 为 True 且重试次数 < 3，则返回 \"retry\"\n    - 否则返回 \"end\"\n    Args:\n        state: 当前工作流状态\n    Returns:",
+        "detail": "backend.workflows.study_flow_graph",
+        "documentation": {}
+    },
+    {
+        "label": "study_flow_app",
+        "kind": 5,
+        "importPath": "backend.workflows.study_flow_graph",
+        "description": "backend.workflows.study_flow_graph",
+        "peekOfCode": "study_flow_app = None\ndef get_study_flow_app():\n    \"\"\"\n    获取学习工作流应用实例（单例模式）\n    Returns:\n        编译后的工作流应用\n    \"\"\"\n    global study_flow_app\n    if study_flow_app is None:\n        logger.info(\"[Study Flow Graph] 初始化全局工作流实例\")",
+        "detail": "backend.workflows.study_flow_graph",
         "documentation": {}
     }
 ]
