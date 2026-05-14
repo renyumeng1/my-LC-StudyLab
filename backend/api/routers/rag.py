@@ -103,13 +103,15 @@ class RagQueryResponse(BaseModel):
 
 def _resolve_data_path(raw_path: str) -> Path:
     base_dir = Path(settings.DATA_DIR).resolve()
-    candidate = Path(raw_path).expanduser()
-    if not candidate.is_absolute():
-        candidate = base_dir / candidate
-    candidate = candidate.resolve()
-    if base_dir not in candidate.parents and candidate != base_dir:
+    candidate = Path(raw_path)
+    if candidate.is_absolute():
+        raise HTTPException(status_code=400, detail="仅支持 DATA_DIR 下的相对路径")
+    if ".." in candidate.parts:
+        raise HTTPException(status_code=400, detail="路径不能包含 ..")
+    resolved = (base_dir / candidate).resolve()
+    if not resolved.is_relative_to(base_dir):
         raise HTTPException(status_code=400, detail="路径必须位于 DATA_DIR 下")
-    return candidate
+    return resolved
 
 
 def _apply_metadata(documents: list[Document], metadata: Optional[dict[str, Any]]) -> None:
@@ -286,7 +288,10 @@ async def query_rag(request: RagQueryRequest) -> RagQueryResponse:
             retrieved_docs = retriever.invoke(request.query)
             for doc in retrieved_docs:
                 metadata = doc.metadata or {}
-                source = metadata.get("source") or metadata.get("filename")
+                source = metadata.get("source")
+                if not source and metadata.get("filename"):
+                    source = metadata["filename"]
+                    metadata = {**metadata, "source": source}
                 if source and source not in sources:
                     sources.append(source)
                 if request.include_documents:
