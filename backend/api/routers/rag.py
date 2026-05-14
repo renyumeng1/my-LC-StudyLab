@@ -316,7 +316,7 @@ async def query_rag(request: RagQueryRequest) -> RagQueryResponse:
                 source = metadata.get("source")
                 if not source and metadata.get("filename"):
                     source = metadata["filename"]
-                    metadata = {**metadata, "source": source}
+                    metadata["source"] = source
                     doc.metadata = metadata
                 if source and source not in sources:
                     sources.append(source)
