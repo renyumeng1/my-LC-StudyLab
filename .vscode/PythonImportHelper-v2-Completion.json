@@ -132,6 +132,14 @@
         "documentation": {}
     },
     {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -141,6 +149,14 @@
     },
     {
         "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -220,6 +236,46 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Any",
         "importPath": "typing",
         "description": "typing",
@@ -237,6 +293,30 @@
     },
     {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -870,6 +950,70 @@
         "documentation": {}
     },
     {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "ToolMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "ToolMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
         "label": "HumanMessage",
         "importPath": "langchain_core.messages",
         "description": "langchain_core.messages",
@@ -955,6 +1099,14 @@
         "description": "langgraph.types",
         "isExtraImport": true,
         "detail": "langgraph.types",
+        "documentation": {}
+    },
+    {
+        "label": "RunnableConfig",
+        "importPath": "langchain_core.runnables",
+        "description": "langchain_core.runnables",
+        "isExtraImport": true,
+        "detail": "langchain_core.runnables",
         "documentation": {}
     },
     {
@@ -1150,6 +1302,15 @@
         "importPath": "time",
         "description": "time",
         "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
         "documentation": {}
     },
     {
@@ -1418,6 +1579,14 @@
         "documentation": {}
     },
     {
+        "label": "get_logger",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
         "label": "settings",
         "importPath": "config",
         "description": "config",
@@ -1480,6 +1649,22 @@
         "description": "textwrap",
         "isExtraImport": true,
         "detail": "textwrap",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
@@ -1784,82 +1969,82 @@
     {
         "label": "bin_dir",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "base",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"PATH\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "prev_length",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
-        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.14/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.path[:]",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.real_prefix",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
         "label": "sys.prefix",
         "kind": 5,
-        "importPath": "backend..venv.Scripts.activate_this",
-        "description": "backend..venv.Scripts.activate_this",
+        "importPath": "backend..venv.bin.activate_this",
+        "description": "backend..venv.bin.activate_this",
         "peekOfCode": "sys.prefix = base",
-        "detail": "backend..venv.Scripts.activate_this",
+        "detail": "backend..venv.bin.activate_this",
         "documentation": {}
     },
     {
@@ -1890,11 +2075,65 @@
         "documentation": {}
     },
     {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "backend.api.routers.chat",
+        "description": "backend.api.routers.chat",
+        "peekOfCode": "class Message(BaseModel):\n    \"\"\"消息模型\"\"\"\n    role: Literal[\"user\", \"assistant\", \"system\"] = Field(\n        ..., description=\"消息角色：user、assistant、system\"\n    )\n    content: str = Field(..., description=\"消息内容\")\nclass ChatRequest(BaseModel):\n    message: str = Field(..., description=\"用户输入的消息内容\", min_length=1)\n    chat_history: Optional[list[Message]] = Field(\n        None, description=\"对话历史，包含之前的消息列表\"",
+        "detail": "backend.api.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "backend.api.routers.chat",
+        "description": "backend.api.routers.chat",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    message: str = Field(..., description=\"用户输入的消息内容\", min_length=1)\n    chat_history: Optional[list[Message]] = Field(\n        None, description=\"对话历史，包含之前的消息列表\"\n    )\n    mode: Literal[\"default\", \"coding\", \"research\", \"concise\", \"detailed\"] = Field(\n        \"default\", description=\"Agent 模式:default/coding/research/concise/detailed\"\n    )\n    use_tools: bool = Field(default=True, description=\"是否使用工具\")\n    use_advanced_tools: bool = Field(",
+        "detail": "backend.api.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "kind": 6,
+        "importPath": "backend.api.routers.chat",
+        "description": "backend.api.routers.chat",
+        "peekOfCode": "class ChatResponse(BaseModel):\n    message: str = Field(..., description=\"助手回复的消息内容\")\n    mode: str = Field(..., description=\"Agent 模式\")\n    tools_used: list[str] = Field(\n        default_factory=list, description=\"本次对话中使用的工具列表\"\n    )\n    success: bool = Field(default=True, description=\"对话是否成功完成\")\n    error: Optional[str] = Field(\n        default=None, description=\"错误信息，如果 success=False 则包含错误详情\"\n    )",
+        "detail": "backend.api.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "should_use_deep_research",
+        "kind": 2,
+        "importPath": "backend.api.routers.chat",
+        "description": "backend.api.routers.chat",
+        "peekOfCode": "def should_use_deep_research(message: str) -> bool:\n    \"\"\"\n    简单判断问题是否需要深度研究\n    \"\"\"\n    if not message:\n        return False\n    lower = message.lower()\n    if any(keyword in message for keyword in DEEP_RESEARCH_KEYWORDS):\n        return True\n    if len(message.strip()) >= 80:",
+        "detail": "backend.api.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "get_tools_for_request",
+        "kind": 2,
+        "importPath": "backend.api.routers.chat",
+        "description": "backend.api.routers.chat",
+        "peekOfCode": "def get_tools_for_request(use_tools: bool,use_advanced_tools: bool) -> list:\n    \"\"\"\n    根据请求参数获取工具列表\n    规则：\n    1. 如果用户关闭 use_tools，则不加载任何工具\n    2. 天气工具只要配置了 AMAP_KEY，就默认提供（常见问答场景）\n    \"\"\"\n    if not use_tools:\n        return []\n    tools:list = list(BASIC_TOOLS)",
+        "detail": "backend.api.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "convert_chat_history",
+        "kind": 2,
+        "importPath": "backend.api.routers.chat",
+        "description": "backend.api.routers.chat",
+        "peekOfCode": "def convert_chat_history(messages:Optional[list[Message]]) -> list[BaseMessage]:\n    \"\"\"\n    将 API 的消息格式转换为 LangChain 的消息格式\n    Args:\n        messages: API 消息列表\n    Returns:\n        LangChain 消息列表\n    \"\"\"\n    from langchain.messages import HumanMessage,AIMessage,SystemMessage\n    if not messages:",
+        "detail": "backend.api.routers.chat",
+        "documentation": {}
+    },
+    {
         "label": "logger",
         "kind": 5,
         "importPath": "backend.api.routers.chat",
         "description": "backend.api.routers.chat",
-        "peekOfCode": "logger = get_logger(__name__)\nrouter = APIRouter(prefix=\"/chat\",tags=[\"chat\"])\n# ==================== 请求/响应模型 ====================",
+        "peekOfCode": "logger = get_logger(__name__)\nrouter = APIRouter(prefix=\"/chat\", tags=[\"chat\"])\n# ==================== 请求/响应模型 ====================\nclass Message(BaseModel):\n    \"\"\"消息模型\"\"\"\n    role: Literal[\"user\", \"assistant\", \"system\"] = Field(\n        ..., description=\"消息角色：user、assistant、system\"\n    )\n    content: str = Field(..., description=\"消息内容\")\nclass ChatRequest(BaseModel):",
         "detail": "backend.api.routers.chat",
         "documentation": {}
     },
@@ -1903,8 +2142,116 @@
         "kind": 5,
         "importPath": "backend.api.routers.chat",
         "description": "backend.api.routers.chat",
-        "peekOfCode": "router = APIRouter(prefix=\"/chat\",tags=[\"chat\"])\n# ==================== 请求/响应模型 ====================",
+        "peekOfCode": "router = APIRouter(prefix=\"/chat\", tags=[\"chat\"])\n# ==================== 请求/响应模型 ====================\nclass Message(BaseModel):\n    \"\"\"消息模型\"\"\"\n    role: Literal[\"user\", \"assistant\", \"system\"] = Field(\n        ..., description=\"消息角色：user、assistant、system\"\n    )\n    content: str = Field(..., description=\"消息内容\")\nclass ChatRequest(BaseModel):\n    message: str = Field(..., description=\"用户输入的消息内容\", min_length=1)",
         "detail": "backend.api.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "DEEP_RESEARCH_KEYWORDS",
+        "kind": 5,
+        "importPath": "backend.api.routers.chat",
+        "description": "backend.api.routers.chat",
+        "peekOfCode": "DEEP_RESEARCH_KEYWORDS = [\n    \"深度\", \"研究\", \"趋势\", \"对比\", \"分析\", \"报告\", \"总结\",\n    \"未来\", \"影响\", \"市场\", \"发展\", \"机制\", \"原理\", \"workflow\",\n    \"architecture\", \"best practice\", \"最佳实践\", \"详解\", \"详述\",\n    \"react\", \"hooks\", \"langchain\", \"ai\", \"大模型\", \"机器学习\",\n    \"编译器\", \"架构\", \"模式\", \"best practice\", \"最佳 实践\",\n    \"使用方法\", \"介绍\", \"explain\", \"how to\", \"原理\", \"深入\",\n]\ndef should_use_deep_research(message: str) -> bool:\n    \"\"\"",
+        "detail": "backend.api.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "needs_completion",
+        "kind": 2,
+        "importPath": "backend.api.stream.completions",
+        "description": "backend.api.stream.completions",
+        "peekOfCode": "def needs_completion(text: str) -> bool:\n    \"\"\"\n    判断回复文本是否不完整，需要补全。\n    返回 True = 需要补全，False = 已经完整。\n    \"\"\"\n    # TODO: 三步判断 — 空、太短、结尾不是标点\n    raise NotImplementedError(\"请实现 needs_completion\")\n# ============================================================\n# 函数 2：complete_response（你需要写的）\n# ============================================================",
+        "detail": "backend.api.stream.completions",
+        "documentation": {}
+    },
+    {
+        "label": "sse_event",
+        "kind": 2,
+        "importPath": "backend.api.stream.events",
+        "description": "backend.api.stream.events",
+        "peekOfCode": "def sse_event(event_type: str, data:dict) -> str:\n    \"\"\"将事件类型和数据包装为 SSE 格式字符串\"\"\"\n    # NOTE: 构建 payload 字典 {\"type\": event_type, **kwargs}\n    payload = {\n        \"type\":event_type,**data\n    }\n    # NOTE: json.dumps + 拼接 \"data: \" 前缀 + \"\\n\\n\" 后缀\n    return f\"data:{json.dumps(payload, ensure_ascii=False)}\\n\\n\"",
+        "detail": "backend.api.stream.events",
+        "documentation": {}
+    },
+    {
+        "label": "extract_tool_call_info",
+        "kind": 2,
+        "importPath": "backend.api.stream.extractors",
+        "description": "backend.api.stream.extractors",
+        "peekOfCode": "def extract_tool_call_info(tool_call: dict) -> dict:\n    \"\"\"从 AIMessage 的 tool_call 原始数据中提取结构化信息\"\"\"\n    # TODO: 从 tool_call 中提取 id, name, args\n    # TODO: 构建并返回标准 tool_info 字典\n    raise NotImplementedError(\"请实现 extract_tool_call_info\")\n# ============================================================\n# 函数 2：extract_reasoning（你需要写的）\n# ============================================================\n# 作用：从 AIMessage 中提取模型的\"推理过程\"（thinking/reasoning）。\n#       部分模型（如 DeepSeek R1、OpenAI o1）会在响应中嵌入推理链。",
+        "detail": "backend.api.stream.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "extract_reasoning",
+        "kind": 2,
+        "importPath": "backend.api.stream.extractors",
+        "description": "backend.api.stream.extractors",
+        "peekOfCode": "def extract_reasoning(message) -> dict | None:\n    \"\"\"\n    从 AIMessage 中提取推理/思考过程。\n    返回 {\"content\": str, \"duration\": float} 或 None。\n    \"\"\"\n    # TODO: 检查 message.additional_kwargs 中的 reasoning_content / thinking 字段\n    # TODO: 如果有内容，返回 {\"content\": ..., \"duration\": 0}\n    # TODO: 没有则返回 None\n    raise NotImplementedError(\"请实现 extract_reasoning\")",
+        "detail": "backend.api.stream.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "find_final_ai_message",
+        "kind": 2,
+        "importPath": "backend.api.stream.finders",
+        "description": "backend.api.stream.finders",
+        "peekOfCode": "def find_final_ai_message(all_messages: list) -> AIMessage | None:\n    \"\"\"\n    从消息列表中查找最后一条有实际内容的 AI 消息。\n    从后往前遍历，返回第一个有非空 content 的 AIMessage。\n    \"\"\"\n    # TODO: for msg in reversed(all_messages):\n    # TODO:     如果 isinstance(msg, AIMessage) 且 content.strip() 非空 → return msg\n    # TODO: return None\n    raise NotImplementedError(\"请实现 find_final_ai_message\")\n# ============================================================",
+        "detail": "backend.api.stream.finders",
+        "documentation": {}
+    },
+    {
+        "label": "find_weather_tool_result",
+        "kind": 2,
+        "importPath": "backend.api.stream.finders",
+        "description": "backend.api.stream.finders",
+        "peekOfCode": "def find_weather_tool_result(tool_calls_map: dict) -> str | None:\n    \"\"\"\n    在工具调用结果中优先查找天气工具的成功结果。\n    遍历 tool_calls_map，返回第一个匹配的天气工具结果。\n    \"\"\"\n    # TODO: 遍历 tool_calls_map.values()\n    # TODO: 检查 name 是否在 WEATHER_TOOL_NAMES 中、state 是否为 \"output-available\"、result 是否存在\n    # TODO: return tool_info[\"result\"] 或 None\n    raise NotImplementedError(\"请实现 find_weather_tool_result\")\n# ============================================================",
+        "detail": "backend.api.stream.finders",
+        "documentation": {}
+    },
+    {
+        "label": "find_any_tool_result",
+        "kind": 2,
+        "importPath": "backend.api.stream.finders",
+        "description": "backend.api.stream.finders",
+        "peekOfCode": "def find_any_tool_result(tool_calls_map: dict) -> str | None:\n    \"\"\"\n    兜底查找 — 返回第一个有成功结果的工具输出（不限工具名）。\n    \"\"\"\n    # TODO: 遍历 tool_calls_map.values()\n    # TODO: 检查 state 是否为 \"output-available\" 且 result 非空\n    # TODO: return tool_info[\"result\"] 或 None\n    raise NotImplementedError(\"请实现 find_any_tool_result\")",
+        "detail": "backend.api.stream.finders",
+        "documentation": {}
+    },
+    {
+        "label": "WEATHER_TOOL_NAMES",
+        "kind": 5,
+        "importPath": "backend.api.stream.finders",
+        "description": "backend.api.stream.finders",
+        "peekOfCode": "WEATHER_TOOL_NAMES = {\"get_daily_weather\", \"get_weather_forecast\", \"get_weather\"}\n# ============================================================\n# 函数 1：find_final_ai_message（你需要写的）\n# ============================================================\n# 作用：从所有消息列表中反向查找最后一条有实质文本内容的 AIMessage。\n#       用于在流式循环结束后确定\"最终回复\"是什么。\n#\n# 遍历策略：从后往前（reversed），找到第一条：\n#   - isinstance(msg, AIMessage)\n#   - msg.content 存在",
+        "detail": "backend.api.stream.finders",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.api.stream.generator",
+        "description": "backend.api.stream.generator",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# ============================================================\n# 函数：generate_stream（你需要写的 — 核心拼装）\n# ============================================================\n# 这是整个 stream 包的主函数，被 chat.py 调用。\n#\n# 整体流程（对照你之前看到的原始代码，去掉 DeepResearch）：\n#\n#   try:\n#     ① yield sse_event(\"start\", message=\"开始生成...\")",
+        "detail": "backend.api.stream.generator",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.api.stream.suggestions",
+        "description": "backend.api.stream.suggestions",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# ============================================================\n# 函数：generate_suggestions（你需要写的）\n# ============================================================\n# 作用：根据用户问题 + AI 最终回复，让 LLM 生成 ≤4 条后续可点\n#       击的问题建议。\n#\n# 参数：\n#   - question: 用户原始问题\n#   - reply:    最终的 AI 回复全文",
+        "detail": "backend.api.stream.suggestions",
+        "documentation": {}
+    },
+    {
+        "label": "lcp_len",
+        "kind": 2,
+        "importPath": "backend.api.stream.utils",
+        "description": "backend.api.stream.utils",
+        "peekOfCode": "def lcp_len(a: str, b: str) -> int:\n    \"\"\"返回 a 和 b 的最长公共前缀长度\"\"\"\n    # NOTE: 遍历 zip(a, b)，逐字符比较，遇到不同就 break\n    i = 0\n    for ca,cb in zip(a, b):\n        if ca != cb:\n            break\n        i+=1\n    return i",
+        "detail": "backend.api.stream.utils",
         "documentation": {}
     },
     {
@@ -2169,6 +2516,105 @@
         "documentation": {}
     },
     {
+        "label": "MessageExtractor",
+        "kind": 6,
+        "importPath": "backend.core.extractors",
+        "description": "backend.core.extractors",
+        "peekOfCode": "class MessageExtractor:\n    \"\"\"\n    消息提取器\n    统一管理所有提取逻辑\n    \"\"\"\n    def __init__(self):\n        self.context: Dict[str, Any] = {}\n    def set_context(self, context: Dict[str, Any]):\n        \"\"\"设置额外上下文\"\"\"\n        self.context = context",
+        "detail": "backend.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "extract_reasoning",
+        "kind": 2,
+        "importPath": "backend.core.extractors",
+        "description": "backend.core.extractors",
+        "peekOfCode": "def extract_reasoning(message: BaseMessage) -> Optional[Dict[str, Any]]:\n    \"\"\"\n    提取推理过程\n    某些模型（如 OpenAI o1）支持输出推理过程\n    Args:\n        message: LangChain 消息对象\n    Returns:\n        推理信息字典，包含 content 和 duration\n    \"\"\"\n    if not isinstance(message, AIMessage):",
+        "detail": "backend.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "extract_tool_calls",
+        "kind": 2,
+        "importPath": "backend.core.extractors",
+        "description": "backend.core.extractors",
+        "peekOfCode": "def extract_tool_calls(message: BaseMessage) -> List[Dict[str, Any]]:\n    \"\"\"\n    提取工具调用信息\n    Args:\n        message: LangChain 消息对象\n    Returns:\n        工具调用列表\n    \"\"\"\n    if not isinstance(message, AIMessage):\n        return []",
+        "detail": "backend.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "extract_tool_result",
+        "kind": 2,
+        "importPath": "backend.core.extractors",
+        "description": "backend.core.extractors",
+        "peekOfCode": "def extract_tool_result(message: ToolMessage) -> Optional[Dict[str, Any]]:\n    \"\"\"\n    提取工具执行结果\n    Args:\n        message: ToolMessage 对象\n    Returns:\n        工具结果信息\n    \"\"\"\n    if not isinstance(message, ToolMessage):\n        return None",
+        "detail": "backend.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "extract_sources",
+        "kind": 2,
+        "importPath": "backend.core.extractors",
+        "description": "backend.core.extractors",
+        "peekOfCode": "def extract_sources(message: BaseMessage, context: Optional[Dict] = None) -> List[Dict[str, str]]:\n    \"\"\"\n    提取来源引用\n    通常来自 RAG 检索的文档\n    Args:\n        message: LangChain 消息对象\n        context: 额外上下文信息（如 RAG 检索结果）\n    Returns:\n        来源列表\n    \"\"\"",
+        "detail": "backend.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "extract_citations",
+        "kind": 2,
+        "importPath": "backend.core.extractors",
+        "description": "backend.core.extractors",
+        "peekOfCode": "def extract_citations(content: str) -> List[Dict[str, Any]]:\n    \"\"\"\n    从内容中提取引用标记\n    解析 [1], [2] 等引用标记\n    Args:\n        content: 消息内容\n    Returns:\n        引用列表\n    \"\"\"\n    citations = []",
+        "detail": "backend.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "extract_plan",
+        "kind": 2,
+        "importPath": "backend.core.extractors",
+        "description": "backend.core.extractors",
+        "peekOfCode": "def extract_plan(message: BaseMessage) -> Optional[Dict[str, Any]]:\n    \"\"\"\n    提取 AI 生成的计划\n    适用于 DeepAgents 或 Workflow 模式\n    Args:\n        message: LangChain 消息对象\n    Returns:\n        计划信息\n    \"\"\"\n    if not isinstance(message, AIMessage):",
+        "detail": "backend.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "extract_tasks",
+        "kind": 2,
+        "importPath": "backend.core.extractors",
+        "description": "backend.core.extractors",
+        "peekOfCode": "def extract_tasks(message: BaseMessage) -> List[Dict[str, Any]]:\n    \"\"\"\n    提取任务列表\n    从消息中解析任务相关内容\n    Args:\n        message: LangChain 消息对象\n    Returns:\n        任务列表\n    \"\"\"\n    if not isinstance(message, AIMessage):",
+        "detail": "backend.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "extract_chain_of_thought",
+        "kind": 2,
+        "importPath": "backend.core.extractors",
+        "description": "backend.core.extractors",
+        "peekOfCode": "def extract_chain_of_thought(message: BaseMessage) -> Optional[Dict[str, Any]]:\n    \"\"\"\n    提取思维链\n    某些模型会输出逐步推理过程\n    Args:\n        message: LangChain 消息对象\n    Returns:\n        思维链信息\n    \"\"\"\n    if not isinstance(message, AIMessage):",
+        "detail": "backend.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "extract_queue_items",
+        "kind": 2,
+        "importPath": "backend.core.extractors",
+        "description": "backend.core.extractors",
+        "peekOfCode": "def extract_queue_items(context: Optional[Dict] = None) -> List[Dict[str, Any]]:\n    \"\"\"\n    提取队列项目\n    通常从 workflow 或 agent 的执行上下文中获取\n    Args:\n        context: 执行上下文\n    Returns:\n        队列项目列表\n    \"\"\"\n    if not context:",
+        "detail": "backend.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.core.extractors",
+        "description": "backend.core.extractors",
+        "peekOfCode": "logger = get_logger(__name__)\ndef extract_reasoning(message: BaseMessage) -> Optional[Dict[str, Any]]:\n    \"\"\"\n    提取推理过程\n    某些模型（如 OpenAI o1）支持输出推理过程\n    Args:\n        message: LangChain 消息对象\n    Returns:\n        推理信息字典，包含 content 和 duration\n    \"\"\"",
+        "detail": "backend.core.extractors",
+        "documentation": {}
+    },
+    {
         "label": "get_chat_model",
         "kind": 2,
         "importPath": "backend.core.model",
@@ -2274,6 +2720,51 @@
         "description": "backend.core.prompts",
         "peekOfCode": "TOOL_USAGE_INSTRUCTIONS = dedent(\"\"\"\\\n    工具使用规则（必须遵守）：\n    一、总原则\n    - 只要用户问题依赖实时信息、最新事实、当前天气、当前日期时间或精确计算，就必须优先调用工具。\n    - 工具结果优先于模型记忆；不得用过时记忆替代工具结果。\n    - 每次工具调用前先判断目标是否明确；缺少必要参数时，只问一个最关键的澄清问题。\n    - 避免重复调用同一工具；已有足够工具结果时，直接基于结果回答。\n    - 不要向用户暴露内部工具路由规则，只输出自然、准确的答案。\n    二、可用工具\n    - web_search：搜索互联网，获取新闻、政策、价格、版本、人物职位、赛事、资料来源等最新信息。",
         "detail": "backend.core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "TokenUsage",
+        "kind": 6,
+        "importPath": "backend.core.usage_tracker",
+        "description": "backend.core.usage_tracker",
+        "peekOfCode": "class TokenUsage:\n    \"\"\"Token 使用统计\"\"\"\n    input_tokens: int = 0\n    output_tokens: int = 0\n    reasoning_tokens: int = 0\n    cached_input_tokens: int = 0\n    def to_dict(self) -> Dict[str, int]:\n        \"\"\"转换为字典格式\"\"\"\n        return {\n            \"inputTokens\": self.input_tokens,",
+        "detail": "backend.core.usage_tracker",
+        "documentation": {}
+    },
+    {
+        "label": "UsageTracker",
+        "kind": 6,
+        "importPath": "backend.core.usage_tracker",
+        "description": "backend.core.usage_tracker",
+        "peekOfCode": "class UsageTracker:\n    \"\"\"\n    追踪 Agent 执行过程中的 token 使用情况\n    用法:\n        tracker = UsageTracker(model_id=\"gpt-4o\")\n        # 在流式输出过程中更新\n        tracker.add_input_tokens(100)\n        tracker.add_output_tokens(50)\n        # 获取使用情况\n        usage_info = tracker.get_usage_info()",
+        "detail": "backend.core.usage_tracker",
+        "documentation": {}
+    },
+    {
+        "label": "create_usage_tracker",
+        "kind": 2,
+        "importPath": "backend.core.usage_tracker",
+        "description": "backend.core.usage_tracker",
+        "peekOfCode": "def create_usage_tracker(model_id: Optional[str] = None) -> UsageTracker:\n    \"\"\"\n    创建 UsageTracker 的工厂函数\n    Args:\n        model_id: 模型标识符,如果为 None 则使用默认值\n    Returns:\n        UsageTracker 实例\n    \"\"\"\n    from config import settings\n    if model_id is None:",
+        "detail": "backend.core.usage_tracker",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.core.usage_tracker",
+        "description": "backend.core.usage_tracker",
+        "peekOfCode": "logger = get_logger(__name__)\n@dataclass\nclass TokenUsage:\n    \"\"\"Token 使用统计\"\"\"\n    input_tokens: int = 0\n    output_tokens: int = 0\n    reasoning_tokens: int = 0\n    cached_input_tokens: int = 0\n    def to_dict(self) -> Dict[str, int]:\n        \"\"\"转换为字典格式\"\"\"",
+        "detail": "backend.core.usage_tracker",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_LIMITS",
+        "kind": 5,
+        "importPath": "backend.core.usage_tracker",
+        "description": "backend.core.usage_tracker",
+        "peekOfCode": "MODEL_LIMITS = {\n    \"gpt-4o\": 128000,\n    \"gpt-4o-mini\": 128000,\n    \"gpt-4-turbo\": 128000,\n    \"gpt-4\": 8192,\n    \"gpt-3.5-turbo\": 16385,\n    \"claude-opus-4-20250514\": 200000,\n    \"claude-sonnet-4-20250514\": 200000,\n    \"claude-3-5-sonnet-20241022\": 200000,\n    \"gemini-2.0-flash-exp\": 1000000,",
+        "detail": "backend.core.usage_tracker",
         "documentation": {}
     },
     {
