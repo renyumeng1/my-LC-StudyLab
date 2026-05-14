@@ -312,12 +312,11 @@ async def query_rag(request: RagQueryRequest) -> RagQueryResponse:
         if request.include_sources or request.include_documents:
             retrieved_docs = retriever.invoke(request.query)
             for doc in retrieved_docs:
-                metadata = doc.metadata or {}
+                metadata = dict(doc.metadata or {})
                 source = metadata.get("source")
                 if not source and metadata.get("filename"):
                     source = metadata["filename"]
                     metadata["source"] = source
-                    doc.metadata = metadata
                 if source and source not in sources:
                     sources.append(source)
                 if request.include_documents:

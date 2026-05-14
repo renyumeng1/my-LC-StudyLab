@@ -50,6 +50,14 @@ class WorkflowHistoryResponse(BaseModel):
 async def start_workflow(request: StartWorkflowRequest) -> WorkflowStateResponse:
     thread_id = request.thread_id or str(uuid4())
     try:
+        if request.thread_id:
+            existing = await asyncio.to_thread(get_workflow_state, thread_id)
+            if existing:
+                return WorkflowStateResponse(
+                    success=False,
+                    error="thread_id 已存在，请使用新的 thread_id",
+                    thread_id=thread_id,
+                )
         state = await asyncio.to_thread(
             start_study_flow, request.user_question, thread_id
         )
