@@ -28,8 +28,12 @@ class IndexSourceRequest(BaseModel):
     source_type: Literal["files", "directory", "text"] = Field(
         default="text", description="索引数据来源类型: files/directory/text"
     )
-    files: Optional[list[str]] = Field(default=None, description="文件路径列表")
-    directory: Optional[str] = Field(default=None, description="目录路径")
+    files: Optional[list[str]] = Field(
+        default=None, description="DATA_DIR 下的相对文件路径列表"
+    )
+    directory: Optional[str] = Field(
+        default=None, description="DATA_DIR 下的相对目录路径"
+    )
     texts: Optional[list[str]] = Field(default=None, description="纯文本列表")
     glob_pattern: str = Field(default="**/*", description="目录加载的匹配模式")
     exclude_patterns: Optional[list[str]] = Field(
@@ -101,17 +105,26 @@ class RagQueryResponse(BaseModel):
     )
 
 
-def _resolve_data_path(raw_path: str) -> Path:
+def _get_allowed_files() -> dict[str, Path]:
     base_dir = Path(settings.DATA_DIR).resolve()
-    candidate = Path(raw_path)
-    if candidate.is_absolute():
-        raise HTTPException(status_code=400, detail="仅支持 DATA_DIR 下的相对路径")
-    if ".." in candidate.parts:
-        raise HTTPException(status_code=400, detail="路径不能包含 ..")
-    resolved = (base_dir / candidate).resolve()
-    if not resolved.is_relative_to(base_dir):
-        raise HTTPException(status_code=400, detail="路径必须位于 DATA_DIR 下")
-    return resolved
+    if not base_dir.exists():
+        return {}
+    return {
+        str(path.relative_to(base_dir)): path
+        for path in base_dir.rglob("*")
+        if path.is_file()
+    }
+
+
+def _get_allowed_directories() -> dict[str, Path]:
+    base_dir = Path(settings.DATA_DIR).resolve()
+    allowed = {".": base_dir}
+    if not base_dir.exists():
+        return allowed
+    for path in base_dir.rglob("*"):
+        if path.is_dir():
+            allowed[str(path.relative_to(base_dir))] = path
+    return allowed
 
 
 def _apply_metadata(documents: list[Document], metadata: Optional[dict[str, Any]]) -> None:
@@ -126,9 +139,15 @@ def _build_documents(request: IndexSourceRequest) -> list[Document]:
     if request.source_type == "files":
         if not request.files:
             raise HTTPException(status_code=400, detail="files 不能为空")
+        allowed_files = _get_allowed_files()
         documents: list[Document] = []
         for file_path in request.files:
-            resolved = _resolve_data_path(file_path)
+            resolved = allowed_files.get(file_path)
+            if not resolved:
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"文件不存在或不在 DATA_DIR 下: {file_path}",
+                )
             documents.extend(load_document(str(resolved)))
         _apply_metadata(documents, request.metadata)
         return split_documents(
@@ -141,7 +160,13 @@ def _build_documents(request: IndexSourceRequest) -> list[Document]:
     if request.source_type == "directory":
         if not request.directory:
             raise HTTPException(status_code=400, detail="directory 不能为空")
-        resolved = _resolve_data_path(request.directory)
+        allowed_dirs = _get_allowed_directories()
+        resolved = allowed_dirs.get(request.directory)
+        if not resolved:
+            raise HTTPException(
+                status_code=400,
+                detail=f"目录不存在或不在 DATA_DIR 下: {request.directory}",
+            )
         documents = load_directory(
             str(resolved),
             glob_pattern=request.glob_pattern,
@@ -166,9 +191,9 @@ def _build_documents(request: IndexSourceRequest) -> list[Document]:
             if not text.strip():
                 continue
             metadata = {
-                "source": base_metadata.get("source", "manual_input"),
                 "index": index,
-                **base_metadata,
+                "source": base_metadata.get("source", "manual_input"),
+                **{key: value for key, value in base_metadata.items() if key != "source"},
             }
             documents.extend(
                 split_text(
