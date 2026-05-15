@@ -1,17 +1,13 @@
-import langchain_core.tools
-import langchain_core.tools.retriever
 from typing import Optional,Any
 from langchain.agents import create_agent
 
 
-from langchain_core.messages import BaseMessage,HumanMessage,AIMessage
+from langchain_core.messages import HumanMessage
 from langchain_core.retrievers import BaseRetriever
-from langchain_core.language_models.chat_models import BaseChatModel
 
 
-from backend.rag.retrievers import create_retriever_tool
 from ..config import settings,get_logger
-from ..core.model import get_chat_model,get_model_string
+from ..core.model import get_chat_model
 
 from .retrievers import create_retriever_tool
 
@@ -97,7 +93,15 @@ def create_rag_agent(
     
     # 使用默认模型
     if model is None:
-        model = get_model_string()
+        chat_model = get_chat_model()
+        model_label = settings.model_name
+    elif isinstance(model, str):
+        model_name = model.removeprefix("openai:")
+        chat_model = get_chat_model(model_name=model_name)
+        model_label = model_name
+    else:
+        chat_model = model
+        model_label = type(model).__name__
         
     
     if system_prompt is None:
@@ -119,14 +123,14 @@ def create_rag_agent(
     tools = [retriever_tool]
     
     agent = create_agent(
-        model=model,
+        model=chat_model,
         tools=tools,
         system_prompt=system_prompt,
         **kwargs,
     )
     
     logger.info(f"✅ RAG Agent 创建成功")
-    logger.info(f"   模型: {model}")
+    logger.info(f"   模型: {model_label}")
     logger.info(f"   流式输出: {streaming}")
     
     return agent

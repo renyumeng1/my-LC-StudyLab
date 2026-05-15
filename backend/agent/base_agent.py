@@ -2,7 +2,6 @@ from typing import AsyncIterator, Iterator, Literal, Optional, Sequence, Any, ca
 from langchain.agents import AgentState, create_agent
 from langchain.chat_models import BaseChatModel
 from langchain.messages import AIMessage, AnyMessage, HumanMessage
-from langchain_openai import ChatOpenAI
 from langchain_core.language_models import BaseLanguageModel
 from langchain_core.tools import BaseTool
 from langchain_core.messages import BaseMessage
@@ -55,12 +54,17 @@ class BaseAgent:
                      - name: Agent 名称
         """
         if model is None:
-            self.model = f"openai:{settings.model_name}"
-            logger.info(f"🤖 使用默认模型: {self.model}")
+            self.model = get_chat_model()
+            logger.info(f"🤖 使用默认模型: {settings.model_name}")
 
         elif isinstance(model, str):
+            model_name = model.removeprefix("openai:")
+            self.model = get_chat_model(model_name=model_name)
+            logger.info(f"🤖 使用指定模型: {model_name}")
+
+        else:
             self.model = model
-            logger.info(f"🤖 使用指定模型: {self.model}")
+            logger.info(f"🤖 使用传入的模型实例: {type(model).__name__}")
 
         # ==================== 工具初始化 ====================
         if tools is None:

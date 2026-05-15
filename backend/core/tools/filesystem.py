@@ -6,7 +6,7 @@ from datetime import datetime
 
 from langchain.tools import tool
 
-from config import settings,get_logger
+from ...config import settings,get_logger
 
 
 logger = get_logger(__name__)

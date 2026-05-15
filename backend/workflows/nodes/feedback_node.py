@@ -41,11 +41,18 @@ def feedback_node(state:StudyFlowState) -> dict[str,Any]:
         wrong_questions = [q for q in question_scores if not q["is_correct"]]
         
         
-        wrong_analysis = ""
-        if wrong_questions:
-            wrong_analysis = "\n\n错题分析:\n"
-            for q in wrong_questions:
-                wrong_analysis += f"- 题目ID {q['question_id']}: {q['feedback']}\n"
+        per_question_review = ""
+        if question_scores:
+            per_question_review = "\n\n逐题作答记录:\n"
+            for index, q in enumerate(question_scores, 1):
+                status = "正确" if q["is_correct"] else "需要改进"
+                per_question_review += (
+                    f"- 第{index}题({status}): "
+                    f"学生答案={q['user_answer']}; "
+                    f"标准答案={q['correct_answer']}; "
+                    f"得分={q['points_earned']}/{q['points_possible']}; "
+                    f"评分反馈={q['feedback']}\n"
+                )
                 
         
          # 生成个性化反馈
@@ -57,15 +64,19 @@ def feedback_node(state:StudyFlowState) -> dict[str,Any]:
                             测验结果:
                             - 得分: {score} 分
                             - 答对题数: {cast(dict[str,Any],score_details).get('correct_count', 0)}/{cast(dict[str,Any],score_details).get('total_count', 0)}
-                            {wrong_analysis}
+                            {per_question_review}
 
                             请提供:
-                            1. 对整体表现的评价（鼓励性的）
-                            2. 针对错题的学习建议
-                            3. 下一步学习方向
-                            4. 鼓励的话语
+                            1. 先用2-3句话复盘学生当前理解水平，不要只鼓励。
+                            2. 按题指出关键错因：学生答案缺了什么、标准答案为什么成立。
+                            3. 给出下一轮作答前最该补的2-3个知识点。
+                            4. 如果系统会重新出题，请明确告诉学生下一轮应该重点注意什么。
 
-                            请用温暖、鼓励的语气，帮助学生建立信心。字数控制在200字以内。"""
+                            输出要求：
+                            - 使用中文。
+                            - 保持具体、可操作。
+                            - 不要重复原始题目全文。
+                            - 总字数控制在350字以内。"""
 
         logger.info("[Feedback Node] 调用 LLM 生成个性化反馈...")
         response = model.invoke(
@@ -78,15 +89,15 @@ def feedback_node(state:StudyFlowState) -> dict[str,Any]:
         
         should_retry = cast(int,score) < 60 and retry_count < 3
         
-        feedback_message = f"\n\n💬 **学习反馈**\n\n{feedback}\n\n"
+        feedback_message = f"\n\n学习反馈\n\n{feedback}\n\n"
         
         if should_retry:
-            feedback_message += f"⚠️ 由于得分未达到60分，系统将为您重新生成练习题。（第 {retry_count + 1} 次重试）\n"
-            feedback_message += "请继续努力，相信您一定能掌握这些知识点！"
+            feedback_message += f"由于得分未达到60分，系统将基于本轮薄弱点重新生成练习题。（第 {retry_count + 1} 次重试）\n"
+            feedback_message += "下一轮请优先修正上面逐题复盘中标出的概念缺口。"
         elif retry_count >= 3:
-            feedback_message += "📚 您已经尝试了3次，建议先回顾学习资料，巩固基础知识后再来挑战。"
+            feedback_message += "你已经尝试了3次，建议先回顾学习资料，重点补齐本轮复盘中反复出现的知识点后再继续。"
         else:
-            feedback_message += "🎉 恭喜您通过测验！继续保持这样的学习状态！"
+            feedback_message += "本轮已通过。你可以继续输入新的学习目标，或围绕当前主题提出更深入的问题。"
             
         
         new_retry_count = retry_count + 1 if should_retry else retry_count

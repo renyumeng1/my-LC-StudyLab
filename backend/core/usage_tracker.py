@@ -163,7 +163,7 @@ def create_usage_tracker(model_id: Optional[str] = None) -> UsageTracker:
     Returns:
         UsageTracker 实例
     """
-    from config import settings
+    from ..config import settings
     
     if model_id is None:
         model_id = settings.openai_model

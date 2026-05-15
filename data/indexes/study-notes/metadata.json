@@ -1,0 +1,9 @@
+{
+  "name": "study-notes",
+  "description": "前端创建的学习资料索引",
+  "created_at": "2026-05-15T14:20:12.681763",
+  "updated_at": "2026-05-15T14:20:12.681766",
+  "num_documents": 6,
+  "store_type": "faiss",
+  "embedding_model": "BAAI/bge-large-zh-v1.5"
+}

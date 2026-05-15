@@ -76,3 +76,1056 @@
 2026-05-07 16:33:06.545 | INFO     | __main__:test_embeddings:152 | 测试通过
 2026-05-11 17:47:15.460 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
 2026-05-11 17:48:55.587 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 11:37:08.321 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 11:39:52.401 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 11:42:11.312 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 11:43:27.964 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 11:44:40.917 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 11:44:42.314 | INFO     | backend.api.routers.chat:chat:193 | 📨 收到聊天请求: ?????????2+2????...
+2026-05-15 11:44:42.314 | INFO     | backend.agent.base_agent:create_base_agent:480 | 🏭 创建 Base Agent (mode=concise, debug=False)
+2026-05-15 11:44:42.315 | INFO     | backend.agent.base_agent:__init__:59 | 🤖 使用默认模型: openai:deepseek-ai/DeepSeek-V3.2
+2026-05-15 11:44:42.315 | INFO     | backend.agent.base_agent:__init__:72 | 🔧 使用自定义工具集 (0 个工具)
+2026-05-15 11:44:42.315 | INFO     | backend.agent.base_agent:__init__:87 | 📝 使用基础系统提示词 (模式: concise)
+2026-05-15 11:44:42.315 | INFO     | backend.agent.base_agent:__init__:96 | 🚀 使用langchain V1.2 create_agent API...
+2026-05-15 11:44:42.315 | ERROR    | backend.agent.base_agent:__init__:109 | ❌ Agent 创建失败: create_agent() got an unexpected keyword argument 'streaming'
+2026-05-15 11:44:42.315 | ERROR    | backend.api.routers.chat:chat:251 | ❌ 处理聊天请求时发生错误: create_agent() got an unexpected keyword argument 'streaming'
+2026-05-15 11:44:42.318 | INFO     | backend.api.routers.chat:chat_stream:332 | 🌊 收到流式聊天请求: ???????? LangChain ????...
+2026-05-15 11:44:42.342 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 11:44:42.342 | INFO     | backend.rag.index_manager:list_indexes:317 | 📋 列出所有索引
+2026-05-15 11:44:42.342 | INFO     | backend.rag.index_manager:list_indexes:344 |    找到 0 个索引
+2026-05-15 11:44:42.344 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 11:44:42.344 | INFO     | backend.rag.splitters:split_text:207 | 📝 开始分块文本: 53 字符
+2026-05-15 11:44:42.344 | INFO     | backend.rag.splitters:split_text:225 | ✅ 分块完成: 1 个文本块
+2026-05-15 11:44:42.345 | INFO     | backend.rag.splitters:split_text:207 | 📝 开始分块文本: 69 字符
+2026-05-15 11:44:42.345 | INFO     | backend.rag.splitters:split_text:225 | ✅ 分块完成: 1 个文本块
+2026-05-15 11:44:42.345 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 11:44:43.699 | INFO     | backend.rag.index_manager:create_index:122 | 🔨 创建索引: codex_api_real_test_20260515_114442
+2026-05-15 11:44:43.699 | INFO     | backend.rag.index_manager:create_index:123 |    文档数量: 2
+2026-05-15 11:44:43.699 | INFO     | backend.rag.index_manager:create_index:124 |    描述: Codex real API integration test index
+2026-05-15 11:44:43.699 | INFO     | backend.rag.vector_stores:create_vector_store:69 | 🗄️  创建向量存储: type=faiss, documents=2
+2026-05-15 11:45:00.050 | ERROR    | backend.rag.vector_stores:create_vector_store:99 | ❌ 创建向量库失败: FAISS.__init__() got an unexpected keyword argument 'index_path'
+2026-05-15 11:45:00.051 | ERROR    | backend.rag.index_manager:create_index:156 | ❌ 创建索引失败: FAISS.__init__() got an unexpected keyword argument 'index_path'
+2026-05-15 11:45:00.051 | ERROR    | backend.api.routers.rag:create_index:255 | ❌ 创建索引失败: FAISS.__init__() got an unexpected keyword argument 'index_path'
+2026-05-15 11:45:00.053 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 11:45:00.053 | INFO     | backend.rag.index_manager:list_indexes:317 | 📋 列出所有索引
+2026-05-15 11:45:00.053 | INFO     | backend.rag.index_manager:list_indexes:344 |    找到 0 个索引
+2026-05-15 11:45:00.055 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 11:45:00.055 | WARNING  | backend.rag.index_manager:get_index_info:364 | 索引不存在: codex_api_real_test_20260515_114442
+2026-05-15 11:45:00.057 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 11:45:00.058 | INFO     | backend.rag.splitters:split_text:207 | 📝 开始分块文本: 51 字符
+2026-05-15 11:45:00.058 | INFO     | backend.rag.splitters:split_text:225 | ✅ 分块完成: 1 个文本块
+2026-05-15 11:45:00.058 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 11:45:00.104 | INFO     | backend.rag.index_manager:update_index:249 | 🔄 更新索引: codex_api_real_test_20260515_114442
+2026-05-15 11:45:00.104 | INFO     | backend.rag.index_manager:update_index:250 |    新增文档: 1
+2026-05-15 11:45:00.104 | ERROR    | backend.rag.index_manager:update_index:273 | ❌ 更新索引失败: 索引 'codex_api_real_test_20260515_114442' 不存在。
+2026-05-15 11:45:00.104 | ERROR    | backend.api.routers.rag:update_index:272 | ❌ 更新索引失败: 索引 'codex_api_real_test_20260515_114442' 不存在。
+2026-05-15 11:45:00.107 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 11:45:00.107 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 11:45:00.155 | ERROR    | backend.api.routers.rag:query_rag:334 | ❌ RAG 查询失败: 索引 'codex_api_real_test_20260515_114442' 不存在。
+2026-05-15 11:45:00.158 | INFO     | backend.workflows.study_flow_graph:get_workflow_state:289 | [Study Flow] 获取工作流状态，thread_id=codex-workflow-20260515_114442
+2026-05-15 11:45:00.158 | INFO     | backend.workflows.study_flow_graph:get_study_flow_app:177 | [Study Flow Graph] 初始化全局工作流实例
+2026-05-15 11:45:00.158 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:86 | [Study Flow Graph] 开始创建学习工作流图
+2026-05-15 11:45:00.158 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:91 | [Study Flow Graph] 添加工作流节点...
+2026-05-15 11:45:00.160 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:142 | [Study Flow Graph] 配置检查点存储: data\checkpoints\study_flow.db
+2026-05-15 11:45:00.160 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:149 | [Study Flow Graph] 编译工作流图...
+2026-05-15 11:45:00.175 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:157 | [Study Flow Graph] 学习工作流图创建完成
+2026-05-15 11:45:00.175 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:158 | [Study Flow Graph] 中断点设置在: human_review (等待用户答题)
+2026-05-15 11:45:00.175 | INFO     | backend.workflows.study_flow_graph:start_study_flow:197 | [Study Flow] 启动新的学习工作流，thread_id=codex-workflow-20260515_114442
+2026-05-15 11:45:00.175 | INFO     | backend.workflows.study_flow_graph:start_study_flow:230 | [Study Flow] 开始执行工作流...
+2026-05-15 11:45:00.200 | INFO     | backend.workflows.nodes.planner_node:planner_node:42 | [Planner Node] 开始生成学习计划，用户问题: ?????? LangChain ?????? RAG?????????????
+2026-05-15 11:45:00.200 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=False)
+2026-05-15 11:45:00.249 | INFO     | backend.workflows.nodes.planner_node:planner_node:66 | [Planner Node] 调用 LLM 生成学习计划...
+2026-05-15 11:45:09.129 | INFO     | backend.workflows.nodes.planner_node:planner_node:80 | [Planner Node] 学习计划生成成功: LangChain中的RAG（检索增强生成）应用开发
+2026-05-15 11:45:09.130 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:41 | [Retrieval Node] 开始文档检索，学习主题: LangChain中的RAG（检索增强生成）应用开发
+2026-05-15 11:45:09.130 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:55 | [Retrieval Node] 主查询: LangChain中的RAG（检索增强生成）应用开发
+2026-05-15 11:45:09.131 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 11:45:09.131 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 11:45:09.178 | WARNING  | backend.workflows.nodes.retrieval_node:retrieval_node:73 | [Retrieval Node] 索引文件未找到: 索引 'test_index' 不存在。
+2026-05-15 11:45:09.178 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:87 | [Retrieval Node] 检索完成，找到 0 个相关文档
+2026-05-15 11:45:09.178 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:108 | [Retrieval Node] 最终检索到 0 个文档
+2026-05-15 11:45:09.179 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:51 | [Quiz Generator Node] 开始生成练习题
+2026-05-15 11:45:09.179 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 11:45:09.180 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:106 | [Quiz Generator Node] 调用 LLM 生成练习题...
+2026-05-15 11:45:58.472 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:135 | [Quiz Generator Node] 成功生成 6 道练习题，总分 115 分
+2026-05-15 11:45:58.473 | INFO     | backend.workflows.study_flow_graph:start_study_flow:233 | [Study Flow] 工作流暂停在: quiz_generated
+2026-05-15 11:45:58.476 | INFO     | backend.workflows.study_flow_graph:get_workflow_state:289 | [Study Flow] 获取工作流状态，thread_id=codex-workflow-20260515_114442
+2026-05-15 11:45:58.480 | INFO     | backend.workflows.study_flow_graph:submit_answers:250 | [Study Flow] 提交答案，thread_id=codex-workflow-20260515_114442
+2026-05-15 11:45:58.480 | INFO     | backend.workflows.study_flow_graph:submit_answers:262 | [Study Flow] 当前状态: quiz_generated
+2026-05-15 11:45:58.480 | INFO     | backend.workflows.study_flow_graph:submit_answers:272 | [Study Flow] 继续执行工作流...
+2026-05-15 11:45:58.481 | INFO     | backend.workflows.study_flow_graph:human_review_node:101 | [Human Review Node] 等待用户提交答案...
+2026-05-15 11:45:58.482 | INFO     | backend.workflows.nodes.grading_node:grading_node:35 | [Grading Node] 开始评分
+2026-05-15 11:45:58.482 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 11:45:58.482 | INFO     | backend.workflows.nodes.grading_node:grading_node:80 | [Grading Node] 使用 LLM 评分简答题: 6
+2026-05-15 11:46:04.641 | INFO     | backend.workflows.nodes.grading_node:grading_node:150 | [Grading Node] 评分完成: 19分 (1/6 题正确)
+2026-05-15 11:46:04.643 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:28 | [Feedback Node] 开始生成反馈
+2026-05-15 11:46:04.643 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:36 | [Feedback Node] 当前得分: 19, 重试次数: 0
+2026-05-15 11:46:04.643 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 11:46:04.644 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:70 | [Feedback Node] 调用 LLM 生成个性化反馈...
+2026-05-15 11:46:11.557 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:94 | [Feedback Node] should_retry=True, new_retry_count=1
+2026-05-15 11:46:11.558 | INFO     | backend.workflows.study_flow_graph:should_continue:43 | [Condition] should_retry=True, retry_count=1
+2026-05-15 11:46:11.558 | INFO     | backend.workflows.study_flow_graph:should_continue:46 | [Condition] 决定重新出题
+2026-05-15 11:46:11.558 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:51 | [Quiz Generator Node] 开始生成练习题
+2026-05-15 11:46:11.559 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 11:46:11.560 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:106 | [Quiz Generator Node] 调用 LLM 生成练习题...
+2026-05-15 11:47:53.830 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:135 | [Quiz Generator Node] 成功生成 6 道练习题，总分 115 分
+2026-05-15 11:47:53.831 | INFO     | backend.workflows.study_flow_graph:submit_answers:275 | [Study Flow] 工作流执行完成，最终状态: quiz_generated
+2026-05-15 11:47:53.834 | INFO     | backend.workflows.study_flow_graph:get_workflow_state:289 | [Study Flow] 获取工作流状态，thread_id=codex-workflow-20260515_114442
+2026-05-15 11:47:53.837 | INFO     | backend.workflows.study_flow_graph:get_workflow_history:315 | [Study Flow] 获取工作流历史，thread_id=codex-workflow-20260515_114442
+2026-05-15 11:48:30.858 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 11:48:31.915 | INFO     | backend.workflows.study_flow_graph:get_workflow_state:289 | [Study Flow] 获取工作流状态，thread_id=codex-workflow-utf8-20260515_114831
+2026-05-15 11:48:31.916 | INFO     | backend.workflows.study_flow_graph:get_study_flow_app:177 | [Study Flow Graph] 初始化全局工作流实例
+2026-05-15 11:48:31.916 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:86 | [Study Flow Graph] 开始创建学习工作流图
+2026-05-15 11:48:31.916 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:91 | [Study Flow Graph] 添加工作流节点...
+2026-05-15 11:48:31.918 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:142 | [Study Flow Graph] 配置检查点存储: data\checkpoints\study_flow.db
+2026-05-15 11:48:31.918 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:149 | [Study Flow Graph] 编译工作流图...
+2026-05-15 11:48:31.932 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:157 | [Study Flow Graph] 学习工作流图创建完成
+2026-05-15 11:48:31.932 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:158 | [Study Flow Graph] 中断点设置在: human_review (等待用户答题)
+2026-05-15 11:48:31.933 | INFO     | backend.workflows.study_flow_graph:start_study_flow:197 | [Study Flow] 启动新的学习工作流，thread_id=codex-workflow-utf8-20260515_114831
+2026-05-15 11:48:31.933 | INFO     | backend.workflows.study_flow_graph:start_study_flow:230 | [Study Flow] 开始执行工作流...
+2026-05-15 11:48:31.935 | INFO     | backend.workflows.nodes.planner_node:planner_node:42 | [Planner Node] 开始生成学习计划，用户问题: ?? LangChain ? RAG ??????????????????
+2026-05-15 11:48:31.935 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=False)
+2026-05-15 11:48:32.260 | INFO     | backend.workflows.nodes.planner_node:planner_node:66 | [Planner Node] 调用 LLM 生成学习计划...
+2026-05-15 11:48:40.606 | INFO     | backend.workflows.nodes.planner_node:planner_node:80 | [Planner Node] 学习计划生成成功: LangChain与RAG架构入门与实践
+2026-05-15 11:48:40.607 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:41 | [Retrieval Node] 开始文档检索，学习主题: LangChain与RAG架构入门与实践
+2026-05-15 11:48:40.607 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:55 | [Retrieval Node] 主查询: LangChain与RAG架构入门与实践
+2026-05-15 11:48:40.608 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 11:48:40.608 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 11:48:40.654 | WARNING  | backend.workflows.nodes.retrieval_node:retrieval_node:73 | [Retrieval Node] 索引文件未找到: 索引 'test_index' 不存在。
+2026-05-15 11:48:40.654 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:87 | [Retrieval Node] 检索完成，找到 0 个相关文档
+2026-05-15 11:48:40.654 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:108 | [Retrieval Node] 最终检索到 0 个文档
+2026-05-15 11:48:40.655 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:51 | [Quiz Generator Node] 开始生成练习题
+2026-05-15 11:48:40.655 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 11:48:40.656 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:106 | [Quiz Generator Node] 调用 LLM 生成练习题...
+2026-05-15 11:49:34.869 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:135 | [Quiz Generator Node] 成功生成 6 道练习题，总分 100 分
+2026-05-15 11:49:34.870 | INFO     | backend.workflows.study_flow_graph:start_study_flow:233 | [Study Flow] 工作流暂停在: quiz_generated
+2026-05-15 11:49:34.872 | INFO     | backend.workflows.study_flow_graph:get_workflow_state:289 | [Study Flow] 获取工作流状态，thread_id=codex-workflow-utf8-20260515_114831
+2026-05-15 11:49:34.875 | INFO     | backend.workflows.study_flow_graph:submit_answers:250 | [Study Flow] 提交答案，thread_id=codex-workflow-utf8-20260515_114831
+2026-05-15 11:49:34.876 | INFO     | backend.workflows.study_flow_graph:submit_answers:262 | [Study Flow] 当前状态: quiz_generated
+2026-05-15 11:49:34.876 | INFO     | backend.workflows.study_flow_graph:submit_answers:272 | [Study Flow] 继续执行工作流...
+2026-05-15 11:49:34.877 | INFO     | backend.workflows.study_flow_graph:human_review_node:101 | [Human Review Node] 等待用户提交答案...
+2026-05-15 11:49:34.877 | INFO     | backend.workflows.nodes.grading_node:grading_node:35 | [Grading Node] 开始评分
+2026-05-15 11:49:34.878 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 11:49:34.878 | INFO     | backend.workflows.nodes.grading_node:grading_node:80 | [Grading Node] 使用 LLM 评分简答题: 6
+2026-05-15 11:49:37.226 | INFO     | backend.workflows.nodes.grading_node:grading_node:150 | [Grading Node] 评分完成: 100分 (6/6 题正确)
+2026-05-15 11:49:37.227 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:28 | [Feedback Node] 开始生成反馈
+2026-05-15 11:49:37.227 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:36 | [Feedback Node] 当前得分: 100, 重试次数: 0
+2026-05-15 11:49:37.227 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 11:49:37.227 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:70 | [Feedback Node] 调用 LLM 生成个性化反馈...
+2026-05-15 11:49:43.699 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:94 | [Feedback Node] should_retry=False, new_retry_count=0
+2026-05-15 11:49:43.699 | INFO     | backend.workflows.study_flow_graph:should_continue:43 | [Condition] should_retry=False, retry_count=0
+2026-05-15 11:49:43.699 | INFO     | backend.workflows.study_flow_graph:should_continue:49 | [Condition] 决定结束学习流程
+2026-05-15 11:49:43.700 | INFO     | backend.workflows.study_flow_graph:submit_answers:275 | [Study Flow] 工作流执行完成，最终状态: feedback
+2026-05-15 11:49:43.702 | INFO     | backend.workflows.study_flow_graph:get_workflow_state:289 | [Study Flow] 获取工作流状态，thread_id=codex-workflow-utf8-20260515_114831
+2026-05-15 11:49:43.705 | INFO     | backend.workflows.study_flow_graph:get_workflow_history:315 | [Study Flow] 获取工作流历史，thread_id=codex-workflow-utf8-20260515_114831
+2026-05-15 11:50:21.282 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 11:50:22.386 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 11:50:22.386 | WARNING  | backend.rag.index_manager:delete_index:292 | 索引不存在: codex_delete_nonexistent_coverage
+2026-05-15 11:58:52.350 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 12:00:27.998 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 12:00:28.974 | INFO     | backend.api.routers.chat:chat:193 | 📨 收到聊天请求: 请用一句中文回答：LangChain 是什么？...
+2026-05-15 12:00:28.975 | INFO     | backend.agent.base_agent:create_base_agent:480 | 🏭 创建 Base Agent (mode=concise, debug=False)
+2026-05-15 12:00:28.975 | INFO     | backend.agent.base_agent:__init__:59 | 🤖 使用默认模型: openai:deepseek-ai/DeepSeek-V3.2
+2026-05-15 12:00:28.975 | INFO     | backend.agent.base_agent:__init__:72 | 🔧 使用自定义工具集 (0 个工具)
+2026-05-15 12:00:28.975 | INFO     | backend.agent.base_agent:__init__:87 | 📝 使用基础系统提示词 (模式: concise)
+2026-05-15 12:00:28.975 | INFO     | backend.agent.base_agent:__init__:96 | 🚀 使用langchain V1.2 create_agent API...
+2026-05-15 12:00:29.020 | ERROR    | backend.agent.base_agent:__init__:109 | ❌ Agent 创建失败: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-05-15 12:00:29.020 | ERROR    | backend.api.routers.chat:chat:250 | ❌ 处理聊天请求时发生错误: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-05-15 12:00:29.024 | INFO     | backend.api.routers.chat:chat_stream:331 | 🌊 收到流式聊天请求: 请用一句中文回答：RAG 是什么？...
+2026-05-15 12:00:29.035 | INFO     | backend.agent.base_agent:create_base_agent:480 | 🏭 创建 Base Agent (mode=concise, debug=False)
+2026-05-15 12:00:29.035 | INFO     | backend.agent.base_agent:__init__:59 | 🤖 使用默认模型: openai:deepseek-ai/DeepSeek-V3.2
+2026-05-15 12:00:29.036 | INFO     | backend.agent.base_agent:__init__:72 | 🔧 使用自定义工具集 (0 个工具)
+2026-05-15 12:00:29.036 | INFO     | backend.agent.base_agent:__init__:87 | 📝 使用基础系统提示词 (模式: concise)
+2026-05-15 12:00:29.036 | INFO     | backend.agent.base_agent:__init__:96 | 🚀 使用langchain V1.2 create_agent API...
+2026-05-15 12:00:29.036 | ERROR    | backend.agent.base_agent:__init__:109 | ❌ Agent 创建失败: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-05-15 12:00:29.036 | ERROR    | backend.api.routers.chat:generate:640 | ❌ 流式处理出错: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-05-15 12:00:29.036 | ERROR    | backend.api.routers.chat:generate:641 | Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+Traceback (most recent call last):
+
+  File "C:\Users\renyumeng\AppData\Roaming\uv\python\cpython-3.14.2-windows-x86_64-none\Lib\threading.py", line 1044, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x00000271B2DBE6C0>
+    └ <Thread(asyncio-portal-271e32107d0, started daemon 9772)>
+  File "C:\Users\renyumeng\AppData\Roaming\uv\python\cpython-3.14.2-windows-x86_64-none\Lib\threading.py", line 1082, in _bootstrap_inner
+    self._context.run(self.run)
+    │    │        │   │    └ <function Thread.run at 0x00000271B2DBE350>
+    │    │        │   └ <Thread(asyncio-portal-271e32107d0, started daemon 9772)>
+    │    │        └ <method 'run' of '_contextvars.Context' objects>
+    │    └ <_contextvars.Context object at 0x00000271E0F30900>
+    └ <Thread(asyncio-portal-271e32107d0, started daemon 9772)>
+  File "C:\Users\renyumeng\AppData\Roaming\uv\python\cpython-3.14.2-windows-x86_64-none\Lib\threading.py", line 1024, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(asyncio-portal-271e32107d0, started daemon 9772)>
+    │    │        │    └ ()
+    │    │        └ <Thread(asyncio-portal-271e32107d0, started daemon 9772)>
+    │    └ <function start_blocking_portal.<locals>.run_blocking_portal at 0x00000271E3162A30>
+    └ <Thread(asyncio-portal-271e32107d0, started daemon 9772)>
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\anyio\from_thread.py", line 532, in run_blocking_portal
+    run_eventloop(
+    └ <function run at 0x00000271B31C17A0>
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\anyio\_core\_eventloop.py", line 77, in run
+    return async_backend.run(func, args, {}, backend_options)
+           │             │   │     │         └ {}
+           │             │   │     └ ()
+           │             │   └ <function start_blocking_portal.<locals>.run_portal at 0x00000271E3162350>
+           │             └ <classmethod(<function AsyncIOBackend.run at 0x00000271E3201E80>)>
+           └ <class 'anyio._backends._asyncio.AsyncIOBackend'>
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2358, in run
+    return runner.run(wrapper())
+           │      │   └ <function start_blocking_portal.<locals>.run_portal at 0x00000271E3205C70>
+           │      └ <function Runner.run at 0x00000271B60087D0>
+           └ <asyncio.runners.Runner object at 0x00000271E315FC50>
+  File "C:\Users\renyumeng\AppData\Roaming\uv\python\cpython-3.14.2-windows-x86_64-none\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='anyio.from_thread.start_blocking_portal.<locals>.run_portal' coro=<start_blocking_portal.<locals>.run_por...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x00000271B5FECA90>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000271E315FC50>
+  File "C:\Users\renyumeng\AppData\Roaming\uv\python\cpython-3.14.2-windows-x86_64-none\Lib\asyncio\base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x00000271B5FEC9E0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\renyumeng\AppData\Roaming\uv\python\cpython-3.14.2-windows-x86_64-none\Lib\asyncio\base_events.py", line 677, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000271B5FEEAE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\renyumeng\AppData\Roaming\uv\python\cpython-3.14.2-windows-x86_64-none\Lib\asyncio\base_events.py", line 2046, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000271B5F064B0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000271E31D2F80>()>
+  File "C:\Users\renyumeng\AppData\Roaming\uv\python\cpython-3.14.2-windows-x86_64-none\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000271E31D2F80>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000271E31D2F80>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x00000271E31D2F80>()>
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\starlette\responses.py", line 277, in wrap
+    await func()
+          └ functools.partial(<bound method StreamingResponse.stream_response of <starlette.responses.StreamingResponse object at 0x00000...
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\starlette\responses.py", line 250, in stream_response
+    async for chunk in self.body_iterator:
+              │        │    └ <async_generator object chat_stream.<locals>.generate at 0x00000271BA3307B0>
+              │        └ <starlette.responses.StreamingResponse object at 0x00000271E3180830>
+              └ b'data: {"type": "start", "message": "\xe5\xbc\x80\xe5\xa7\x8b\xe7\x94\x9f\xe6\x88\x90..."}\n\n'
+
+> File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\api\routers\chat.py", line 357, in generate
+    agent = create_base_agent(
+            └ <function create_base_agent at 0x00000271BABE1590>
+
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\agent\base_agent.py", line 482, in create_base_agent
+    return BaseAgent(
+           └ <class 'backend.agent.base_agent.BaseAgent'>
+
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\agent\base_agent.py", line 97, in __init__
+    self.graph = create_agent(
+    │            └ <function create_agent at 0x00000271B86ED4E0>
+    └ <backend.agent.base_agent.BaseAgent object at 0x00000271E32ED950>
+
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\langchain\agents\factory.py", line 839, in create_agent
+    model = init_chat_model(model)
+            │               └ 'openai:deepseek-ai/DeepSeek-V3.2'
+            └ <function init_chat_model at 0x00000271B8636FB0>
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\langchain\chat_models\base.py", line 479, in init_chat_model
+    return _init_chat_model_helper(
+           └ <function _init_chat_model_helper at 0x00000271B8637110>
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\langchain\chat_models\base.py", line 503, in _init_chat_model_helper
+    return creator_func(model=model, **kwargs)
+           │                  │        └ {}
+           │                  └ 'deepseek-ai/DeepSeek-V3.2'
+           └ functools.partial(<function _call at 0x00000271B86364B0>, cls=<class 'langchain_openai.chat_models.base.ChatOpenAI'>)
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\langchain\chat_models\base.py", line 35, in _call
+    return cls(**kwargs)
+           │     └ {'model': 'deepseek-ai/DeepSeek-V3.2'}
+           └ <class 'langchain_openai.chat_models.base.ChatOpenAI'>
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\langchain_core\load\serializable.py", line 118, in __init__
+    super().__init__(*args, **kwargs)
+                      │       └ {'model': 'deepseek-ai/DeepSeek-V3.2'}
+                      └ ()
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\pydantic\main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     │    │                      │               │                   └ ChatOpenAI(output_version=None, model_name='deepseek-ai/DeepSeek-V3.2', model_kwargs={}, openai_api_key=None, openai_proxy=No...
+                     │    │                      │               └ {'model': 'deepseek-ai/DeepSeek-V3.2', 'model_kwargs': {}}
+                     │    │                      └ <method 'validate_python' of 'pydantic_core._pydantic_core.SchemaValidator' objects>
+                     │    └ SchemaValidator(title="ChatOpenAI", validator=FunctionAfter(
+                     │          FunctionAfterValidator {
+                     │              validator: FunctionAfter(
+                     │       ...
+                     └ ChatOpenAI(output_version=None, model_name='deepseek-ai/DeepSeek-V3.2', model_kwargs={}, openai_api_key=None, openai_proxy=No...
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1253, in validate_environment
+    self.root_async_client = openai.AsyncOpenAI(
+    │    │                   │      └ <class 'openai.AsyncOpenAI'>
+    │    │                   └ <module 'openai' from 'E:\\Graduate\\code\\langchain-project\\my-LC-StudyLab\\backend\\.venv\\Lib\\site-packages\\openai\\__i...
+    │    └ None
+    └ ChatOpenAI(output_version=None, model_name='deepseek-ai/DeepSeek-V3.2', model_kwargs={}, openai_api_key=None, openai_proxy=No...
+  File "E:\Graduate\code\langchain-project\my-LC-StudyLab\backend\.venv\Lib\site-packages\openai\_client.py", line 700, in __init__
+    raise OpenAIError(
+          └ <class 'openai.OpenAIError'>
+
+openai.OpenAIError: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-05-15 12:00:29.175 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:00:29.175 | WARNING  | backend.rag.index_manager:delete_index:291 | 索引不存在: regression_docs_fix
+2026-05-15 12:00:29.177 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:00:29.177 | INFO     | backend.rag.loaders:load_directory:213 | 📁 开始加载目录: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs
+2026-05-15 12:00:29.178 | INFO     | backend.rag.loaders:load_directory:214 |    匹配模式: **/*.md
+2026-05-15 12:00:29.179 | INFO     | backend.rag.loaders:load_directory:243 |    找到 6 个文件
+2026-05-15 12:00:29.179 | INFO     | backend.rag.loaders:load_directory:253 |    [1/6] 加载: agent-tools.md
+2026-05-15 12:00:29.179 | ERROR    | backend.rag.loaders:get_loader_for_file:93 | 创建加载器失败: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\agent-tools.md, 错误: No module named 'unstructured'
+2026-05-15 12:00:29.179 | ERROR    | backend.rag.loaders:load_directory:260 |    ❌ 加载失败: agent-tools.md, 错误: 不支持的文件类型: .md。支持的类型: .pdf, .txt, .md, .mdx, .html, .htm, .json
+2026-05-15 12:00:29.179 | INFO     | backend.rag.loaders:load_directory:253 |    [2/6] 加载: api-usage.md
+2026-05-15 12:00:29.180 | ERROR    | backend.rag.loaders:get_loader_for_file:93 | 创建加载器失败: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\api-usage.md, 错误: No module named 'unstructured'
+2026-05-15 12:00:29.180 | ERROR    | backend.rag.loaders:load_directory:260 |    ❌ 加载失败: api-usage.md, 错误: 不支持的文件类型: .md。支持的类型: .pdf, .txt, .md, .mdx, .html, .htm, .json
+2026-05-15 12:00:29.180 | INFO     | backend.rag.loaders:load_directory:253 |    [3/6] 加载: langchain-overview.md
+2026-05-15 12:00:29.181 | ERROR    | backend.rag.loaders:get_loader_for_file:93 | 创建加载器失败: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\langchain-overview.md, 错误: No module named 'unstructured'
+2026-05-15 12:00:29.181 | ERROR    | backend.rag.loaders:load_directory:260 |    ❌ 加载失败: langchain-overview.md, 错误: 不支持的文件类型: .md。支持的类型: .pdf, .txt, .md, .mdx, .html, .htm, .json
+2026-05-15 12:00:29.181 | INFO     | backend.rag.loaders:load_directory:253 |    [4/6] 加载: rag-basics.md
+2026-05-15 12:00:29.181 | ERROR    | backend.rag.loaders:get_loader_for_file:93 | 创建加载器失败: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\rag-basics.md, 错误: No module named 'unstructured'
+2026-05-15 12:00:29.181 | ERROR    | backend.rag.loaders:load_directory:260 |    ❌ 加载失败: rag-basics.md, 错误: 不支持的文件类型: .md。支持的类型: .pdf, .txt, .md, .mdx, .html, .htm, .json
+2026-05-15 12:00:29.182 | INFO     | backend.rag.loaders:load_directory:253 |    [5/6] 加载: study-workflow.md
+2026-05-15 12:00:29.182 | ERROR    | backend.rag.loaders:get_loader_for_file:93 | 创建加载器失败: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\study-workflow.md, 错误: No module named 'unstructured'
+2026-05-15 12:00:29.182 | ERROR    | backend.rag.loaders:load_directory:260 |    ❌ 加载失败: study-workflow.md, 错误: 不支持的文件类型: .md。支持的类型: .pdf, .txt, .md, .mdx, .html, .htm, .json
+2026-05-15 12:00:29.182 | INFO     | backend.rag.loaders:load_directory:253 |    [6/6] 加载: vector-indexing.md
+2026-05-15 12:00:29.183 | ERROR    | backend.rag.loaders:get_loader_for_file:93 | 创建加载器失败: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\vector-indexing.md, 错误: No module named 'unstructured'
+2026-05-15 12:00:29.183 | ERROR    | backend.rag.loaders:load_directory:260 |    ❌ 加载失败: vector-indexing.md, 错误: 不支持的文件类型: .md。支持的类型: .pdf, .txt, .md, .mdx, .html, .htm, .json
+2026-05-15 12:00:29.183 | INFO     | backend.rag.loaders:load_directory:264 | ✅ 目录加载完成:
+2026-05-15 12:00:29.183 | INFO     | backend.rag.loaders:load_directory:265 |    成功: 0 个文件
+2026-05-15 12:00:29.183 | INFO     | backend.rag.loaders:load_directory:266 |    失败: 6 个文件
+2026-05-15 12:00:29.183 | INFO     | backend.rag.loaders:load_directory:267 |    总计: 0 个文档块
+2026-05-15 12:00:29.183 | WARNING  | backend.rag.splitters:split_documents:141 | 文档列表为空，无需分块
+2026-05-15 12:00:29.183 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 12:00:29.508 | INFO     | backend.rag.index_manager:create_index:122 | 🔨 创建索引: regression_docs_fix
+2026-05-15 12:00:29.509 | INFO     | backend.rag.index_manager:create_index:123 |    文档数量: 0
+2026-05-15 12:00:29.509 | INFO     | backend.rag.index_manager:create_index:124 |    描述: regression test markdown corpus
+2026-05-15 12:00:29.509 | ERROR    | backend.rag.index_manager:create_index:155 | ❌ 创建索引失败: 文档列表不能为空
+2026-05-15 12:00:29.509 | ERROR    | backend.api.routers.rag:create_index:255 | ❌ 创建索引失败: 文档列表不能为空
+2026-05-15 12:00:29.511 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:00:29.511 | WARNING  | backend.rag.index_manager:get_index_info:363 | 索引不存在: regression_docs_fix
+2026-05-15 12:00:29.514 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:00:29.514 | INFO     | backend.rag.splitters:split_text:207 | 📝 开始分块文本: 53 字符
+2026-05-15 12:00:29.514 | INFO     | backend.rag.splitters:split_text:225 | ✅ 分块完成: 1 个文本块
+2026-05-15 12:00:29.514 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 12:00:29.568 | INFO     | backend.rag.index_manager:update_index:248 | 🔄 更新索引: regression_docs_fix
+2026-05-15 12:00:29.568 | INFO     | backend.rag.index_manager:update_index:249 |    新增文档: 1
+2026-05-15 12:00:29.568 | ERROR    | backend.rag.index_manager:update_index:272 | ❌ 更新索引失败: 索引 'regression_docs_fix' 不存在。
+2026-05-15 12:00:29.569 | ERROR    | backend.api.routers.rag:update_index:272 | ❌ 更新索引失败: 索引 'regression_docs_fix' 不存在。
+2026-05-15 12:00:29.571 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:00:29.571 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 12:00:29.625 | ERROR    | backend.api.routers.rag:query_rag:334 | ❌ RAG 查询失败: 索引 'regression_docs_fix' 不存在。
+2026-05-15 12:00:29.627 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:00:29.627 | WARNING  | backend.rag.index_manager:delete_index:291 | 索引不存在: regression_docs_fix
+2026-05-15 12:02:25.897 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 12:02:51.869 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 12:02:52.797 | INFO     | backend.api.routers.chat:chat:193 | 📨 收到聊天请求: 请用一句中文回答：LangChain 是什么？...
+2026-05-15 12:02:52.797 | INFO     | backend.agent.base_agent:create_base_agent:484 | 🏭 创建 Base Agent (mode=concise, debug=False)
+2026-05-15 12:02:52.797 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 12:02:53.110 | INFO     | backend.agent.base_agent:__init__:58 | 🤖 使用默认模型: deepseek-ai/DeepSeek-V3.2
+2026-05-15 12:02:53.110 | INFO     | backend.agent.base_agent:__init__:76 | 🔧 使用自定义工具集 (0 个工具)
+2026-05-15 12:02:53.110 | INFO     | backend.agent.base_agent:__init__:91 | 📝 使用基础系统提示词 (模式: concise)
+2026-05-15 12:02:53.111 | INFO     | backend.agent.base_agent:__init__:100 | 🚀 使用langchain V1.2 create_agent API...
+2026-05-15 12:02:53.113 | INFO     | backend.agent.base_agent:__init__:109 | ✅ Agent 创建成功（CompiledStateGraph）
+2026-05-15 12:02:53.113 | INFO     | backend.agent.base_agent:ainvoke:351 | 🚀 执行 Agent 异步调用: 请用一句中文回答：LangChain 是什么？...
+2026-05-15 12:02:55.552 | INFO     | backend.agent.base_agent:ainvoke:379 | ✅ Agent 异步调用成功，响应长度: 38
+2026-05-15 12:02:55.552 | INFO     | backend.api.routers.chat:chat:240 | ✅ 聊天请求处理完成，响应长度: 38 字符
+2026-05-15 12:02:55.556 | INFO     | backend.api.routers.chat:chat_stream:331 | 🌊 收到流式聊天请求: 请用一句中文回答：RAG 是什么？...
+2026-05-15 12:02:55.561 | INFO     | backend.agent.base_agent:create_base_agent:484 | 🏭 创建 Base Agent (mode=concise, debug=False)
+2026-05-15 12:02:55.561 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 12:02:55.561 | INFO     | backend.agent.base_agent:__init__:58 | 🤖 使用默认模型: deepseek-ai/DeepSeek-V3.2
+2026-05-15 12:02:55.562 | INFO     | backend.agent.base_agent:__init__:76 | 🔧 使用自定义工具集 (0 个工具)
+2026-05-15 12:02:55.562 | INFO     | backend.agent.base_agent:__init__:91 | 📝 使用基础系统提示词 (模式: concise)
+2026-05-15 12:02:55.562 | INFO     | backend.agent.base_agent:__init__:100 | 🚀 使用langchain V1.2 create_agent API...
+2026-05-15 12:02:55.563 | INFO     | backend.agent.base_agent:__init__:109 | ✅ Agent 创建成功（CompiledStateGraph）
+2026-05-15 12:02:57.480 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 12:03:10.106 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 12:03:12.955 | INFO     | backend.core.usage_tracker:log_summary:147 | 📊 Token 使用统计: 0/128000 (0.0%) - 输入:0, 输出:0
+2026-05-15 12:03:12.955 | INFO     | backend.api.routers.chat:generate:636 | ✅ 流式聊天请求处理完成
+2026-05-15 12:03:12.958 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:03:12.958 | WARNING  | backend.rag.index_manager:delete_index:291 | 索引不存在: regression_docs_fix
+2026-05-15 12:03:12.960 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:03:12.961 | INFO     | backend.rag.loaders:load_directory:209 | 📁 开始加载目录: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs
+2026-05-15 12:03:12.961 | INFO     | backend.rag.loaders:load_directory:210 |    匹配模式: **/*.md
+2026-05-15 12:03:12.962 | INFO     | backend.rag.loaders:load_directory:242 |    找到 6 个文件
+2026-05-15 12:03:12.962 | INFO     | backend.rag.loaders:load_directory:252 |    [1/6] 加载: agent-tools.md
+2026-05-15 12:03:12.962 | INFO     | backend.rag.loaders:load_document:137 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\agent-tools.md
+2026-05-15 12:03:12.962 | INFO     | backend.rag.loaders:load_document:151 | ✅ 成功加载 1 个文档块
+2026-05-15 12:03:12.962 | INFO     | backend.rag.loaders:load_directory:252 |    [2/6] 加载: api-usage.md
+2026-05-15 12:03:12.962 | INFO     | backend.rag.loaders:load_document:137 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\api-usage.md
+2026-05-15 12:03:12.962 | INFO     | backend.rag.loaders:load_document:151 | ✅ 成功加载 1 个文档块
+2026-05-15 12:03:12.963 | INFO     | backend.rag.loaders:load_directory:252 |    [3/6] 加载: langchain-overview.md
+2026-05-15 12:03:12.963 | INFO     | backend.rag.loaders:load_document:137 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\langchain-overview.md
+2026-05-15 12:03:12.963 | INFO     | backend.rag.loaders:load_document:151 | ✅ 成功加载 1 个文档块
+2026-05-15 12:03:12.963 | INFO     | backend.rag.loaders:load_directory:252 |    [4/6] 加载: rag-basics.md
+2026-05-15 12:03:12.963 | INFO     | backend.rag.loaders:load_document:137 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\rag-basics.md
+2026-05-15 12:03:12.963 | INFO     | backend.rag.loaders:load_document:151 | ✅ 成功加载 1 个文档块
+2026-05-15 12:03:12.963 | INFO     | backend.rag.loaders:load_directory:252 |    [5/6] 加载: study-workflow.md
+2026-05-15 12:03:12.963 | INFO     | backend.rag.loaders:load_document:137 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\study-workflow.md
+2026-05-15 12:03:12.964 | INFO     | backend.rag.loaders:load_document:151 | ✅ 成功加载 1 个文档块
+2026-05-15 12:03:12.964 | INFO     | backend.rag.loaders:load_directory:252 |    [6/6] 加载: vector-indexing.md
+2026-05-15 12:03:12.964 | INFO     | backend.rag.loaders:load_document:137 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\vector-indexing.md
+2026-05-15 12:03:12.964 | INFO     | backend.rag.loaders:load_document:151 | ✅ 成功加载 1 个文档块
+2026-05-15 12:03:12.964 | INFO     | backend.rag.loaders:load_directory:263 | ✅ 目录加载完成:
+2026-05-15 12:03:12.964 | INFO     | backend.rag.loaders:load_directory:264 |    成功: 6 个文件
+2026-05-15 12:03:12.964 | INFO     | backend.rag.loaders:load_directory:265 |    失败: 0 个文件
+2026-05-15 12:03:12.964 | INFO     | backend.rag.loaders:load_directory:266 |    总计: 6 个文档块
+2026-05-15 12:03:12.964 | INFO     | backend.rag.splitters:split_documents:144 | 📝 开始分块: 6 个文档
+2026-05-15 12:03:12.965 | INFO     | backend.rag.splitters:split_documents:157 | ✅ 分块完成: 16 个文本块
+2026-05-15 12:03:12.965 | INFO     | backend.rag.splitters:split_documents:162 |    平均块大小: 324 字符
+2026-05-15 12:03:12.965 | INFO     | backend.rag.splitters:split_documents:163 |    总字符数: 5189
+2026-05-15 12:03:12.965 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 12:03:13.012 | INFO     | backend.rag.index_manager:create_index:122 | 🔨 创建索引: regression_docs_fix
+2026-05-15 12:03:13.012 | INFO     | backend.rag.index_manager:create_index:123 |    文档数量: 16
+2026-05-15 12:03:13.012 | INFO     | backend.rag.index_manager:create_index:124 |    描述: regression test markdown corpus
+2026-05-15 12:03:13.012 | INFO     | backend.rag.vector_stores:create_vector_store:69 | 🗄️  创建向量存储: type=faiss, documents=16
+2026-05-15 12:03:13.660 | INFO     | backend.rag.vector_stores:create_vector_store:81 | ✅ FAISS 向量库创建成功
+2026-05-15 12:03:13.660 | INFO     | backend.rag.vector_stores:save_vector_store:128 | 💾 保存向量库: data\indexes\regression_docs_fix
+2026-05-15 12:03:13.662 | INFO     | backend.rag.vector_stores:save_vector_store:134 | ✅ FAISS 向量库保存成功
+2026-05-15 12:03:13.662 | INFO     | backend.rag.index_manager:create_index:151 | ✅ 索引创建成功: regression_docs_fix
+2026-05-15 12:03:13.665 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:03:13.667 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:03:13.667 | INFO     | backend.rag.splitters:split_text:207 | 📝 开始分块文本: 53 字符
+2026-05-15 12:03:13.668 | INFO     | backend.rag.splitters:split_text:225 | ✅ 分块完成: 1 个文本块
+2026-05-15 12:03:13.668 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 12:03:13.716 | INFO     | backend.rag.index_manager:update_index:248 | 🔄 更新索引: regression_docs_fix
+2026-05-15 12:03:13.716 | INFO     | backend.rag.index_manager:update_index:249 |    新增文档: 1
+2026-05-15 12:03:13.716 | INFO     | backend.rag.index_manager:load_index:191 | 📂 加载索引: regression_docs_fix
+2026-05-15 12:03:13.716 | INFO     | backend.rag.index_manager:load_index:199 |    描述: regression test markdown corpus
+2026-05-15 12:03:13.717 | INFO     | backend.rag.index_manager:load_index:200 |    文档数量: 16
+2026-05-15 12:03:13.717 | INFO     | backend.rag.index_manager:load_index:201 |    创建时间: 2026-05-15T12:03:13.662261
+2026-05-15 12:03:13.717 | INFO     | backend.rag.index_manager:load_index:202 |    上次更新时间: 2026-05-15T12:03:13.662264
+2026-05-15 12:03:13.717 | INFO     | backend.rag.vector_stores:load_vector_store:188 | 📂 加载向量库: data\indexes\regression_docs_fix
+2026-05-15 12:03:13.717 | INFO     | backend.rag.vector_stores:load_vector_store:201 | ✅ FAISS 向量库加载成功
+2026-05-15 12:03:13.717 | INFO     | backend.rag.index_manager:load_index:210 | ✅ 索引加载成功: regression_docs_fix
+2026-05-15 12:03:13.717 | INFO     | backend.rag.vector_stores:add_documents_to_vector_store:243 | ➕ 向向量库添加文档: 1 个
+2026-05-15 12:03:13.915 | INFO     | backend.rag.vector_stores:add_documents_to_vector_store:247 | ✅ 文档添加成功
+2026-05-15 12:03:13.916 | INFO     | backend.rag.vector_stores:save_vector_store:128 | 💾 保存向量库: data\indexes\regression_docs_fix
+2026-05-15 12:03:13.916 | INFO     | backend.rag.vector_stores:save_vector_store:134 | ✅ FAISS 向量库保存成功
+2026-05-15 12:03:13.917 | INFO     | backend.rag.index_manager:update_index:267 | ✅ 索引更新成功: regression_docs_fix
+2026-05-15 12:03:13.920 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:03:13.920 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 12:03:13.968 | INFO     | backend.rag.index_manager:load_index:191 | 📂 加载索引: regression_docs_fix
+2026-05-15 12:03:13.968 | INFO     | backend.rag.index_manager:load_index:199 |    描述: regression test markdown corpus
+2026-05-15 12:03:13.968 | INFO     | backend.rag.index_manager:load_index:200 |    文档数量: 17
+2026-05-15 12:03:13.969 | INFO     | backend.rag.index_manager:load_index:201 |    创建时间: 2026-05-15T12:03:13.662261
+2026-05-15 12:03:13.969 | INFO     | backend.rag.index_manager:load_index:202 |    上次更新时间: 2026-05-15T12:03:13.917169
+2026-05-15 12:03:13.969 | INFO     | backend.rag.vector_stores:load_vector_store:188 | 📂 加载向量库: data\indexes\regression_docs_fix
+2026-05-15 12:03:13.969 | INFO     | backend.rag.vector_stores:load_vector_store:201 | ✅ FAISS 向量库加载成功
+2026-05-15 12:03:13.969 | INFO     | backend.rag.index_manager:load_index:210 | ✅ 索引加载成功: regression_docs_fix
+2026-05-15 12:03:13.969 | INFO     | backend.rag.retrievers:create_retriever:79 | 🔍 创建检索器: search_type=similarity, k=2
+2026-05-15 12:03:13.969 | INFO     | backend.rag.retrievers:create_retriever:100 | ✅ 检索器创建成功
+2026-05-15 12:03:13.969 | INFO     | backend.rag.rag_agent:create_conversational_rag_agent:252 | 💬 创建对话式 RAG Agent
+2026-05-15 12:03:13.969 | INFO     | backend.rag.rag_agent:create_rag_agent:92 | 🤖 创建 RAG Agent
+2026-05-15 12:03:13.969 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 12:03:13.970 | INFO     | backend.rag.retrievers:create_retriever_tool:119 | 🔧 创建检索器工具: knowledge_base
+2026-05-15 12:03:13.970 | INFO     | backend.rag.retrievers:create_retriever_tool:130 | ✅ 检索器工具创建成功
+2026-05-15 12:03:13.986 | INFO     | backend.rag.rag_agent:create_rag_agent:132 | ✅ RAG Agent 创建成功
+2026-05-15 12:03:13.986 | INFO     | backend.rag.rag_agent:create_rag_agent:133 |    模型: deepseek-ai/DeepSeek-V3.2
+2026-05-15 12:03:13.986 | INFO     | backend.rag.rag_agent:create_rag_agent:134 |    流式输出: True
+2026-05-15 12:03:13.986 | INFO     | backend.rag.rag_agent:aquery_rag_agent:336 | 🔍 异步查询 RAG Agent: LC-StudyLab 的 RAG 索引用来做什么？...
+2026-05-15 12:03:31.061 | INFO     | backend.rag.rag_agent:aquery_rag_agent:362 | ✅ 异步查询完成
+2026-05-15 12:03:31.295 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:03:31.295 | INFO     | backend.rag.index_manager:delete_index:294 | 🗑️  删除索引: regression_docs_fix
+2026-05-15 12:03:31.295 | INFO     | backend.rag.vector_stores:delete_vector_store:363 | 🗑️  删除向量库: data\indexes\regression_docs_fix
+2026-05-15 12:03:31.296 | INFO     | backend.rag.vector_stores:delete_vector_store:374 | ✅ 向量库删除成功
+2026-05-15 12:03:31.296 | INFO     | backend.rag.index_manager:delete_index:298 | ✅ 索引删除成功: regression_docs_fix
+2026-05-15 12:09:01.285 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 12:09:01.751 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: data\rag_docs\rag-basics.md
+2026-05-15 12:09:01.755 | ERROR    | backend.rag.loaders:load_document:158 | ❌ 加载文档失败: data\rag_docs\rag-basics.md, 错误: No module named 'markdown'
+2026-05-15 12:10:14.048 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 12:10:14.462 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: data\rag_docs\rag-basics.md
+2026-05-15 12:10:18.278 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:10:35.577 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 12:10:36.841 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:10:36.842 | WARNING  | backend.rag.index_manager:delete_index:291 | 索引不存在: markdown_loader_regression
+2026-05-15 12:10:36.844 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:10:36.845 | INFO     | backend.rag.loaders:load_directory:212 | 📁 开始加载目录: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs
+2026-05-15 12:10:36.845 | INFO     | backend.rag.loaders:load_directory:213 |    匹配模式: **/*.md
+2026-05-15 12:10:36.846 | INFO     | backend.rag.loaders:load_directory:245 |    找到 6 个文件
+2026-05-15 12:10:36.846 | INFO     | backend.rag.loaders:load_directory:255 |    [1/6] 加载: agent-tools.md
+2026-05-15 12:10:36.850 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\agent-tools.md
+2026-05-15 12:10:37.854 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:10:37.854 | INFO     | backend.rag.loaders:load_directory:255 |    [2/6] 加载: api-usage.md
+2026-05-15 12:10:37.854 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\api-usage.md
+2026-05-15 12:10:37.873 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:10:37.874 | INFO     | backend.rag.loaders:load_directory:255 |    [3/6] 加载: langchain-overview.md
+2026-05-15 12:10:37.874 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\langchain-overview.md
+2026-05-15 12:10:37.883 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:10:37.883 | INFO     | backend.rag.loaders:load_directory:255 |    [4/6] 加载: rag-basics.md
+2026-05-15 12:10:37.883 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\rag-basics.md
+2026-05-15 12:10:37.894 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:10:37.894 | INFO     | backend.rag.loaders:load_directory:255 |    [5/6] 加载: study-workflow.md
+2026-05-15 12:10:37.894 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\study-workflow.md
+2026-05-15 12:10:37.906 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:10:37.906 | INFO     | backend.rag.loaders:load_directory:255 |    [6/6] 加载: vector-indexing.md
+2026-05-15 12:10:37.906 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\vector-indexing.md
+2026-05-15 12:10:37.922 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:10:37.923 | INFO     | backend.rag.loaders:load_directory:266 | ✅ 目录加载完成:
+2026-05-15 12:10:37.923 | INFO     | backend.rag.loaders:load_directory:267 |    成功: 6 个文件
+2026-05-15 12:10:37.923 | INFO     | backend.rag.loaders:load_directory:268 |    失败: 0 个文件
+2026-05-15 12:10:37.923 | INFO     | backend.rag.loaders:load_directory:269 |    总计: 6 个文档块
+2026-05-15 12:10:37.923 | INFO     | backend.rag.splitters:split_documents:144 | 📝 开始分块: 6 个文档
+2026-05-15 12:10:37.923 | INFO     | backend.rag.splitters:split_documents:157 | ✅ 分块完成: 14 个文本块
+2026-05-15 12:10:37.924 | INFO     | backend.rag.splitters:split_documents:162 |    平均块大小: 357 字符
+2026-05-15 12:10:37.924 | INFO     | backend.rag.splitters:split_documents:163 |    总字符数: 4993
+2026-05-15 12:10:37.924 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 12:10:38.251 | INFO     | backend.rag.index_manager:create_index:122 | 🔨 创建索引: markdown_loader_regression
+2026-05-15 12:10:38.251 | INFO     | backend.rag.index_manager:create_index:123 |    文档数量: 14
+2026-05-15 12:10:38.251 | INFO     | backend.rag.index_manager:create_index:124 |    描述: markdown loader regression
+2026-05-15 12:10:38.251 | INFO     | backend.rag.vector_stores:create_vector_store:69 | 🗄️  创建向量存储: type=faiss, documents=14
+2026-05-15 12:10:38.699 | INFO     | backend.rag.vector_stores:create_vector_store:81 | ✅ FAISS 向量库创建成功
+2026-05-15 12:10:38.699 | INFO     | backend.rag.vector_stores:save_vector_store:128 | 💾 保存向量库: data\indexes\markdown_loader_regression
+2026-05-15 12:10:38.700 | INFO     | backend.rag.vector_stores:save_vector_store:134 | ✅ FAISS 向量库保存成功
+2026-05-15 12:10:38.703 | INFO     | backend.rag.index_manager:create_index:151 | ✅ 索引创建成功: markdown_loader_regression
+2026-05-15 12:10:38.706 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: data\indexes
+2026-05-15 12:10:38.706 | INFO     | backend.rag.index_manager:delete_index:294 | 🗑️  删除索引: markdown_loader_regression
+2026-05-15 12:10:38.706 | INFO     | backend.rag.vector_stores:delete_vector_store:363 | 🗑️  删除向量库: data\indexes\markdown_loader_regression
+2026-05-15 12:10:38.707 | INFO     | backend.rag.vector_stores:delete_vector_store:374 | ✅ 向量库删除成功
+2026-05-15 12:10:38.707 | INFO     | backend.rag.index_manager:delete_index:298 | ✅ 索引删除成功: markdown_loader_regression
+2026-05-15 12:11:45.026 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 12:11:45.425 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: data\loader_smoke\sample.txt
+2026-05-15 12:11:45.426 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:11:45.429 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: data\loader_smoke\sample.json
+2026-05-15 12:11:45.429 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:11:45.432 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: data\loader_smoke\sample.html
+2026-05-15 12:11:46.102 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:11:46.103 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: data\rag_docs\rag-basics.md
+2026-05-15 12:11:46.134 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:13:41.219 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 12:13:42.492 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 12:13:42.493 | INFO     | backend.rag.loaders:load_directory:212 | 📁 开始加载目录: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs
+2026-05-15 12:13:42.493 | INFO     | backend.rag.loaders:load_directory:213 |    匹配模式: **/*.md
+2026-05-15 12:13:42.494 | INFO     | backend.rag.loaders:load_directory:245 |    找到 6 个文件
+2026-05-15 12:13:42.494 | INFO     | backend.rag.loaders:load_directory:255 |    [1/6] 加载: agent-tools.md
+2026-05-15 12:13:42.497 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\agent-tools.md
+2026-05-15 12:13:43.217 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:13:43.218 | INFO     | backend.rag.loaders:load_directory:255 |    [2/6] 加载: api-usage.md
+2026-05-15 12:13:43.218 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\api-usage.md
+2026-05-15 12:13:43.237 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:13:43.237 | INFO     | backend.rag.loaders:load_directory:255 |    [3/6] 加载: langchain-overview.md
+2026-05-15 12:13:43.238 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\langchain-overview.md
+2026-05-15 12:13:43.247 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:13:43.247 | INFO     | backend.rag.loaders:load_directory:255 |    [4/6] 加载: rag-basics.md
+2026-05-15 12:13:43.248 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\rag-basics.md
+2026-05-15 12:13:43.259 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:13:43.259 | INFO     | backend.rag.loaders:load_directory:255 |    [5/6] 加载: study-workflow.md
+2026-05-15 12:13:43.260 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\study-workflow.md
+2026-05-15 12:13:43.272 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:13:43.272 | INFO     | backend.rag.loaders:load_directory:255 |    [6/6] 加载: vector-indexing.md
+2026-05-15 12:13:43.272 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\vector-indexing.md
+2026-05-15 12:13:43.289 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 12:13:43.289 | INFO     | backend.rag.loaders:load_directory:266 | ✅ 目录加载完成:
+2026-05-15 12:13:43.289 | INFO     | backend.rag.loaders:load_directory:267 |    成功: 6 个文件
+2026-05-15 12:13:43.289 | INFO     | backend.rag.loaders:load_directory:268 |    失败: 0 个文件
+2026-05-15 12:13:43.289 | INFO     | backend.rag.loaders:load_directory:269 |    总计: 6 个文档块
+2026-05-15 12:13:43.289 | INFO     | backend.rag.splitters:split_documents:144 | 📝 开始分块: 6 个文档
+2026-05-15 12:13:43.290 | INFO     | backend.rag.splitters:split_documents:157 | ✅ 分块完成: 14 个文本块
+2026-05-15 12:13:43.290 | INFO     | backend.rag.splitters:split_documents:162 |    平均块大小: 357 字符
+2026-05-15 12:13:43.290 | INFO     | backend.rag.splitters:split_documents:163 |    总字符数: 4993
+2026-05-15 12:13:43.290 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 12:13:43.606 | INFO     | backend.rag.index_manager:create_index:122 | 🔨 创建索引: study_lab_docs
+2026-05-15 12:13:43.606 | INFO     | backend.rag.index_manager:create_index:123 |    文档数量: 14
+2026-05-15 12:13:43.606 | INFO     | backend.rag.index_manager:create_index:124 |    描述: LC-StudyLab RAG markdown corpus
+2026-05-15 12:13:43.606 | INFO     | backend.rag.vector_stores:create_vector_store:69 | 🗄️  创建向量存储: type=faiss, documents=14
+2026-05-15 12:13:44.073 | INFO     | backend.rag.vector_stores:create_vector_store:81 | ✅ FAISS 向量库创建成功
+2026-05-15 12:13:44.073 | INFO     | backend.rag.vector_stores:save_vector_store:128 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study_lab_docs
+2026-05-15 12:13:44.074 | INFO     | backend.rag.vector_stores:save_vector_store:134 | ✅ FAISS 向量库保存成功
+2026-05-15 12:13:44.075 | INFO     | backend.rag.index_manager:create_index:151 | ✅ 索引创建成功: study_lab_docs
+2026-05-15 14:09:05.584 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 14:17:56.653 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:17:56.653 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:17:56.653 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 1 个索引
+2026-05-15 14:19:57.696 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:19:57.696 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:19:57.697 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 1 个索引
+2026-05-15 14:19:57.700 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:19:57.700 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:19:57.701 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 1 个索引
+2026-05-15 14:20:01.261 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:20:01.261 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:20:01.262 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 1 个索引
+2026-05-15 14:20:10.832 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:20:10.833 | INFO     | backend.rag.loaders:load_directory:212 | 📁 开始加载目录: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs
+2026-05-15 14:20:10.834 | INFO     | backend.rag.loaders:load_directory:213 |    匹配模式: **/*.md
+2026-05-15 14:20:10.834 | INFO     | backend.rag.loaders:load_directory:245 |    找到 6 个文件
+2026-05-15 14:20:10.834 | INFO     | backend.rag.loaders:load_directory:255 |    [1/6] 加载: agent-tools.md
+2026-05-15 14:20:10.842 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\agent-tools.md
+2026-05-15 14:20:11.699 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:20:11.700 | INFO     | backend.rag.loaders:load_directory:255 |    [2/6] 加载: api-usage.md
+2026-05-15 14:20:11.700 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\api-usage.md
+2026-05-15 14:20:11.719 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:20:11.719 | INFO     | backend.rag.loaders:load_directory:255 |    [3/6] 加载: langchain-overview.md
+2026-05-15 14:20:11.720 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\langchain-overview.md
+2026-05-15 14:20:11.729 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:20:11.730 | INFO     | backend.rag.loaders:load_directory:255 |    [4/6] 加载: rag-basics.md
+2026-05-15 14:20:11.730 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\rag-basics.md
+2026-05-15 14:20:11.742 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:20:11.742 | INFO     | backend.rag.loaders:load_directory:255 |    [5/6] 加载: study-workflow.md
+2026-05-15 14:20:11.742 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\study-workflow.md
+2026-05-15 14:20:11.755 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:20:11.755 | INFO     | backend.rag.loaders:load_directory:255 |    [6/6] 加载: vector-indexing.md
+2026-05-15 14:20:11.755 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\vector-indexing.md
+2026-05-15 14:20:11.773 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:20:11.773 | INFO     | backend.rag.loaders:load_directory:266 | ✅ 目录加载完成:
+2026-05-15 14:20:11.773 | INFO     | backend.rag.loaders:load_directory:267 |    成功: 6 个文件
+2026-05-15 14:20:11.773 | INFO     | backend.rag.loaders:load_directory:268 |    失败: 0 个文件
+2026-05-15 14:20:11.773 | INFO     | backend.rag.loaders:load_directory:269 |    总计: 6 个文档块
+2026-05-15 14:20:11.773 | INFO     | backend.rag.splitters:split_documents:144 | 📝 开始分块: 6 个文档
+2026-05-15 14:20:11.774 | INFO     | backend.rag.splitters:split_documents:157 | ✅ 分块完成: 6 个文本块
+2026-05-15 14:20:11.774 | INFO     | backend.rag.splitters:split_documents:162 |    平均块大小: 823 字符
+2026-05-15 14:20:11.774 | INFO     | backend.rag.splitters:split_documents:163 |    总字符数: 4936
+2026-05-15 14:20:11.774 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 14:20:12.223 | INFO     | backend.rag.index_manager:create_index:122 | 🔨 创建索引: study-notes
+2026-05-15 14:20:12.223 | INFO     | backend.rag.index_manager:create_index:123 |    文档数量: 6
+2026-05-15 14:20:12.223 | INFO     | backend.rag.index_manager:create_index:124 |    描述: 前端创建的学习资料索引
+2026-05-15 14:20:12.224 | INFO     | backend.rag.vector_stores:create_vector_store:69 | 🗄️  创建向量存储: type=faiss, documents=6
+2026-05-15 14:20:12.680 | INFO     | backend.rag.vector_stores:create_vector_store:81 | ✅ FAISS 向量库创建成功
+2026-05-15 14:20:12.680 | INFO     | backend.rag.vector_stores:save_vector_store:128 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study-notes
+2026-05-15 14:20:12.681 | INFO     | backend.rag.vector_stores:save_vector_store:134 | ✅ FAISS 向量库保存成功
+2026-05-15 14:20:12.682 | INFO     | backend.rag.index_manager:create_index:151 | ✅ 索引创建成功: study-notes
+2026-05-15 14:20:12.686 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:20:12.686 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:20:12.687 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:24:35.100 | INFO     | backend.workflows.study_flow_graph:start_study_flow:191 | [Study Flow] 启动新的学习工作流，thread_id=6cfc46d7-9e65-4603-9354-0e6d8167b519
+2026-05-15 14:24:35.100 | INFO     | backend.workflows.study_flow_graph:get_study_flow_app:170 | [Study Flow Graph] 初始化全局工作流实例
+2026-05-15 14:24:35.100 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:81 | [Study Flow Graph] 开始创建学习工作流图
+2026-05-15 14:24:35.101 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:86 | [Study Flow Graph] 添加工作流节点...
+2026-05-15 14:24:35.102 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:133 | [Study Flow Graph] 配置检查点存储: data\checkpoints\study_flow.db
+2026-05-15 14:24:35.103 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:140 | [Study Flow Graph] 编译工作流图...
+2026-05-15 14:24:35.121 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:148 | [Study Flow Graph] 学习工作流图创建完成
+2026-05-15 14:24:35.121 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:149 | [Study Flow Graph] 中断点设置在: human_review (等待用户答题)
+2026-05-15 14:24:35.121 | INFO     | backend.workflows.study_flow_graph:start_study_flow:221 | [Study Flow] 开始执行工作流...
+2026-05-15 14:24:35.125 | INFO     | backend.workflows.nodes.planner_node:planner_node:42 | [Planner Node] 开始生成学习计划，用户问题: 我想系统学习 LC-StudyLab 的 RAG 和 workflow 设计
+2026-05-15 14:24:35.125 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=False)
+2026-05-15 14:24:35.176 | INFO     | backend.workflows.nodes.planner_node:planner_node:66 | [Planner Node] 调用 LLM 生成学习计划...
+2026-05-15 14:24:43.960 | INFO     | backend.workflows.nodes.planner_node:planner_node:80 | [Planner Node] 学习计划生成成功: LC-StudyLab中的RAG与Workflow设计系统学习
+2026-05-15 14:24:43.961 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:76 | [Retrieval Node] 开始文档检索，学习主题: LC-StudyLab中的RAG与Workflow设计系统学习
+2026-05-15 14:24:43.961 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:93 | [Retrieval Node] 主查询: LC-StudyLab中的RAG与Workflow设计系统学习
+2026-05-15 14:24:43.961 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:24:43.961 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 14:24:44.009 | INFO     | backend.rag.index_manager:load_index:191 | 📂 加载索引: study-notes
+2026-05-15 14:24:44.009 | INFO     | backend.rag.index_manager:load_index:199 |    描述: 前端创建的学习资料索引
+2026-05-15 14:24:44.009 | INFO     | backend.rag.index_manager:load_index:200 |    文档数量: 6
+2026-05-15 14:24:44.009 | INFO     | backend.rag.index_manager:load_index:201 |    创建时间: 2026-05-15T14:20:12.681763
+2026-05-15 14:24:44.010 | INFO     | backend.rag.index_manager:load_index:202 |    上次更新时间: 2026-05-15T14:20:12.681766
+2026-05-15 14:24:44.010 | INFO     | backend.rag.vector_stores:load_vector_store:188 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study-notes
+2026-05-15 14:24:44.010 | INFO     | backend.rag.vector_stores:load_vector_store:201 | ✅ FAISS 向量库加载成功
+2026-05-15 14:24:44.010 | INFO     | backend.rag.index_manager:load_index:210 | ✅ 索引加载成功: study-notes
+2026-05-15 14:24:44.010 | INFO     | backend.rag.retrievers:create_retriever:80 | 🔍 创建检索器: search_type=similarity, k=10
+2026-05-15 14:24:44.010 | INFO     | backend.rag.retrievers:create_retriever:99 | ✅ 检索器创建成功
+2026-05-15 14:24:44.010 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:111 | [Retrieval Node] 执行检索...
+2026-05-15 14:24:44.218 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:121 | [Retrieval Node] 检索完成，找到 6 个相关文档
+2026-05-15 14:24:44.218 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:145 | [Retrieval Node] 最终检索到 6 个文档
+2026-05-15 14:24:44.219 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:51 | [Quiz Generator Node] 开始生成练习题
+2026-05-15 14:24:44.219 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 14:24:44.220 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:67 | [Quiz Generator Node] 使用 6 个检索文档作为参考
+2026-05-15 14:24:44.221 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:106 | [Quiz Generator Node] 调用 LLM 生成练习题...
+2026-05-15 14:25:18.891 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:25:18.892 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:25:18.892 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:25:44.555 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:135 | [Quiz Generator Node] 成功生成 6 道练习题，总分 100 分
+2026-05-15 14:25:44.556 | INFO     | backend.workflows.study_flow_graph:start_study_flow:224 | [Study Flow] 工作流暂停在: quiz_generated
+2026-05-15 14:28:20.093 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:28:20.094 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:28:20.095 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:28:20.097 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:28:20.098 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:28:20.098 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:29:35.236 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:29:35.236 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:29:35.237 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:29:35.240 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:29:35.240 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:29:35.241 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:29:41.817 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:29:41.817 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:29:41.818 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:30:46.662 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:30:46.662 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:30:46.662 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:30:46.665 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:30:46.665 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:30:46.666 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:31:18.477 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:31:18.477 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:31:18.478 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:31:18.481 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:31:18.482 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:31:18.482 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:36:24.094 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:36:24.096 | INFO     | backend.rag.loaders:load_directory:212 | 📁 开始加载目录: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs
+2026-05-15 14:36:24.096 | INFO     | backend.rag.loaders:load_directory:213 |    匹配模式: **/*.md
+2026-05-15 14:36:24.096 | INFO     | backend.rag.loaders:load_directory:245 |    找到 6 个文件
+2026-05-15 14:36:24.096 | INFO     | backend.rag.loaders:load_directory:255 |    [1/6] 加载: agent-tools.md
+2026-05-15 14:36:24.096 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\agent-tools.md
+2026-05-15 14:36:24.100 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:36:24.100 | INFO     | backend.rag.loaders:load_directory:255 |    [2/6] 加载: api-usage.md
+2026-05-15 14:36:24.101 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\api-usage.md
+2026-05-15 14:36:24.105 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:36:24.105 | INFO     | backend.rag.loaders:load_directory:255 |    [3/6] 加载: langchain-overview.md
+2026-05-15 14:36:24.105 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\langchain-overview.md
+2026-05-15 14:36:24.110 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:36:24.110 | INFO     | backend.rag.loaders:load_directory:255 |    [4/6] 加载: rag-basics.md
+2026-05-15 14:36:24.110 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\rag-basics.md
+2026-05-15 14:36:24.114 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:36:24.114 | INFO     | backend.rag.loaders:load_directory:255 |    [5/6] 加载: study-workflow.md
+2026-05-15 14:36:24.114 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\study-workflow.md
+2026-05-15 14:36:24.118 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:36:24.118 | INFO     | backend.rag.loaders:load_directory:255 |    [6/6] 加载: vector-indexing.md
+2026-05-15 14:36:24.118 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\vector-indexing.md
+2026-05-15 14:36:24.122 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 14:36:24.122 | INFO     | backend.rag.loaders:load_directory:266 | ✅ 目录加载完成:
+2026-05-15 14:36:24.122 | INFO     | backend.rag.loaders:load_directory:267 |    成功: 6 个文件
+2026-05-15 14:36:24.123 | INFO     | backend.rag.loaders:load_directory:268 |    失败: 0 个文件
+2026-05-15 14:36:24.123 | INFO     | backend.rag.loaders:load_directory:269 |    总计: 6 个文档块
+2026-05-15 14:36:24.123 | INFO     | backend.rag.splitters:split_documents:144 | 📝 开始分块: 6 个文档
+2026-05-15 14:36:24.123 | INFO     | backend.rag.splitters:split_documents:157 | ✅ 分块完成: 6 个文本块
+2026-05-15 14:36:24.123 | INFO     | backend.rag.splitters:split_documents:162 |    平均块大小: 823 字符
+2026-05-15 14:36:24.123 | INFO     | backend.rag.splitters:split_documents:163 |    总字符数: 4936
+2026-05-15 14:36:24.123 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 14:36:24.170 | INFO     | backend.rag.index_manager:create_index:122 | 🔨 创建索引: study_lab_docs
+2026-05-15 14:36:24.170 | INFO     | backend.rag.index_manager:create_index:123 |    文档数量: 6
+2026-05-15 14:36:24.170 | INFO     | backend.rag.index_manager:create_index:124 |    描述: LC-StudyLab 默认学习资料索引
+2026-05-15 14:36:24.170 | INFO     | backend.rag.vector_stores:create_vector_store:69 | 🗄️  创建向量存储: type=faiss, documents=6
+2026-05-15 14:36:24.462 | INFO     | backend.rag.vector_stores:create_vector_store:81 | ✅ FAISS 向量库创建成功
+2026-05-15 14:36:24.462 | INFO     | backend.rag.vector_stores:save_vector_store:128 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study_lab_docs
+2026-05-15 14:36:24.463 | INFO     | backend.rag.vector_stores:save_vector_store:134 | ✅ FAISS 向量库保存成功
+2026-05-15 14:36:24.464 | INFO     | backend.rag.index_manager:create_index:151 | ✅ 索引创建成功: study_lab_docs
+2026-05-15 14:36:24.468 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:36:24.468 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:36:24.469 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:36:32.835 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:36:32.835 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 14:36:32.884 | INFO     | backend.rag.index_manager:load_index:191 | 📂 加载索引: study_lab_docs
+2026-05-15 14:36:32.884 | INFO     | backend.rag.index_manager:load_index:199 |    描述: LC-StudyLab 默认学习资料索引
+2026-05-15 14:36:32.885 | INFO     | backend.rag.index_manager:load_index:200 |    文档数量: 6
+2026-05-15 14:36:32.885 | INFO     | backend.rag.index_manager:load_index:201 |    创建时间: 2026-05-15T14:36:24.464074
+2026-05-15 14:36:32.885 | INFO     | backend.rag.index_manager:load_index:202 |    上次更新时间: 2026-05-15T14:36:24.464079
+2026-05-15 14:36:32.885 | INFO     | backend.rag.vector_stores:load_vector_store:188 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study_lab_docs
+2026-05-15 14:36:32.885 | INFO     | backend.rag.vector_stores:load_vector_store:201 | ✅ FAISS 向量库加载成功
+2026-05-15 14:36:32.885 | INFO     | backend.rag.index_manager:load_index:210 | ✅ 索引加载成功: study_lab_docs
+2026-05-15 14:36:32.885 | INFO     | backend.rag.retrievers:create_retriever:80 | 🔍 创建检索器: search_type=similarity, k=4
+2026-05-15 14:36:32.886 | INFO     | backend.rag.retrievers:create_retriever:99 | ✅ 检索器创建成功
+2026-05-15 14:36:32.886 | INFO     | backend.rag.rag_agent:create_conversational_rag_agent:252 | 💬 创建对话式 RAG Agent
+2026-05-15 14:36:32.886 | INFO     | backend.rag.rag_agent:create_rag_agent:92 | 🤖 创建 RAG Agent
+2026-05-15 14:36:32.886 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 14:36:32.886 | INFO     | backend.rag.retrievers:create_retriever_tool:136 | 🔧 创建检索器工具: knowledge_base
+2026-05-15 14:36:32.886 | INFO     | backend.rag.retrievers:create_retriever_tool:144 | ✅ 检索器工具创建成功
+2026-05-15 14:36:32.890 | INFO     | backend.rag.rag_agent:create_rag_agent:132 | ✅ RAG Agent 创建成功
+2026-05-15 14:36:32.891 | INFO     | backend.rag.rag_agent:create_rag_agent:133 |    模型: deepseek-ai/DeepSeek-V3.2
+2026-05-15 14:36:32.891 | INFO     | backend.rag.rag_agent:create_rag_agent:134 |    流式输出: True
+2026-05-15 14:36:32.891 | INFO     | backend.rag.rag_agent:aquery_rag_agent:336 | 🔍 异步查询 RAG Agent: 我想系统学习 LC-StudyLab 的 RAG 和 workflow 设计...
+2026-05-15 14:37:29.388 | INFO     | backend.rag.rag_agent:aquery_rag_agent:362 | ✅ 异步查询完成
+2026-05-15 14:38:29.609 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:38:29.609 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:38:29.610 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:48:12.467 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:48:12.467 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:48:12.468 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:48:12.470 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:48:12.470 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:48:12.471 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:48:17.795 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:48:17.795 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:48:17.796 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:49:52.889 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:49:52.889 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 14:49:52.890 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 14:50:02.231 | INFO     | backend.workflows.study_flow_graph:start_study_flow:191 | [Study Flow] 启动新的学习工作流，thread_id=6ce3d855-fb05-446b-aac9-f001b0155e4b
+2026-05-15 14:50:02.232 | INFO     | backend.workflows.study_flow_graph:start_study_flow:221 | [Study Flow] 开始执行工作流...
+2026-05-15 14:50:02.234 | INFO     | backend.workflows.nodes.planner_node:planner_node:42 | [Planner Node] 开始生成学习计划，用户问题: 我想系统学习 LC-StudyLab 的 RAG 和 workflow 设计
+2026-05-15 14:50:02.234 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=False)
+2026-05-15 14:50:02.235 | INFO     | backend.workflows.nodes.planner_node:planner_node:66 | [Planner Node] 调用 LLM 生成学习计划...
+2026-05-15 14:50:14.650 | INFO     | backend.workflows.nodes.planner_node:planner_node:80 | [Planner Node] 学习计划生成成功: LC-StudyLab 中 RAG 和 workflow 设计的系统学习
+2026-05-15 14:50:14.652 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:76 | [Retrieval Node] 开始文档检索，学习主题: LC-StudyLab 中 RAG 和 workflow 设计的系统学习
+2026-05-15 14:50:14.652 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:93 | [Retrieval Node] 主查询: LC-StudyLab 中 RAG 和 workflow 设计的系统学习
+2026-05-15 14:50:14.653 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 14:50:14.653 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 14:50:14.704 | INFO     | backend.rag.index_manager:load_index:191 | 📂 加载索引: study_lab_docs
+2026-05-15 14:50:14.704 | INFO     | backend.rag.index_manager:load_index:199 |    描述: LC-StudyLab 默认学习资料索引
+2026-05-15 14:50:14.704 | INFO     | backend.rag.index_manager:load_index:200 |    文档数量: 6
+2026-05-15 14:50:14.704 | INFO     | backend.rag.index_manager:load_index:201 |    创建时间: 2026-05-15T14:36:24.464074
+2026-05-15 14:50:14.705 | INFO     | backend.rag.index_manager:load_index:202 |    上次更新时间: 2026-05-15T14:36:24.464079
+2026-05-15 14:50:14.705 | INFO     | backend.rag.vector_stores:load_vector_store:188 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study_lab_docs
+2026-05-15 14:50:14.705 | INFO     | backend.rag.vector_stores:load_vector_store:201 | ✅ FAISS 向量库加载成功
+2026-05-15 14:50:14.705 | INFO     | backend.rag.index_manager:load_index:210 | ✅ 索引加载成功: study_lab_docs
+2026-05-15 14:50:14.705 | INFO     | backend.rag.retrievers:create_retriever:80 | 🔍 创建检索器: search_type=similarity, k=10
+2026-05-15 14:50:14.705 | INFO     | backend.rag.retrievers:create_retriever:99 | ✅ 检索器创建成功
+2026-05-15 14:50:14.705 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:111 | [Retrieval Node] 执行检索...
+2026-05-15 14:50:14.912 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:121 | [Retrieval Node] 检索完成，找到 6 个相关文档
+2026-05-15 14:50:14.912 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:145 | [Retrieval Node] 最终检索到 6 个文档
+2026-05-15 14:50:14.913 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:51 | [Quiz Generator Node] 开始生成练习题
+2026-05-15 14:50:14.913 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 14:50:14.915 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:67 | [Quiz Generator Node] 使用 6 个检索文档作为参考
+2026-05-15 14:50:14.915 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:106 | [Quiz Generator Node] 调用 LLM 生成练习题...
+2026-05-15 14:51:40.939 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:135 | [Quiz Generator Node] 成功生成 5 道练习题，总分 80 分
+2026-05-15 14:51:40.940 | INFO     | backend.workflows.study_flow_graph:start_study_flow:224 | [Study Flow] 工作流暂停在: quiz_generated
+2026-05-15 14:56:31.018 | INFO     | backend.workflows.study_flow_graph:submit_answers:241 | [Study Flow] 提交答案，thread_id=6ce3d855-fb05-446b-aac9-f001b0155e4b
+2026-05-15 14:56:31.019 | INFO     | backend.workflows.study_flow_graph:submit_answers:252 | [Study Flow] 当前状态: quiz_generated
+2026-05-15 14:56:31.020 | INFO     | backend.workflows.study_flow_graph:submit_answers:258 | [Study Flow] 继续执行工作流...
+2026-05-15 14:56:31.020 | INFO     | backend.workflows.study_flow_graph:human_review_node:95 | [Human Review Node] 等待用户提交答案...
+2026-05-15 14:56:31.021 | INFO     | backend.workflows.nodes.grading_node:grading_node:35 | [Grading Node] 开始评分
+2026-05-15 14:56:31.021 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 14:56:31.022 | INFO     | backend.workflows.nodes.grading_node:grading_node:80 | [Grading Node] 使用 LLM 评分简答题: q5
+2026-05-15 14:56:38.564 | INFO     | backend.workflows.nodes.grading_node:grading_node:150 | [Grading Node] 评分完成: 51分 (3/5 题正确)
+2026-05-15 14:56:38.566 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:28 | [Feedback Node] 开始生成反馈
+2026-05-15 14:56:38.566 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:36 | [Feedback Node] 当前得分: 51, 重试次数: 0
+2026-05-15 14:56:38.566 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 14:56:38.567 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:70 | [Feedback Node] 调用 LLM 生成个性化反馈...
+2026-05-15 14:56:44.599 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:94 | [Feedback Node] should_retry=True, new_retry_count=1
+2026-05-15 14:56:44.599 | INFO     | backend.workflows.study_flow_graph:should_continue:41 | [Condition] should_retry=True, retry_count=1
+2026-05-15 14:56:44.599 | INFO     | backend.workflows.study_flow_graph:should_continue:44 | [Condition] 决定重新出题
+2026-05-15 14:56:44.600 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:51 | [Quiz Generator Node] 开始生成练习题
+2026-05-15 14:56:44.600 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 14:56:44.602 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:67 | [Quiz Generator Node] 使用 6 个检索文档作为参考
+2026-05-15 14:56:44.602 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:106 | [Quiz Generator Node] 调用 LLM 生成练习题...
+2026-05-15 14:57:52.447 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:135 | [Quiz Generator Node] 成功生成 6 道练习题，总分 100 分
+2026-05-15 14:57:52.449 | INFO     | backend.workflows.study_flow_graph:submit_answers:261 | [Study Flow] 工作流执行完成，最终状态: quiz_generated
+2026-05-15 15:09:05.420 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 15:09:45.787 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 15:11:04.058 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 15:11:04.060 | INFO     | backend.rag.loaders:load_directory:212 | 📁 开始加载目录: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs
+2026-05-15 15:11:04.060 | INFO     | backend.rag.loaders:load_directory:213 |    匹配模式: **/*.md
+2026-05-15 15:11:04.061 | INFO     | backend.rag.loaders:load_directory:245 |    找到 12 个文件
+2026-05-15 15:11:04.061 | INFO     | backend.rag.loaders:load_directory:255 |    [1/12] 加载: agent-tools.md
+2026-05-15 15:11:04.065 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\agent-tools.md
+2026-05-15 15:11:04.799 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:04.799 | INFO     | backend.rag.loaders:load_directory:255 |    [2/12] 加载: answer-review-pedagogy.md
+2026-05-15 15:11:04.800 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\answer-review-pedagogy.md
+2026-05-15 15:11:04.829 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:04.829 | INFO     | backend.rag.loaders:load_directory:255 |    [3/12] 加载: api-usage.md
+2026-05-15 15:11:04.829 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\api-usage.md
+2026-05-15 15:11:04.849 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:04.849 | INFO     | backend.rag.loaders:load_directory:255 |    [4/12] 加载: frontend-learning-experience.md
+2026-05-15 15:11:04.850 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\frontend-learning-experience.md
+2026-05-15 15:11:04.879 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:04.880 | INFO     | backend.rag.loaders:load_directory:255 |    [5/12] 加载: langchain-overview.md
+2026-05-15 15:11:04.880 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\langchain-overview.md
+2026-05-15 15:11:04.889 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:04.889 | INFO     | backend.rag.loaders:load_directory:255 |    [6/12] 加载: operations-debugging.md
+2026-05-15 15:11:04.889 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\operations-debugging.md
+2026-05-15 15:11:04.932 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:04.933 | INFO     | backend.rag.loaders:load_directory:255 |    [7/12] 加载: rag-basics.md
+2026-05-15 15:11:04.933 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\rag-basics.md
+2026-05-15 15:11:04.945 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:04.945 | INFO     | backend.rag.loaders:load_directory:255 |    [8/12] 加载: retrieval-quality-guide.md
+2026-05-15 15:11:04.945 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\retrieval-quality-guide.md
+2026-05-15 15:11:04.975 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:04.976 | INFO     | backend.rag.loaders:load_directory:255 |    [9/12] 加载: scoring-feedback-contract.md
+2026-05-15 15:11:04.976 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\scoring-feedback-contract.md
+2026-05-15 15:11:05.013 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:05.013 | INFO     | backend.rag.loaders:load_directory:255 |    [10/12] 加载: study-workflow.md
+2026-05-15 15:11:05.013 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\study-workflow.md
+2026-05-15 15:11:05.025 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:05.025 | INFO     | backend.rag.loaders:load_directory:255 |    [11/12] 加载: vector-indexing.md
+2026-05-15 15:11:05.026 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\vector-indexing.md
+2026-05-15 15:11:05.044 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:05.044 | INFO     | backend.rag.loaders:load_directory:255 |    [12/12] 加载: workflow-state-machine.md
+2026-05-15 15:11:05.044 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\workflow-state-machine.md
+2026-05-15 15:11:05.076 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:11:05.077 | INFO     | backend.rag.loaders:load_directory:266 | ✅ 目录加载完成:
+2026-05-15 15:11:05.077 | INFO     | backend.rag.loaders:load_directory:267 |    成功: 12 个文件
+2026-05-15 15:11:05.077 | INFO     | backend.rag.loaders:load_directory:268 |    失败: 0 个文件
+2026-05-15 15:11:05.077 | INFO     | backend.rag.loaders:load_directory:269 |    总计: 12 个文档块
+2026-05-15 15:11:05.077 | INFO     | backend.rag.splitters:split_documents:144 | 📝 开始分块: 12 个文档
+2026-05-15 15:11:05.077 | INFO     | backend.rag.splitters:split_documents:157 | ✅ 分块完成: 24 个文本块
+2026-05-15 15:11:05.078 | INFO     | backend.rag.splitters:split_documents:162 |    平均块大小: 769 字符
+2026-05-15 15:11:05.078 | INFO     | backend.rag.splitters:split_documents:163 |    总字符数: 18460
+2026-05-15 15:11:05.078 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 15:11:05.413 | INFO     | backend.rag.index_manager:create_index:122 | 🔨 创建索引: study_lab_docs
+2026-05-15 15:11:05.413 | INFO     | backend.rag.index_manager:create_index:123 |    文档数量: 24
+2026-05-15 15:11:05.413 | INFO     | backend.rag.index_manager:create_index:124 |    描述: LC StudyLab default corpus
+2026-05-15 15:11:05.413 | INFO     | backend.rag.vector_stores:create_vector_store:69 | 🗄️  创建向量存储: type=faiss, documents=24
+2026-05-15 15:11:06.059 | INFO     | backend.rag.vector_stores:create_vector_store:81 | ✅ FAISS 向量库创建成功
+2026-05-15 15:11:06.059 | INFO     | backend.rag.vector_stores:save_vector_store:128 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study_lab_docs
+2026-05-15 15:11:06.060 | INFO     | backend.rag.vector_stores:save_vector_store:134 | ✅ FAISS 向量库保存成功
+2026-05-15 15:11:06.060 | INFO     | backend.rag.index_manager:create_index:151 | ✅ 索引创建成功: study_lab_docs
+2026-05-15 15:11:19.247 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 15:11:19.247 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 15:11:19.296 | INFO     | backend.rag.index_manager:load_index:191 | 📂 加载索引: study_lab_docs
+2026-05-15 15:11:19.296 | INFO     | backend.rag.index_manager:load_index:199 |    描述: LC StudyLab default corpus
+2026-05-15 15:11:19.296 | INFO     | backend.rag.index_manager:load_index:200 |    文档数量: 24
+2026-05-15 15:11:19.296 | INFO     | backend.rag.index_manager:load_index:201 |    创建时间: 2026-05-15T15:11:06.060397
+2026-05-15 15:11:19.296 | INFO     | backend.rag.index_manager:load_index:202 |    上次更新时间: 2026-05-15T15:11:06.060401
+2026-05-15 15:11:19.297 | INFO     | backend.rag.vector_stores:load_vector_store:188 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study_lab_docs
+2026-05-15 15:11:19.297 | INFO     | backend.rag.vector_stores:load_vector_store:201 | ✅ FAISS 向量库加载成功
+2026-05-15 15:11:19.297 | INFO     | backend.rag.index_manager:load_index:210 | ✅ 索引加载成功: study_lab_docs
+2026-05-15 15:11:19.297 | INFO     | backend.rag.retrievers:create_retriever:80 | 🔍 创建检索器: search_type=similarity, k=4
+2026-05-15 15:11:19.297 | INFO     | backend.rag.retrievers:create_retriever:99 | ✅ 检索器创建成功
+2026-05-15 15:11:19.297 | INFO     | backend.rag.rag_agent:create_conversational_rag_agent:252 | 💬 创建对话式 RAG Agent
+2026-05-15 15:11:19.297 | INFO     | backend.rag.rag_agent:create_rag_agent:92 | 🤖 创建 RAG Agent
+2026-05-15 15:11:19.298 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 15:11:19.347 | INFO     | backend.rag.retrievers:create_retriever_tool:136 | 🔧 创建检索器工具: knowledge_base
+2026-05-15 15:11:19.347 | INFO     | backend.rag.retrievers:create_retriever_tool:144 | ✅ 检索器工具创建成功
+2026-05-15 15:11:19.351 | INFO     | backend.rag.rag_agent:create_rag_agent:132 | ✅ RAG Agent 创建成功
+2026-05-15 15:11:19.351 | INFO     | backend.rag.rag_agent:create_rag_agent:133 |    模型: deepseek-ai/DeepSeek-V3.2
+2026-05-15 15:11:19.351 | INFO     | backend.rag.rag_agent:create_rag_agent:134 |    流式输出: True
+2026-05-15 15:11:19.351 | INFO     | backend.rag.rag_agent:aquery_rag_agent:336 | 🔍 异步查询 RAG Agent: score_details question_scores user_answer correct_...
+2026-05-15 15:11:27.743 | INFO     | backend.rag.rag_agent:aquery_rag_agent:362 | ✅ 异步查询完成
+2026-05-15 15:11:28.301 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 15:11:28.301 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 15:11:28.349 | INFO     | backend.rag.index_manager:load_index:191 | 📂 加载索引: study_lab_docs
+2026-05-15 15:11:28.350 | INFO     | backend.rag.index_manager:load_index:199 |    描述: LC StudyLab default corpus
+2026-05-15 15:11:28.350 | INFO     | backend.rag.index_manager:load_index:200 |    文档数量: 24
+2026-05-15 15:11:28.350 | INFO     | backend.rag.index_manager:load_index:201 |    创建时间: 2026-05-15T15:11:06.060397
+2026-05-15 15:11:28.350 | INFO     | backend.rag.index_manager:load_index:202 |    上次更新时间: 2026-05-15T15:11:06.060401
+2026-05-15 15:11:28.350 | INFO     | backend.rag.vector_stores:load_vector_store:188 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study_lab_docs
+2026-05-15 15:11:28.350 | INFO     | backend.rag.vector_stores:load_vector_store:201 | ✅ FAISS 向量库加载成功
+2026-05-15 15:11:28.350 | INFO     | backend.rag.index_manager:load_index:210 | ✅ 索引加载成功: study_lab_docs
+2026-05-15 15:11:28.351 | INFO     | backend.rag.retrievers:create_retriever:80 | 🔍 创建检索器: search_type=similarity, k=4
+2026-05-15 15:11:28.351 | INFO     | backend.rag.retrievers:create_retriever:99 | ✅ 检索器创建成功
+2026-05-15 15:11:28.351 | INFO     | backend.rag.rag_agent:create_conversational_rag_agent:252 | 💬 创建对话式 RAG Agent
+2026-05-15 15:11:28.351 | INFO     | backend.rag.rag_agent:create_rag_agent:92 | 🤖 创建 RAG Agent
+2026-05-15 15:11:28.351 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 15:11:28.351 | INFO     | backend.rag.retrievers:create_retriever_tool:136 | 🔧 创建检索器工具: knowledge_base
+2026-05-15 15:11:28.351 | INFO     | backend.rag.retrievers:create_retriever_tool:144 | ✅ 检索器工具创建成功
+2026-05-15 15:11:28.354 | INFO     | backend.rag.rag_agent:create_rag_agent:132 | ✅ RAG Agent 创建成功
+2026-05-15 15:11:28.355 | INFO     | backend.rag.rag_agent:create_rag_agent:133 |    模型: deepseek-ai/DeepSeek-V3.2
+2026-05-15 15:11:28.355 | INFO     | backend.rag.rag_agent:create_rag_agent:134 |    流式输出: True
+2026-05-15 15:11:28.355 | INFO     | backend.rag.rag_agent:aquery_rag_agent:336 | 🔍 异步查询 RAG Agent: frontend answer panel appears only after workflow ...
+2026-05-15 15:12:15.123 | INFO     | backend.rag.rag_agent:aquery_rag_agent:362 | ✅ 异步查询完成
+2026-05-15 15:19:41.066 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 15:19:41.068 | INFO     | backend.rag.loaders:load_directory:212 | 📁 开始加载目录: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs
+2026-05-15 15:19:41.068 | INFO     | backend.rag.loaders:load_directory:213 |    匹配模式: **/*.md
+2026-05-15 15:19:41.068 | INFO     | backend.rag.loaders:load_directory:245 |    找到 12 个文件
+2026-05-15 15:19:41.068 | INFO     | backend.rag.loaders:load_directory:255 |    [1/12] 加载: agent-tools.md
+2026-05-15 15:19:41.069 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\agent-tools.md
+2026-05-15 15:19:41.072 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.072 | INFO     | backend.rag.loaders:load_directory:255 |    [2/12] 加载: answer-review-pedagogy.md
+2026-05-15 15:19:41.073 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\answer-review-pedagogy.md
+2026-05-15 15:19:41.106 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.106 | INFO     | backend.rag.loaders:load_directory:255 |    [3/12] 加载: api-usage.md
+2026-05-15 15:19:41.106 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\api-usage.md
+2026-05-15 15:19:41.110 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.110 | INFO     | backend.rag.loaders:load_directory:255 |    [4/12] 加载: frontend-learning-experience.md
+2026-05-15 15:19:41.110 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\frontend-learning-experience.md
+2026-05-15 15:19:41.141 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.141 | INFO     | backend.rag.loaders:load_directory:255 |    [5/12] 加载: langchain-overview.md
+2026-05-15 15:19:41.141 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\langchain-overview.md
+2026-05-15 15:19:41.144 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.145 | INFO     | backend.rag.loaders:load_directory:255 |    [6/12] 加载: operations-debugging.md
+2026-05-15 15:19:41.145 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\operations-debugging.md
+2026-05-15 15:19:41.150 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.150 | INFO     | backend.rag.loaders:load_directory:255 |    [7/12] 加载: rag-basics.md
+2026-05-15 15:19:41.150 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\rag-basics.md
+2026-05-15 15:19:41.154 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.154 | INFO     | backend.rag.loaders:load_directory:255 |    [8/12] 加载: retrieval-quality-guide.md
+2026-05-15 15:19:41.154 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\retrieval-quality-guide.md
+2026-05-15 15:19:41.178 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.178 | INFO     | backend.rag.loaders:load_directory:255 |    [9/12] 加载: scoring-feedback-contract.md
+2026-05-15 15:19:41.178 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\scoring-feedback-contract.md
+2026-05-15 15:19:41.185 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.185 | INFO     | backend.rag.loaders:load_directory:255 |    [10/12] 加载: study-workflow.md
+2026-05-15 15:19:41.185 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\study-workflow.md
+2026-05-15 15:19:41.189 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.189 | INFO     | backend.rag.loaders:load_directory:255 |    [11/12] 加载: vector-indexing.md
+2026-05-15 15:19:41.189 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\vector-indexing.md
+2026-05-15 15:19:41.193 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.193 | INFO     | backend.rag.loaders:load_directory:255 |    [12/12] 加载: workflow-state-machine.md
+2026-05-15 15:19:41.193 | INFO     | backend.rag.loaders:load_document:140 | 📄 加载文档: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\rag_docs\workflow-state-machine.md
+2026-05-15 15:19:41.198 | INFO     | backend.rag.loaders:load_document:154 | ✅ 成功加载 1 个文档块
+2026-05-15 15:19:41.198 | INFO     | backend.rag.loaders:load_directory:266 | ✅ 目录加载完成:
+2026-05-15 15:19:41.198 | INFO     | backend.rag.loaders:load_directory:267 |    成功: 12 个文件
+2026-05-15 15:19:41.199 | INFO     | backend.rag.loaders:load_directory:268 |    失败: 0 个文件
+2026-05-15 15:19:41.199 | INFO     | backend.rag.loaders:load_directory:269 |    总计: 12 个文档块
+2026-05-15 15:19:41.199 | INFO     | backend.rag.splitters:split_documents:144 | 📝 开始分块: 12 个文档
+2026-05-15 15:19:41.199 | INFO     | backend.rag.splitters:split_documents:157 | ✅ 分块完成: 29 个文本块
+2026-05-15 15:19:41.199 | INFO     | backend.rag.splitters:split_documents:162 |    平均块大小: 846 字符
+2026-05-15 15:19:41.199 | INFO     | backend.rag.splitters:split_documents:163 |    总字符数: 24534
+2026-05-15 15:19:41.199 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 15:19:41.247 | INFO     | backend.rag.index_manager:create_index:122 | 🔨 创建索引: study_lab_docs
+2026-05-15 15:19:41.247 | INFO     | backend.rag.index_manager:create_index:123 |    文档数量: 29
+2026-05-15 15:19:41.247 | INFO     | backend.rag.index_manager:create_index:124 |    描述: LC StudyLab default corpus
+2026-05-15 15:19:41.247 | INFO     | backend.rag.vector_stores:create_vector_store:69 | 🗄️  创建向量存储: type=faiss, documents=29
+2026-05-15 15:19:41.678 | INFO     | backend.rag.vector_stores:create_vector_store:81 | ✅ FAISS 向量库创建成功
+2026-05-15 15:19:41.678 | INFO     | backend.rag.vector_stores:save_vector_store:128 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study_lab_docs
+2026-05-15 15:19:41.679 | INFO     | backend.rag.vector_stores:save_vector_store:134 | ✅ FAISS 向量库保存成功
+2026-05-15 15:19:41.680 | INFO     | backend.rag.index_manager:create_index:151 | ✅ 索引创建成功: study_lab_docs
+2026-05-15 15:20:00.059 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 15:20:00.059 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 15:20:00.108 | INFO     | backend.rag.index_manager:load_index:191 | 📂 加载索引: study_lab_docs
+2026-05-15 15:20:00.108 | INFO     | backend.rag.index_manager:load_index:199 |    描述: LC StudyLab default corpus
+2026-05-15 15:20:00.108 | INFO     | backend.rag.index_manager:load_index:200 |    文档数量: 29
+2026-05-15 15:20:00.108 | INFO     | backend.rag.index_manager:load_index:201 |    创建时间: 2026-05-15T15:19:41.679744
+2026-05-15 15:20:00.108 | INFO     | backend.rag.index_manager:load_index:202 |    上次更新时间: 2026-05-15T15:19:41.679747
+2026-05-15 15:20:00.108 | INFO     | backend.rag.vector_stores:load_vector_store:188 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study_lab_docs
+2026-05-15 15:20:00.109 | INFO     | backend.rag.vector_stores:load_vector_store:201 | ✅ FAISS 向量库加载成功
+2026-05-15 15:20:00.109 | INFO     | backend.rag.index_manager:load_index:210 | ✅ 索引加载成功: study_lab_docs
+2026-05-15 15:20:00.109 | INFO     | backend.rag.retrievers:create_retriever:80 | 🔍 创建检索器: search_type=similarity, k=5
+2026-05-15 15:20:00.109 | INFO     | backend.rag.retrievers:create_retriever:99 | ✅ 检索器创建成功
+2026-05-15 15:20:00.109 | INFO     | backend.rag.rag_agent:create_conversational_rag_agent:252 | 💬 创建对话式 RAG Agent
+2026-05-15 15:20:00.109 | INFO     | backend.rag.rag_agent:create_rag_agent:92 | 🤖 创建 RAG Agent
+2026-05-15 15:20:00.110 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 15:20:00.110 | INFO     | backend.rag.retrievers:create_retriever_tool:136 | 🔧 创建检索器工具: knowledge_base
+2026-05-15 15:20:00.110 | INFO     | backend.rag.retrievers:create_retriever_tool:144 | ✅ 检索器工具创建成功
+2026-05-15 15:20:00.114 | INFO     | backend.rag.rag_agent:create_rag_agent:132 | ✅ RAG Agent 创建成功
+2026-05-15 15:20:00.114 | INFO     | backend.rag.rag_agent:create_rag_agent:133 |    模型: deepseek-ai/DeepSeek-V3.2
+2026-05-15 15:20:00.114 | INFO     | backend.rag.rag_agent:create_rag_agent:134 |    流式输出: True
+2026-05-15 15:20:00.114 | INFO     | backend.rag.rag_agent:aquery_rag_agent:336 | 🔍 异步查询 RAG Agent: score_details question_scores user_answer correct_...
+2026-05-15 15:20:07.300 | INFO     | backend.rag.rag_agent:aquery_rag_agent:362 | ✅ 异步查询完成
+2026-05-15 15:23:10.695 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 15:23:10.696 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 15:23:10.696 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 15:23:10.699 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 15:23:10.699 | INFO     | backend.rag.index_manager:list_indexes:316 | 📋 列出所有索引
+2026-05-15 15:23:10.699 | INFO     | backend.rag.index_manager:list_indexes:343 |    找到 2 个索引
+2026-05-15 15:23:44.508 | INFO     | backend.workflows.study_flow_graph:start_study_flow:191 | [Study Flow] 启动新的学习工作流，thread_id=6a95b0c7-5dd8-44b7-835c-56f1b0854f7d
+2026-05-15 15:23:44.508 | INFO     | backend.workflows.study_flow_graph:get_study_flow_app:170 | [Study Flow Graph] 初始化全局工作流实例
+2026-05-15 15:23:44.508 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:81 | [Study Flow Graph] 开始创建学习工作流图
+2026-05-15 15:23:44.509 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:86 | [Study Flow Graph] 添加工作流节点...
+2026-05-15 15:23:44.511 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:133 | [Study Flow Graph] 配置检查点存储: data\checkpoints\study_flow.db
+2026-05-15 15:23:44.511 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:140 | [Study Flow Graph] 编译工作流图...
+2026-05-15 15:23:44.529 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:148 | [Study Flow Graph] 学习工作流图创建完成
+2026-05-15 15:23:44.529 | INFO     | backend.workflows.study_flow_graph:create_study_flow_graph:149 | [Study Flow Graph] 中断点设置在: human_review (等待用户答题)
+2026-05-15 15:23:44.529 | INFO     | backend.workflows.study_flow_graph:start_study_flow:221 | [Study Flow] 开始执行工作流...
+2026-05-15 15:23:44.531 | INFO     | backend.workflows.nodes.planner_node:planner_node:42 | [Planner Node] 开始生成学习计划，用户问题: 我想学习 LC StudyLab 的学习工作流，重点理解作答暂停、评分复盘和重试流程
+2026-05-15 15:23:44.531 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=False)
+2026-05-15 15:23:44.532 | INFO     | backend.workflows.nodes.planner_node:planner_node:66 | [Planner Node] 调用 LLM 生成学习计划...
+2026-05-15 15:23:51.617 | INFO     | backend.workflows.nodes.planner_node:planner_node:80 | [Planner Node] 学习计划生成成功: LC StudyLab 学习工作流核心流程掌握
+2026-05-15 15:23:51.618 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:76 | [Retrieval Node] 开始文档检索，学习主题: LC StudyLab 学习工作流核心流程掌握
+2026-05-15 15:23:51.618 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:93 | [Retrieval Node] 主查询: LC StudyLab 学习工作流核心流程掌握
+2026-05-15 15:23:51.618 | INFO     | backend.rag.index_manager:__init__:30 | 📁 索引管理器初始化: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes
+2026-05-15 15:23:51.618 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-15 15:23:51.668 | INFO     | backend.rag.index_manager:load_index:191 | 📂 加载索引: study_lab_docs
+2026-05-15 15:23:51.669 | INFO     | backend.rag.index_manager:load_index:199 |    描述: LC StudyLab default corpus
+2026-05-15 15:23:51.669 | INFO     | backend.rag.index_manager:load_index:200 |    文档数量: 29
+2026-05-15 15:23:51.669 | INFO     | backend.rag.index_manager:load_index:201 |    创建时间: 2026-05-15T15:19:41.679744
+2026-05-15 15:23:51.669 | INFO     | backend.rag.index_manager:load_index:202 |    上次更新时间: 2026-05-15T15:19:41.679747
+2026-05-15 15:23:51.669 | INFO     | backend.rag.vector_stores:load_vector_store:188 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\study_lab_docs
+2026-05-15 15:23:51.670 | INFO     | backend.rag.vector_stores:load_vector_store:201 | ✅ FAISS 向量库加载成功
+2026-05-15 15:23:51.670 | INFO     | backend.rag.index_manager:load_index:210 | ✅ 索引加载成功: study_lab_docs
+2026-05-15 15:23:51.671 | INFO     | backend.rag.retrievers:create_retriever:80 | 🔍 创建检索器: search_type=similarity, k=10
+2026-05-15 15:23:51.671 | INFO     | backend.rag.retrievers:create_retriever:99 | ✅ 检索器创建成功
+2026-05-15 15:23:51.671 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:111 | [Retrieval Node] 执行检索...
+2026-05-15 15:23:51.878 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:121 | [Retrieval Node] 检索完成，找到 10 个相关文档
+2026-05-15 15:23:51.878 | INFO     | backend.workflows.nodes.retrieval_node:retrieval_node:145 | [Retrieval Node] 最终检索到 10 个文档
+2026-05-15 15:23:51.879 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:51 | [Quiz Generator Node] 开始生成练习题
+2026-05-15 15:23:51.879 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 15:23:51.880 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:67 | [Quiz Generator Node] 使用 10 个检索文档作为参考
+2026-05-15 15:23:51.881 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:106 | [Quiz Generator Node] 调用 LLM 生成练习题...
+2026-05-15 15:25:03.976 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:135 | [Quiz Generator Node] 成功生成 6 道练习题，总分 100 分
+2026-05-15 15:25:03.977 | INFO     | backend.workflows.study_flow_graph:start_study_flow:224 | [Study Flow] 工作流暂停在: quiz_generated
+2026-05-15 15:32:04.276 | INFO     | backend.workflows.study_flow_graph:submit_answers:241 | [Study Flow] 提交答案，thread_id=6a95b0c7-5dd8-44b7-835c-56f1b0854f7d
+2026-05-15 15:32:04.277 | INFO     | backend.workflows.study_flow_graph:submit_answers:252 | [Study Flow] 当前状态: quiz_generated
+2026-05-15 15:32:04.278 | INFO     | backend.workflows.study_flow_graph:submit_answers:258 | [Study Flow] 继续执行工作流...
+2026-05-15 15:32:04.279 | INFO     | backend.workflows.study_flow_graph:human_review_node:95 | [Human Review Node] 等待用户提交答案...
+2026-05-15 15:32:04.280 | INFO     | backend.workflows.nodes.grading_node:grading_node:35 | [Grading Node] 开始评分
+2026-05-15 15:32:04.280 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 15:32:04.281 | INFO     | backend.workflows.nodes.grading_node:grading_node:80 | [Grading Node] 使用 LLM 评分简答题: 5
+2026-05-15 15:32:07.698 | INFO     | backend.workflows.nodes.grading_node:grading_node:80 | [Grading Node] 使用 LLM 评分简答题: 6
+2026-05-15 15:32:11.810 | INFO     | backend.workflows.nodes.grading_node:grading_node:150 | [Grading Node] 评分完成: 17分 (1/6 题正确)
+2026-05-15 15:32:11.812 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:28 | [Feedback Node] 开始生成反馈
+2026-05-15 15:32:11.812 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:36 | [Feedback Node] 当前得分: 17, 重试次数: 0
+2026-05-15 15:32:11.812 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 15:32:11.812 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:81 | [Feedback Node] 调用 LLM 生成个性化反馈...
+2026-05-15 15:32:27.028 | INFO     | backend.workflows.nodes.feedback_node:feedback_node:105 | [Feedback Node] should_retry=True, new_retry_count=1
+2026-05-15 15:32:27.029 | INFO     | backend.workflows.study_flow_graph:should_continue:41 | [Condition] should_retry=True, retry_count=1
+2026-05-15 15:32:27.029 | INFO     | backend.workflows.study_flow_graph:should_continue:44 | [Condition] 决定重新出题
+2026-05-15 15:32:27.030 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:51 | [Quiz Generator Node] 开始生成练习题
+2026-05-15 15:32:27.030 | INFO     | backend.core.model:get_chat_model:51 | 🤖 创建聊天模型: deepseek-ai/DeepSeek-V3.2 (temperature=0.7, streaming=True)
+2026-05-15 15:32:27.031 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:67 | [Quiz Generator Node] 使用 10 个检索文档作为参考
+2026-05-15 15:32:27.031 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:106 | [Quiz Generator Node] 调用 LLM 生成练习题...
+2026-05-15 15:33:19.030 | INFO     | backend.workflows.nodes.quiz_generator_node:quiz_generator_node:135 | [Quiz Generator Node] 成功生成 5 道练习题，总分 90 分
+2026-05-15 15:33:19.031 | INFO     | backend.workflows.study_flow_graph:submit_answers:261 | [Study Flow] 工作流执行完成，最终状态: quiz_generated
+2026-05-15 15:34:31.721 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 15:35:23.521 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 16:08:33.980 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-15 16:19:21.038 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log

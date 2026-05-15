@@ -8,7 +8,6 @@ from langchain_community.document_loaders import (
     UnstructuredMarkdownLoader,
     UnstructuredHTMLLoader,
     JSONLoader,
-    DirectoryLoader
 )
 
 from ..config import get_logger
@@ -74,7 +73,7 @@ def get_loader_for_file(file_path: str | Path) -> Optional[Any]:
         elif file_type == "text":
             return TextLoader(str(file_path), encoding="utf-8")
         elif file_type == "markdown":
-            return UnstructuredMarkdownLoader(str(file_path))
+            return UnstructuredMarkdownLoader(str(file_path), mode="single", strategy="fast")
         elif file_type == "html":
             return UnstructuredHTMLLoader(str(file_path))
         elif file_type == "json":
@@ -215,12 +214,15 @@ def load_directory(
     if exclude_patterns:
         logger.info(f"   排除模式: {exclude_patterns}")
     
-    # 收集所有支持的文件
-    all_files = []
-    for ext in SUPPORTED_EXTENSIONS.keys():
-        pattern = f"**/*{ext}" if recursive else f"*{ext}"
-        files = list(directory_path.glob(pattern))
-        all_files.extend(files)
+    # 收集匹配 glob 且扩展名受支持的文件
+    pattern = glob_pattern
+    if not recursive and pattern.startswith("**/"):
+        pattern = pattern[3:]
+    all_files = [
+        path
+        for path in directory_path.glob(pattern)
+        if path.is_file() and path.suffix.lower() in SUPPORTED_EXTENSIONS
+    ]
     
     # 应用排除模式
     if exclude_patterns:

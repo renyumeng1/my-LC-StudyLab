@@ -8,6 +8,7 @@ dependencies = [
     "dotenv>=0.9.9",
     "faiss-cpu>=1.13.2",
     "fastapi>=0.136.1",
+    "jq>=1.11.0",
     "langchain>=1.2.15",
     "langchain-community>=0.4.1",
     "langchain-openai>=1.2.1",
@@ -15,8 +16,12 @@ dependencies = [
     "langchain-text-splitters>=1.1.2",
     "langgraph>=1.1.10",
     "loguru>=0.7.3",
+    "markdown>=3.10.2",
     "pydantic>=2.13.3",
     "pydantic-settings>=2.14.0",
+    "pypdf>=6.11.0",
+    "unstructured>=0.22.28",
+    "uvicorn>=0.47.0",
 ]
 
 [[tool.uv.index]]

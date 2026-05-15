@@ -1,6 +1,7 @@
 from pydantic_settings import BaseSettings,SettingsConfigDict
 from pydantic import Field
-from typing import Optional
+from pathlib import Path
+from typing import ClassVar, Optional
 from ..schemas import OpenAIConfig 
 
 
@@ -11,6 +12,7 @@ from ..schemas import OpenAIConfig
 class Settings(BaseSettings):
     """配置类，使用pydantic_settings进行管理
     """
+    PROJECT_ROOT: ClassVar[Path] = Path(__file__).resolve().parents[2]
     
     
     model_config = SettingsConfigDict(
@@ -30,6 +32,14 @@ class Settings(BaseSettings):
         if not self.openai_api_key:
             raise ValueError("OpenAI_API_KEY未设置！请在环境变量或.env文件中设置。")
         
+        
+        
+    def resolve_path(self, path: str | Path) -> Path:
+        """将项目内相对路径解析到仓库根目录，避免受启动目录影响。"""
+        resolved = Path(path)
+        if resolved.is_absolute():
+            return resolved
+        return self.PROJECT_ROOT / resolved
         
         
     def get_openai_config(self) -> OpenAIConfig:

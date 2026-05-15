@@ -199,7 +199,6 @@ async def chat(request:ChatRequest) -> ChatResponse:
         agent = create_base_agent(
             tools=tools,
             prompt_mode=request.mode,
-            streaming=False,
         )
         
         chat_history = convert_chat_history(request.chat_history)
@@ -267,7 +266,7 @@ async def get_available_modes():
     Returns:
         模式列表及其描述
     """
-    from core.prompts import SYSTEM_PROMPTS
+    from ...core.prompts import SYSTEM_PROMPTS
     
     modes = {}
     for mode_name in SYSTEM_PROMPTS.keys():
@@ -333,8 +332,8 @@ async def chat_stream(request: ChatRequest):
     
     async def generate():
         """SSE 生成器函数 - 增强版"""
-        from core.usage_tracker import create_usage_tracker
-        from core.extractors import MessageExtractor
+        from ...core.usage_tracker import create_usage_tracker
+        from ...core.extractors import MessageExtractor
         from langchain_core.messages import AIMessage, ToolMessage
         
         try:

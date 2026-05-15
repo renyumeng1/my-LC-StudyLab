@@ -1,0 +1,2 @@
+hello loader
+这是 txt 加载测试。

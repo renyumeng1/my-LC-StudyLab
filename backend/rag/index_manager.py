@@ -24,7 +24,7 @@ class IndexManager:
     
     
     def __init__(self,base_path:Optional[str]=None) -> None:
-        self.base_path = Path(base_path or settings.vector_store_path)
+        self.base_path = settings.resolve_path(base_path or settings.vector_store_path)
         self.base_path.mkdir(parents=True, exist_ok=True)
         
         logger.info(f"📁 索引管理器初始化: {self.base_path}")
@@ -129,7 +129,6 @@ class IndexManager:
                 documents=documents,
                 embeddings=embeddings,
                 store_type=store_type,
-                index_path=index_path,
                 **kwargs
             )
             

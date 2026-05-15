@@ -7,7 +7,7 @@
 from typing import Optional, Dict, List, Any,cast
 import re
 from langchain_core.messages import AIMessage, ToolMessage, BaseMessage
-from config import get_logger
+from ..config import get_logger
 
 logger = get_logger(__name__)
 

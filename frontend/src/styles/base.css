@@ -1,0 +1,66 @@
+:root {
+  /* ── Paper & Ink ── */
+  --paper: #faf9f6;
+  --paper-warm: #f5f3ee;
+  --paper-cool: #f0f4f8;
+  --paper-white: #ffffff;
+  --ink: #2c2a25;
+  --ink-light: #8a8578;
+  --ink-faint: #b8b3a8;
+  --pencil: #3d3b36;
+  --pencil-soft: #9e9a92;
+
+  /* ── Accent (restrained, only for identification) ── */
+  --accent-user: #4a7c59;
+  --accent-assistant: #5b7ba5;
+  --accent-system: #a07d5f;
+  --accent-danger: #b54a4a;
+  --accent-success: #4a7c59;
+  --accent-info: #5b7ba5;
+
+  /* ── Lines & Textures ── */
+  --line-solid: rgba(0, 0, 0, 0.08);
+  --line-dashed: rgba(0, 0, 0, 0.12);
+  --line-faint: rgba(0, 0, 0, 0.04);
+  --dot-grid: rgba(0, 0, 0, 0.06);
+
+  /* ── Sketch Radius ── */
+  --radius-bubble: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  --radius-bubble-user: 15px 255px 15px 225px / 225px 15px 225px 15px;
+  --radius-btn: 10px 15px 10px 15px / 15px 10px 15px 10px;
+  --radius-pill: 200px 20px 220px 20px / 20px 200px 20px 200px;
+  --radius-card: 225px 15px 255px 15px / 15px 225px 15px 255px;
+  --radius-avatar: 50% 42% 58% 48% / 48% 58% 42% 50%;
+
+  /* ── Shadows (sketch pencil style) ── */
+  --shadow-sm: 1px 1px 0 rgba(0, 0, 0, 0.04);
+  --shadow-md: 2px 3px 0 rgba(0, 0, 0, 0.06);
+  --shadow-lg: 3px 4px 0 rgba(0, 0, 0, 0.08);
+  --shadow-hover: 4px 5px 0 rgba(0, 0, 0, 0.12);
+
+  /* ── Spacing Scale ── */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+
+  /* ── Typography ── */
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-sketch: 'Comic Sans MS', 'Segoe Print', 'Bradley Hand', sans-serif;
+  --font-mono: 'Cascadia Code', 'Fira Code', monospace;
+
+  /* ── Timing ── */
+  --ease-sketch: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-draw: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* ── Layout ── */
+  --sidebar-w: 260px;
+  --header-h: 56px;
+  --input-h: auto;
+}

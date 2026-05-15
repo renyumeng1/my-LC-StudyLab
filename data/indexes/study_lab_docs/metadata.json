@@ -1,0 +1,9 @@
+{
+  "name": "study_lab_docs",
+  "description": "LC-StudyLab 默认学习资料索引",
+  "created_at": "2026-05-15T17:36:01.876219",
+  "updated_at": "2026-05-15T17:36:01.876223",
+  "num_documents": 29,
+  "store_type": "faiss",
+  "embedding_model": "BAAI/bge-large-zh-v1.5"
+}

@@ -106,7 +106,7 @@ class RagQueryResponse(BaseModel):
 
 
 def _get_allowed_files() -> dict[str, Path]:
-    base_dir = Path(settings.DATA_DIR).resolve()
+    base_dir = settings.resolve_path(settings.DATA_DIR).resolve()
     if not base_dir.exists():
         return {}
     return {
@@ -117,7 +117,7 @@ def _get_allowed_files() -> dict[str, Path]:
 
 
 def _get_allowed_directories() -> dict[str, Path]:
-    base_dir = Path(settings.DATA_DIR).resolve()
+    base_dir = settings.resolve_path(settings.DATA_DIR).resolve()
     allowed = {".": base_dir}
     if not base_dir.exists():
         return allowed
