@@ -1,0 +1,43 @@
+roadmap: large-scale-rag
+created: 2026-05-15
+
+items:
+  - slug: rag-evaluation-baseline
+    description: 增加 BEIR 数据加载和检索指标计算，作为所有 RAG 优化的最小闭环
+    depends_on: []
+    status: done
+    feature: null
+    minimal_loop: true
+    notes: 本轮已实现 backend/rag/evaluation.py 和单元测试
+
+  - slug: qdrant-vector-store
+    description: 在现有向量库抽象中接入 Qdrant，保留 FAISS baseline
+    depends_on: [rag-evaluation-baseline]
+    status: done
+    feature: null
+    minimal_loop: false
+    notes: 本轮已新增 Qdrant 配置和懒加载接入点
+
+  - slug: hybrid-rrf-retrieval
+    description: 支持多路检索器 RRF 融合，为 dense+sparse 双路召回提供组合层
+    depends_on: [qdrant-vector-store]
+    status: done
+    feature: null
+    minimal_loop: false
+    notes: 本轮已实现 create_rrf_retriever；sparse embedding/index schema 仍是后续增强点
+
+  - slug: retrieval-reranker
+    description: 对候选文档引入可插拔 rerank，输出重排后的 top K
+    depends_on: [hybrid-rrf-retrieval]
+    status: done
+    feature: null
+    minimal_loop: false
+    notes: 本轮已实现 create_rerank_retriever 和 TermOverlapReranker；cross-encoder reranker 仍是后续增强点
+
+  - slug: rag-study-guide
+    description: 写完整开发者复习文档，覆盖术语、公式、数据集、实验和简历表达
+    depends_on: [rag-evaluation-baseline]
+    status: done
+    feature: null
+    minimal_loop: false
+    notes: 本轮写入 backend/docs/dev/large-scale-rag.md

@@ -213,12 +213,27 @@ class Settings(BaseSettings):
     # 向量库配置
     vector_store_type: str = Field(
         default="faiss",
-        description="向量库类型：faiss, inmemory, chroma"
+        description="向量库类型：faiss, inmemory, qdrant"
     )
     
     vector_store_path: str = Field(
         default="data/indexes",
         description="向量库存储路径"
+    )
+
+    qdrant_url: str | None = Field(
+        default=None,
+        description="Qdrant 服务地址，例如 http://localhost:6333；为空时使用本地 path 模式"
+    )
+
+    qdrant_collection: str | None = Field(
+        default=None,
+        description="默认 Qdrant collection 名称；未设置时使用索引名称或 qdrant_default_collection"
+    )
+
+    qdrant_default_collection: str = Field(
+        default="study_lab_docs",
+        description="未显式指定 collection 时使用的 Qdrant collection 名称"
     )
     
     # 检索配置

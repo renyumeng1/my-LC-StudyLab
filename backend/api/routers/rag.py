@@ -12,7 +12,7 @@ from ...rag.loaders import load_document, load_directory, get_supported_extensio
 from ...rag.splitters import split_documents, split_text
 from ...rag.embeddings import get_embeddings
 from ...rag.index_manager import IndexManager
-from ...rag.retrievers import create_retriever
+from ...rag.retrievers import create_rerank_retriever, create_retriever
 from ...rag.rag_agent import create_conversational_rag_agent, aquery_rag_agent
 
 
@@ -22,6 +22,7 @@ router = APIRouter(prefix="/rag", tags=["rag"])
 
 SplitterType = Literal["recursive", "character", "markdown", "token"]
 SearchType = Literal["similarity", "mmr", "similarity_score_threshold"]
+RetrievalMode = Literal["dense", "rerank"]
 
 
 class IndexSourceRequest(BaseModel):
@@ -79,12 +80,14 @@ class IndexListResponse(BaseModel):
 class RagQueryRequest(BaseModel):
     index_name: str = Field(..., min_length=1, description="索引名称")
     query: str = Field(..., min_length=1, description="查询问题")
+    retrieval_mode: RetrievalMode = Field(default="dense", description="检索编排模式")
     search_type: Optional[SearchType] = Field(default=None, description="检索模式")
     k: Optional[int] = Field(default=None, description="返回文档数量")
     score_threshold: Optional[float] = Field(
         default=None, description="相似度阈值"
     )
     fetch_k: Optional[int] = Field(default=None, description="MMR 候选文档数量")
+    candidate_k: Optional[int] = Field(default=None, description="rerank 候选文档数量")
     model: Optional[str] = Field(default=None, description="对话模型")
     embedding_model: Optional[str] = Field(default=None, description="Embedding 模型名称")
     embedding_batch_size: Optional[int] = Field(
@@ -300,6 +303,12 @@ async def query_rag(request: RagQueryRequest) -> RagQueryResponse:
             score_threshold=request.score_threshold,
             fetch_k=request.fetch_k,
         )
+        if request.retrieval_mode == "rerank":
+            retriever = create_rerank_retriever(
+                retriever=retriever,
+                k=request.k,
+                candidate_k=request.candidate_k or request.fetch_k,
+            )
         agent = create_conversational_rag_agent(
             retriever=retriever,
             model=request.model,

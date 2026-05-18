@@ -84,6 +84,26 @@ def test_create_vector_store_rejects_unsupported_store_type(
         )
 
 
+def test_create_vector_store_qdrant_missing_dependency_has_clear_error(
+    sample_documents: list[Document],
+) -> None:
+    original_loader = vector_stores._load_qdrant_components
+
+    def fail_loader() -> tuple[Any, Any]:
+        raise ImportError("Qdrant 依赖未安装")
+
+    vector_stores._load_qdrant_components = fail_loader
+    try:
+        with pytest.raises(ImportError, match="Qdrant"):
+            vector_stores.create_vector_store(
+                sample_documents,
+                _FakeEmbeddings(),
+                store_type="qdrant",
+            )
+    finally:
+        vector_stores._load_qdrant_components = original_loader
+
+
 def test_add_documents_to_vector_store_adds_non_empty_documents() -> None:
     vector_store = _FakeVectorStore()
     documents = [Document(page_content="new document")]

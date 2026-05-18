@@ -155,12 +155,84 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "runpy",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "runpy",
         "description": "runpy",
         "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
         "documentation": {}
     },
     {
@@ -259,6 +331,60 @@
         "importPath": "site",
         "description": "site",
         "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "winreg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "winreg",
+        "description": "winreg",
+        "detail": "winreg",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
         "documentation": {}
     },
     {
@@ -574,6 +700,30 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Protocol",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -671,6 +821,14 @@
     },
     {
         "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -791,6 +949,22 @@
     },
     {
         "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1641,6 +1815,38 @@
         "documentation": {}
     },
     {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
         "label": "uuid4",
         "importPath": "uuid",
         "description": "uuid",
@@ -1900,11 +2106,52 @@
         "documentation": {}
     },
     {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
         "label": "Embeddings",
         "importPath": "langchain.embeddings",
         "description": "langchain.embeddings",
         "isExtraImport": true,
         "detail": "langchain.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
         "documentation": {}
     },
     {
@@ -2052,11 +2299,11 @@
         "documentation": {}
     },
     {
-        "label": "log",
-        "importPath": "math",
-        "description": "math",
+        "label": "BaseRetriever",
+        "importPath": "langchain_core.retrievers",
+        "description": "langchain_core.retrievers",
         "isExtraImport": true,
-        "detail": "math",
+        "detail": "langchain_core.retrievers",
         "documentation": {}
     },
     {
@@ -2100,6 +2347,296 @@
         "documentation": {}
     },
     {
+        "label": "get_embeddings",
+        "importPath": "backend.rag.embeddings",
+        "description": "backend.rag.embeddings",
+        "isExtraImport": true,
+        "detail": "backend.rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "get_embeddings",
+        "importPath": "backend.rag.embeddings",
+        "description": "backend.rag.embeddings",
+        "isExtraImport": true,
+        "detail": "backend.rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "QueryEvaluation",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "aggregate_evaluations",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_query",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "load_beir_corpus",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "load_beir_queries",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "QueryEvaluation",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "aggregate_evaluations",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_query",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "load_beir_corpus",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "load_beir_queries",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "reciprocal_rank_fusion",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "QueryJudgement",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_retriever",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "load_beir_corpus",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "load_beir_queries",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "ndcg_at_k",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "precision_at_k",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "recall_at_k",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "reciprocal_rank_at_k",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "reciprocal_rank_fusion",
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "isExtraImport": true,
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "TermOverlapReranker",
+        "importPath": "backend.rag.retrievers",
+        "description": "backend.rag.retrievers",
+        "isExtraImport": true,
+        "detail": "backend.rag.retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "TermOverlapReranker",
+        "importPath": "backend.rag.retrievers",
+        "description": "backend.rag.retrievers",
+        "isExtraImport": true,
+        "detail": "backend.rag.retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "create_rerank_retriever",
+        "importPath": "backend.rag.retrievers",
+        "description": "backend.rag.retrievers",
+        "isExtraImport": true,
+        "detail": "backend.rag.retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "create_rrf_retriever",
+        "importPath": "backend.rag.retrievers",
+        "description": "backend.rag.retrievers",
+        "isExtraImport": true,
+        "detail": "backend.rag.retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "search_retriever_with_scores",
+        "importPath": "backend.rag.retrievers",
+        "description": "backend.rag.retrievers",
+        "isExtraImport": true,
+        "detail": "backend.rag.retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "create_vector_store",
+        "importPath": "backend.rag.vector_stores",
+        "description": "backend.rag.vector_stores",
+        "isExtraImport": true,
+        "detail": "backend.rag.vector_stores",
+        "documentation": {}
+    },
+    {
+        "label": "load_vector_store",
+        "importPath": "backend.rag.vector_stores",
+        "description": "backend.rag.vector_stores",
+        "isExtraImport": true,
+        "detail": "backend.rag.vector_stores",
+        "documentation": {}
+    },
+    {
+        "label": "save_vector_store",
+        "importPath": "backend.rag.vector_stores",
+        "description": "backend.rag.vector_stores",
+        "isExtraImport": true,
+        "detail": "backend.rag.vector_stores",
+        "documentation": {}
+    },
+    {
+        "label": "create_vector_store",
+        "importPath": "backend.rag.vector_stores",
+        "description": "backend.rag.vector_stores",
+        "isExtraImport": true,
+        "detail": "backend.rag.vector_stores",
+        "documentation": {}
+    },
+    {
+        "label": "load_vector_store",
+        "importPath": "backend.rag.vector_stores",
+        "description": "backend.rag.vector_stores",
+        "isExtraImport": true,
+        "detail": "backend.rag.vector_stores",
+        "documentation": {}
+    },
+    {
+        "label": "save_vector_store",
+        "importPath": "backend.rag.vector_stores",
+        "description": "backend.rag.vector_stores",
+        "isExtraImport": true,
+        "detail": "backend.rag.vector_stores",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "BM25Okapi",
+        "importPath": "rank_bm25",
+        "description": "rank_bm25",
+        "isExtraImport": true,
+        "detail": "rank_bm25",
+        "documentation": {}
+    },
+    {
         "label": "importlib",
         "kind": 6,
         "isExtraImport": true,
@@ -2126,14 +2663,6 @@
         "documentation": {}
     },
     {
-        "label": "search_retriever_with_scores",
-        "importPath": "backend.rag.retrievers",
-        "description": "backend.rag.retrievers",
-        "isExtraImport": true,
-        "detail": "backend.rag.retrievers",
-        "documentation": {}
-    },
-    {
         "label": "vector_stores",
         "importPath": "backend.rag",
         "description": "backend.rag",
@@ -2156,6 +2685,14 @@
         "importPath": "uvicorn",
         "description": "uvicorn",
         "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "PdfReader",
+        "importPath": "pypdf",
+        "description": "pypdf",
+        "isExtraImport": true,
+        "detail": "pypdf",
         "documentation": {}
     },
     {
@@ -2420,6 +2957,285 @@
         "documentation": {}
     },
     {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except OSError:\n                pass\n        tee_f.write(what)",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_root_hkey",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU\n        return winreg.HKEY_CURRENT_USER",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "create_shortcut",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def create_shortcut(\n    path, description, filename, arguments=\"\", workdir=\"\", iconpath=\"\", iconindex=0\n):\n    import pythoncom\n    from win32com.shell import shell\n    ilink = pythoncom.CoCreateInstance(\n        shell.CLSID_ShellLink,\n        None,\n        pythoncom.CLSCTX_INPROC_SERVER,\n        shell.IID_IShellLink,",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_special_folder_path",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_special_folder_path(path_name):\n    from win32com.shell import shell, shellcon\n    for maybe in \"\"\"\n        CSIDL_COMMON_STARTMENU CSIDL_STARTMENU CSIDL_COMMON_APPDATA\n        CSIDL_LOCAL_APPDATA CSIDL_APPDATA CSIDL_COMMON_DESKTOPDIRECTORY\n        CSIDL_DESKTOPDIRECTORY CSIDL_COMMON_STARTUP CSIDL_STARTUP\n        CSIDL_COMMON_PROGRAMS CSIDL_PROGRAMS CSIDL_PROGRAM_FILES_COMMON\n        CSIDL_PROGRAM_FILES CSIDL_FONTS\"\"\".split():\n        if maybe == path_name:\n            csidl = getattr(shellcon, maybe)",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api\n    import win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.machinery\n    import importlib.util\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info.major,\n        sys.version_info.minor,\n        suffix,",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(f\"-> {root_key_name}\\\\{key_name}[{value_name}]={value!r}\")\n        finally:",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(f\"-> DELETE {root_key_name}\\\\{key_name}[{value_name}]\")\n        finally:",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n    to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        try:\n            fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n        except OSError:\n            # No CSIDL_COMMON_PROGRAMS on this platform\n            fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api\n    import win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(f\"Failed to unregister COM objects: {why}\")\n    try:",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location: str) -> str:\n    location = os.path.abspath(location)\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError(\n            f'Path \"{location}\" is not an existing directory!'\n        )\n    return location\ndef main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python -m pywin32_postinstall -install\n    * or (shorter but you don't have control over which python environment is used)\n    > pywin32_postinstall -install\n    You need to execute this script, with a '-install' parameter,\n    to ensure the environment is setup correctly to install COM objects, services, etc.",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(\n    os.path.join(\n        tempfile.gettempdir(),  # Send output somewhere so it can be found if necessary...\n        \"pywin32_postinstall.log\",\n    ),\n    \"w\",\n)\nclass Tee:\n    def __init__(self, file):\n        self.f = file",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.pywin32_postinstall",
+        "description": "backend..venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU",
+        "detail": "backend..venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_testall",
+        "description": "backend..venv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(f\"*** Test script '{script}' exited with {result.returncode}\")\n    sys.stdout.flush()\n    if result.returncode:",
+        "detail": "backend..venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_testall",
+        "description": "backend..venv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": "backend..venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pywin32_testall",
+        "description": "backend..venv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [project_root] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": "backend..venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "project_root",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.pywin32_testall",
+        "description": "backend..venv.Scripts.pywin32_testall",
+        "peekOfCode": "project_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))\nsite_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras",
+        "detail": "backend..venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.pywin32_testall",
+        "description": "backend..venv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)",
+        "detail": "backend..venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.pywin32_testall",
+        "description": "backend..venv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
+        "detail": "backend..venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
         "label": "BaseAgent",
         "kind": 6,
         "importPath": "backend.agent.base_agent",
@@ -2559,7 +3375,7 @@
         "kind": 6,
         "importPath": "backend.api.routers.rag",
         "description": "backend.api.routers.rag",
-        "peekOfCode": "class IndexOperationResponse(BaseModel):\n    success: bool = Field(default=True, description=\"操作是否成功\")\n    error: Optional[str] = Field(default=None, description=\"错误信息\")\n    index: Optional[dict[str, Any]] = Field(default=None, description=\"索引详情\")\nclass IndexListResponse(BaseModel):\n    indexes: list[dict[str, Any]] = Field(default_factory=list, description=\"索引列表\")\nclass RagQueryRequest(BaseModel):\n    index_name: str = Field(..., min_length=1, description=\"索引名称\")\n    query: str = Field(..., min_length=1, description=\"查询问题\")\n    search_type: Optional[SearchType] = Field(default=None, description=\"检索模式\")",
+        "peekOfCode": "class IndexOperationResponse(BaseModel):\n    success: bool = Field(default=True, description=\"操作是否成功\")\n    error: Optional[str] = Field(default=None, description=\"错误信息\")\n    index: Optional[dict[str, Any]] = Field(default=None, description=\"索引详情\")\nclass IndexListResponse(BaseModel):\n    indexes: list[dict[str, Any]] = Field(default_factory=list, description=\"索引列表\")\nclass RagQueryRequest(BaseModel):\n    index_name: str = Field(..., min_length=1, description=\"索引名称\")\n    query: str = Field(..., min_length=1, description=\"查询问题\")\n    retrieval_mode: RetrievalMode = Field(default=\"dense\", description=\"检索编排模式\")",
         "detail": "backend.api.routers.rag",
         "documentation": {}
     },
@@ -2568,7 +3384,7 @@
         "kind": 6,
         "importPath": "backend.api.routers.rag",
         "description": "backend.api.routers.rag",
-        "peekOfCode": "class IndexListResponse(BaseModel):\n    indexes: list[dict[str, Any]] = Field(default_factory=list, description=\"索引列表\")\nclass RagQueryRequest(BaseModel):\n    index_name: str = Field(..., min_length=1, description=\"索引名称\")\n    query: str = Field(..., min_length=1, description=\"查询问题\")\n    search_type: Optional[SearchType] = Field(default=None, description=\"检索模式\")\n    k: Optional[int] = Field(default=None, description=\"返回文档数量\")\n    score_threshold: Optional[float] = Field(\n        default=None, description=\"相似度阈值\"\n    )",
+        "peekOfCode": "class IndexListResponse(BaseModel):\n    indexes: list[dict[str, Any]] = Field(default_factory=list, description=\"索引列表\")\nclass RagQueryRequest(BaseModel):\n    index_name: str = Field(..., min_length=1, description=\"索引名称\")\n    query: str = Field(..., min_length=1, description=\"查询问题\")\n    retrieval_mode: RetrievalMode = Field(default=\"dense\", description=\"检索编排模式\")\n    search_type: Optional[SearchType] = Field(default=None, description=\"检索模式\")\n    k: Optional[int] = Field(default=None, description=\"返回文档数量\")\n    score_threshold: Optional[float] = Field(\n        default=None, description=\"相似度阈值\"",
         "detail": "backend.api.routers.rag",
         "documentation": {}
     },
@@ -2577,7 +3393,7 @@
         "kind": 6,
         "importPath": "backend.api.routers.rag",
         "description": "backend.api.routers.rag",
-        "peekOfCode": "class RagQueryRequest(BaseModel):\n    index_name: str = Field(..., min_length=1, description=\"索引名称\")\n    query: str = Field(..., min_length=1, description=\"查询问题\")\n    search_type: Optional[SearchType] = Field(default=None, description=\"检索模式\")\n    k: Optional[int] = Field(default=None, description=\"返回文档数量\")\n    score_threshold: Optional[float] = Field(\n        default=None, description=\"相似度阈值\"\n    )\n    fetch_k: Optional[int] = Field(default=None, description=\"MMR 候选文档数量\")\n    model: Optional[str] = Field(default=None, description=\"对话模型\")",
+        "peekOfCode": "class RagQueryRequest(BaseModel):\n    index_name: str = Field(..., min_length=1, description=\"索引名称\")\n    query: str = Field(..., min_length=1, description=\"查询问题\")\n    retrieval_mode: RetrievalMode = Field(default=\"dense\", description=\"检索编排模式\")\n    search_type: Optional[SearchType] = Field(default=None, description=\"检索模式\")\n    k: Optional[int] = Field(default=None, description=\"返回文档数量\")\n    score_threshold: Optional[float] = Field(\n        default=None, description=\"相似度阈值\"\n    )\n    fetch_k: Optional[int] = Field(default=None, description=\"MMR 候选文档数量\")",
         "detail": "backend.api.routers.rag",
         "documentation": {}
     },
@@ -2595,7 +3411,7 @@
         "kind": 5,
         "importPath": "backend.api.routers.rag",
         "description": "backend.api.routers.rag",
-        "peekOfCode": "logger = get_logger(__name__)\nrouter = APIRouter(prefix=\"/rag\", tags=[\"rag\"])\nSplitterType = Literal[\"recursive\", \"character\", \"markdown\", \"token\"]\nSearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\nclass IndexSourceRequest(BaseModel):\n    source_type: Literal[\"files\", \"directory\", \"text\"] = Field(\n        default=\"text\", description=\"索引数据来源类型: files/directory/text\"\n    )\n    files: Optional[list[str]] = Field(\n        default=None, description=\"DATA_DIR 下的相对文件路径列表\"",
+        "peekOfCode": "logger = get_logger(__name__)\nrouter = APIRouter(prefix=\"/rag\", tags=[\"rag\"])\nSplitterType = Literal[\"recursive\", \"character\", \"markdown\", \"token\"]\nSearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\nRetrievalMode = Literal[\"dense\", \"rerank\"]\nclass IndexSourceRequest(BaseModel):\n    source_type: Literal[\"files\", \"directory\", \"text\"] = Field(\n        default=\"text\", description=\"索引数据来源类型: files/directory/text\"\n    )\n    files: Optional[list[str]] = Field(",
         "detail": "backend.api.routers.rag",
         "documentation": {}
     },
@@ -2604,7 +3420,7 @@
         "kind": 5,
         "importPath": "backend.api.routers.rag",
         "description": "backend.api.routers.rag",
-        "peekOfCode": "router = APIRouter(prefix=\"/rag\", tags=[\"rag\"])\nSplitterType = Literal[\"recursive\", \"character\", \"markdown\", \"token\"]\nSearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\nclass IndexSourceRequest(BaseModel):\n    source_type: Literal[\"files\", \"directory\", \"text\"] = Field(\n        default=\"text\", description=\"索引数据来源类型: files/directory/text\"\n    )\n    files: Optional[list[str]] = Field(\n        default=None, description=\"DATA_DIR 下的相对文件路径列表\"\n    )",
+        "peekOfCode": "router = APIRouter(prefix=\"/rag\", tags=[\"rag\"])\nSplitterType = Literal[\"recursive\", \"character\", \"markdown\", \"token\"]\nSearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\nRetrievalMode = Literal[\"dense\", \"rerank\"]\nclass IndexSourceRequest(BaseModel):\n    source_type: Literal[\"files\", \"directory\", \"text\"] = Field(\n        default=\"text\", description=\"索引数据来源类型: files/directory/text\"\n    )\n    files: Optional[list[str]] = Field(\n        default=None, description=\"DATA_DIR 下的相对文件路径列表\"",
         "detail": "backend.api.routers.rag",
         "documentation": {}
     },
@@ -2613,7 +3429,7 @@
         "kind": 5,
         "importPath": "backend.api.routers.rag",
         "description": "backend.api.routers.rag",
-        "peekOfCode": "SplitterType = Literal[\"recursive\", \"character\", \"markdown\", \"token\"]\nSearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\nclass IndexSourceRequest(BaseModel):\n    source_type: Literal[\"files\", \"directory\", \"text\"] = Field(\n        default=\"text\", description=\"索引数据来源类型: files/directory/text\"\n    )\n    files: Optional[list[str]] = Field(\n        default=None, description=\"DATA_DIR 下的相对文件路径列表\"\n    )\n    directory: Optional[str] = Field(",
+        "peekOfCode": "SplitterType = Literal[\"recursive\", \"character\", \"markdown\", \"token\"]\nSearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\nRetrievalMode = Literal[\"dense\", \"rerank\"]\nclass IndexSourceRequest(BaseModel):\n    source_type: Literal[\"files\", \"directory\", \"text\"] = Field(\n        default=\"text\", description=\"索引数据来源类型: files/directory/text\"\n    )\n    files: Optional[list[str]] = Field(\n        default=None, description=\"DATA_DIR 下的相对文件路径列表\"\n    )",
         "detail": "backend.api.routers.rag",
         "documentation": {}
     },
@@ -2622,7 +3438,16 @@
         "kind": 5,
         "importPath": "backend.api.routers.rag",
         "description": "backend.api.routers.rag",
-        "peekOfCode": "SearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\nclass IndexSourceRequest(BaseModel):\n    source_type: Literal[\"files\", \"directory\", \"text\"] = Field(\n        default=\"text\", description=\"索引数据来源类型: files/directory/text\"\n    )\n    files: Optional[list[str]] = Field(\n        default=None, description=\"DATA_DIR 下的相对文件路径列表\"\n    )\n    directory: Optional[str] = Field(\n        default=None, description=\"DATA_DIR 下的相对目录路径\"",
+        "peekOfCode": "SearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\nRetrievalMode = Literal[\"dense\", \"rerank\"]\nclass IndexSourceRequest(BaseModel):\n    source_type: Literal[\"files\", \"directory\", \"text\"] = Field(\n        default=\"text\", description=\"索引数据来源类型: files/directory/text\"\n    )\n    files: Optional[list[str]] = Field(\n        default=None, description=\"DATA_DIR 下的相对文件路径列表\"\n    )\n    directory: Optional[str] = Field(",
+        "detail": "backend.api.routers.rag",
+        "documentation": {}
+    },
+    {
+        "label": "RetrievalMode",
+        "kind": 5,
+        "importPath": "backend.api.routers.rag",
+        "description": "backend.api.routers.rag",
+        "peekOfCode": "RetrievalMode = Literal[\"dense\", \"rerank\"]\nclass IndexSourceRequest(BaseModel):\n    source_type: Literal[\"files\", \"directory\", \"text\"] = Field(\n        default=\"text\", description=\"索引数据来源类型: files/directory/text\"\n    )\n    files: Optional[list[str]] = Field(\n        default=None, description=\"DATA_DIR 下的相对文件路径列表\"\n    )\n    directory: Optional[str] = Field(\n        default=None, description=\"DATA_DIR 下的相对目录路径\"",
         "detail": "backend.api.routers.rag",
         "documentation": {}
     },
@@ -3365,6 +4190,132 @@
         "documentation": {}
     },
     {
+        "label": "RetrieverProtocol",
+        "kind": 6,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "class RetrieverProtocol(Protocol):\n    \"\"\"最小检索器协议，兼容 LangChain retriever 的 invoke 接口。\"\"\"\n    def invoke(self, query: str) -> list[Document]:\n        ...\n@dataclass(frozen=True)\nclass QueryJudgement:\n    \"\"\"一条查询的标准答案集合。\"\"\"\n    query_id: str\n    query: str\n    relevant_doc_ids: set[str]",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "QueryJudgement",
+        "kind": 6,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "class QueryJudgement:\n    \"\"\"一条查询的标准答案集合。\"\"\"\n    query_id: str\n    query: str\n    relevant_doc_ids: set[str]\n@dataclass(frozen=True)\nclass QueryEvaluation:\n    \"\"\"单条查询在一个 K 值下的评测结果。\"\"\"\n    query_id: str\n    k: int",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "QueryEvaluation",
+        "kind": 6,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "class QueryEvaluation:\n    \"\"\"单条查询在一个 K 值下的评测结果。\"\"\"\n    query_id: str\n    k: int\n    retrieved_doc_ids: list[str]\n    relevant_doc_ids: set[str]\n    recall: float\n    precision: float\n    reciprocal_rank: float\n    ndcg: float",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "EvaluationReport",
+        "kind": 6,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "class EvaluationReport:\n    \"\"\"多条查询的聚合评测结果。\"\"\"\n    k: int\n    query_count: int\n    recall_at_k: float\n    precision_at_k: float\n    mrr_at_k: float\n    ndcg_at_k: float\n    per_query: list[QueryEvaluation]\ndef load_beir_queries(dataset_path: str | Path, split: str = \"test\") -> list[QueryJudgement]:",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "load_beir_queries",
+        "kind": 2,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "def load_beir_queries(dataset_path: str | Path, split: str = \"test\") -> list[QueryJudgement]:\n    \"\"\"加载 BEIR 格式数据集中的 queries 与 qrels。\n    BEIR 数据集通常包含 `queries.jsonl` 和 `qrels/{split}.tsv`。\n    `queries.jsonl` 每行包含 `_id` 和 `text`，`qrels` 表示 query 与相关文档。\n    \"\"\"\n    dataset_path = Path(dataset_path)\n    queries = _load_beir_query_texts(dataset_path / \"queries.jsonl\")\n    qrels = _load_beir_qrels(dataset_path / \"qrels\" / f\"{split}.tsv\")\n    judgements: list[QueryJudgement] = []\n    for query_id, doc_ids in qrels.items():",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "load_beir_corpus",
+        "kind": 2,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "def load_beir_corpus(dataset_path: str | Path) -> list[Document]:\n    \"\"\"加载 BEIR `corpus.jsonl` 为 LangChain Document 列表。\"\"\"\n    corpus_path = Path(dataset_path) / \"corpus.jsonl\"\n    documents: list[Document] = []\n    with corpus_path.open(\"r\", encoding=\"utf-8\") as file:\n        for line in file:\n            if not line.strip():\n                continue\n            item = json.loads(line)\n            doc_id = str(item[\"_id\"])",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_retriever",
+        "kind": 2,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "def evaluate_retriever(\n    retriever: RetrieverProtocol,\n    judgements: Iterable[QueryJudgement],\n    k: int = 5,\n    doc_id_metadata_key: str = \"doc_id\",\n) -> EvaluationReport:\n    \"\"\"对任意 LangChain 风格检索器计算 Recall/MRR/nDCG 等指标。\"\"\"\n    per_query: list[QueryEvaluation] = []\n    for judgement in judgements:\n        documents = retriever.invoke(judgement.query)",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_query",
+        "kind": 2,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "def evaluate_query(\n    query_id: str,\n    retrieved_doc_ids: list[str],\n    relevant_doc_ids: set[str],\n    k: int,\n) -> QueryEvaluation:\n    \"\"\"计算单条查询在 K 值下的指标。\"\"\"\n    top_k = retrieved_doc_ids[:k]\n    recall = recall_at_k(top_k, relevant_doc_ids, k)\n    precision = precision_at_k(top_k, relevant_doc_ids, k)",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "aggregate_evaluations",
+        "kind": 2,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "def aggregate_evaluations(\n    evaluations: list[QueryEvaluation],\n    k: int,\n) -> EvaluationReport:\n    \"\"\"聚合多条查询的平均指标。\"\"\"\n    query_count = len(evaluations)\n    if query_count == 0:\n        return EvaluationReport(\n            k=k,\n            query_count=0,",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "recall_at_k",
+        "kind": 2,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "def recall_at_k(\n    retrieved_doc_ids: list[str],\n    relevant_doc_ids: set[str],\n    k: int,\n) -> float:\n    \"\"\"Recall@K = |Relevant ∩ Retrieved@K| / |Relevant|。\"\"\"\n    if not relevant_doc_ids:\n        return 0.0\n    hits = _count_hits(retrieved_doc_ids[:k], relevant_doc_ids)\n    return hits / len(relevant_doc_ids)",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "precision_at_k",
+        "kind": 2,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "def precision_at_k(\n    retrieved_doc_ids: list[str],\n    relevant_doc_ids: set[str],\n    k: int,\n) -> float:\n    \"\"\"Precision@K = |Relevant ∩ Retrieved@K| / K。\"\"\"\n    if k <= 0:\n        return 0.0\n    hits = _count_hits(retrieved_doc_ids[:k], relevant_doc_ids)\n    return hits / k",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "reciprocal_rank_at_k",
+        "kind": 2,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "def reciprocal_rank_at_k(\n    retrieved_doc_ids: list[str],\n    relevant_doc_ids: set[str],\n    k: int,\n) -> float:\n    \"\"\"MRR 的单查询项：第一个相关文档排名的倒数。\"\"\"\n    for rank, doc_id in enumerate(retrieved_doc_ids[:k], start=1):\n        if doc_id in relevant_doc_ids:\n            return 1.0 / rank\n    return 0.0",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "ndcg_at_k",
+        "kind": 2,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "def ndcg_at_k(\n    retrieved_doc_ids: list[str],\n    relevant_doc_ids: set[str],\n    k: int,\n) -> float:\n    \"\"\"nDCG@K = DCG@K / IDCG@K，二值相关性版本。\"\"\"\n    if not relevant_doc_ids:\n        return 0.0\n    gains = [1.0 if doc_id in relevant_doc_ids else 0.0 for doc_id in retrieved_doc_ids[:k]]\n    dcg = _discounted_cumulative_gain(gains)",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "reciprocal_rank_fusion",
+        "kind": 2,
+        "importPath": "backend.rag.evaluation",
+        "description": "backend.rag.evaluation",
+        "peekOfCode": "def reciprocal_rank_fusion(\n    ranked_lists: Iterable[list[str]],\n    k: int = 60,\n    weights: Iterable[float] | None = None,\n) -> list[tuple[str, float]]:\n    \"\"\"RRF: score(d) = sum_i weight_i / (k + rank_i(d))。\"\"\"\n    lists = list(ranked_lists)\n    weight_values = list(weights) if weights is not None else [1.0] * len(lists)\n    if len(weight_values) != len(lists):\n        raise ValueError(\"weights 数量必须和 ranked_lists 数量一致\")",
+        "detail": "backend.rag.evaluation",
+        "documentation": {}
+    },
+    {
         "label": "IndexManager",
         "kind": 6,
         "importPath": "backend.rag.index_manager",
@@ -3500,6 +4451,33 @@
         "documentation": {}
     },
     {
+        "label": "ReciprocalRankFusionRetriever",
+        "kind": 6,
+        "importPath": "backend.rag.retrievers",
+        "description": "backend.rag.retrievers",
+        "peekOfCode": "class ReciprocalRankFusionRetriever(BaseRetriever):\n    \"\"\"用 RRF 融合多个检索器的结果。\"\"\"\n    retrievers: list[BaseRetriever]\n    weights: list[float] | None = None\n    k: int = 5\n    rrf_k: int = 60\n    def _get_relevant_documents(self, query: str) -> list[Document]:\n        doc_by_id: dict[str, Document] = {}\n        ranked_lists: list[list[str]] = []\n        for index, retriever in enumerate(self.retrievers):",
+        "detail": "backend.rag.retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "TermOverlapReranker",
+        "kind": 6,
+        "importPath": "backend.rag.retrievers",
+        "description": "backend.rag.retrievers",
+        "peekOfCode": "class TermOverlapReranker:\n    \"\"\"无模型依赖的词项覆盖率 reranker，用作后续 cross-encoder 的可替换基线。\"\"\"\n    def rerank(\n        self,\n        query: str,\n        documents: list[Document],\n        top_k: int | None = None,\n    ) -> list[Document]:\n        query_terms = _tokenize(query)\n        if not query_terms:",
+        "detail": "backend.rag.retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "RerankRetriever",
+        "kind": 6,
+        "importPath": "backend.rag.retrievers",
+        "description": "backend.rag.retrievers",
+        "peekOfCode": "class RerankRetriever(BaseRetriever):\n    \"\"\"先召回候选文档，再用 reranker 重排并截断到 top K。\"\"\"\n    retriever: BaseRetriever\n    reranker: Any\n    k: int = 5\n    candidate_k: int | None = None\n    def _get_relevant_documents(self, query: str) -> list[Document]:\n        documents = self.retriever.invoke(query)\n        if self.candidate_k is not None:\n            documents = documents[: self.candidate_k]",
+        "detail": "backend.rag.retrievers",
+        "documentation": {}
+    },
+    {
         "label": "create_retriever",
         "kind": 2,
         "importPath": "backend.rag.retrievers",
@@ -3514,6 +4492,24 @@
         "importPath": "backend.rag.retrievers",
         "description": "backend.rag.retrievers",
         "peekOfCode": "def search_retriever_with_scores(\n    retriever: BaseRetriever,\n    query: str,\n    **kwargs: Any,\n) -> list[tuple[Document, float]]:\n    vector_store = getattr(retriever, \"vectorstore\", None)\n    if vector_store is None:\n        raise ValueError(\"当前检索器不包含 vectorstore，无法获取真实相关度分数\")\n    search_kwargs = dict(getattr(retriever, \"search_kwargs\", {}) or {})\n    search_kwargs.update(kwargs)",
+        "detail": "backend.rag.retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "create_rrf_retriever",
+        "kind": 2,
+        "importPath": "backend.rag.retrievers",
+        "description": "backend.rag.retrievers",
+        "peekOfCode": "def create_rrf_retriever(\n    retrievers: list[BaseRetriever],\n    weights: list[float] | None = None,\n    k: Optional[int] = None,\n    rrf_k: int = 60,\n) -> BaseRetriever:\n    \"\"\"创建 RRF 组合检索器，融合 dense/sparse 等多路召回。\"\"\"\n    if not retrievers:\n        raise ValueError(\"retrievers 不能为空\")\n    if weights is not None and len(weights) != len(retrievers):",
+        "detail": "backend.rag.retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "create_rerank_retriever",
+        "kind": 2,
+        "importPath": "backend.rag.retrievers",
+        "description": "backend.rag.retrievers",
+        "peekOfCode": "def create_rerank_retriever(\n    retriever: BaseRetriever,\n    reranker: Any | None = None,\n    k: Optional[int] = None,\n    candidate_k: Optional[int] = None,\n) -> BaseRetriever:\n    \"\"\"创建两阶段 rerank 检索器。\"\"\"\n    return RerankRetriever(\n        retriever=retriever,\n        reranker=reranker or TermOverlapReranker(),",
         "detail": "backend.rag.retrievers",
         "documentation": {}
     },
@@ -3558,7 +4554,7 @@
         "kind": 5,
         "importPath": "backend.rag.retrievers",
         "description": "backend.rag.retrievers",
-        "peekOfCode": "logger = get_logger(__name__)\n# 检索类型\nSearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\ndef create_retriever(\n    vector_store: VectorStore,\n    search_type: Optional[SearchType | str] = None,\n    k: Optional[int] = None,\n    score_threshold: Optional[float] = None,\n    fetch_k: Optional[int] = None,\n    **kwargs: Any,",
+        "peekOfCode": "logger = get_logger(__name__)\n# 检索类型\nSearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\nclass ReciprocalRankFusionRetriever(BaseRetriever):\n    \"\"\"用 RRF 融合多个检索器的结果。\"\"\"\n    retrievers: list[BaseRetriever]\n    weights: list[float] | None = None\n    k: int = 5\n    rrf_k: int = 60\n    def _get_relevant_documents(self, query: str) -> list[Document]:",
         "detail": "backend.rag.retrievers",
         "documentation": {}
     },
@@ -3567,7 +4563,7 @@
         "kind": 5,
         "importPath": "backend.rag.retrievers",
         "description": "backend.rag.retrievers",
-        "peekOfCode": "SearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\ndef create_retriever(\n    vector_store: VectorStore,\n    search_type: Optional[SearchType | str] = None,\n    k: Optional[int] = None,\n    score_threshold: Optional[float] = None,\n    fetch_k: Optional[int] = None,\n    **kwargs: Any,\n) -> BaseRetriever:\n    \"\"\"",
+        "peekOfCode": "SearchType = Literal[\"similarity\", \"mmr\", \"similarity_score_threshold\"]\nclass ReciprocalRankFusionRetriever(BaseRetriever):\n    \"\"\"用 RRF 融合多个检索器的结果。\"\"\"\n    retrievers: list[BaseRetriever]\n    weights: list[float] | None = None\n    k: int = 5\n    rrf_k: int = 60\n    def _get_relevant_documents(self, query: str) -> list[Document]:\n        doc_by_id: dict[str, Document] = {}\n        ranked_lists: list[list[str]] = []",
         "detail": "backend.rag.retrievers",
         "documentation": {}
     },
@@ -3702,7 +4698,7 @@
         "kind": 5,
         "importPath": "backend.rag.vector_stores",
         "description": "backend.rag.vector_stores",
-        "peekOfCode": "FAISS_AVAILABLE = False\ntry:\n    from langchain_community.vectorstores import FAISS  # noqa: F811\n    FAISS_AVAILABLE = True\nexcept ImportError:\n    pass\nfrom ..config import settings, get_logger\nlogger = get_logger(__name__)\nVectorStoreType = Literal[\"faiss\", \"inmemory\"]\ndef create_vector_store(",
+        "peekOfCode": "FAISS_AVAILABLE = False\ntry:\n    from langchain_community.vectorstores import FAISS  # noqa: F811\n    FAISS_AVAILABLE = True\nexcept ImportError:\n    pass\nfrom ..config import settings, get_logger\nlogger = get_logger(__name__)\nVectorStoreType = Literal[\"faiss\", \"inmemory\", \"qdrant\"]\ndef _load_qdrant_components() -> tuple[Any, Any]:",
         "detail": "backend.rag.vector_stores",
         "documentation": {}
     },
@@ -3711,7 +4707,7 @@
         "kind": 5,
         "importPath": "backend.rag.vector_stores",
         "description": "backend.rag.vector_stores",
-        "peekOfCode": "logger = get_logger(__name__)\nVectorStoreType = Literal[\"faiss\", \"inmemory\"]\ndef create_vector_store(\n    documents: list[Document],\n    embeddings: Embeddings,\n    store_type: Optional[VectorStoreType | str] = None,\n    **kwargs,\n) -> VectorStore:\n    \"\"\"\n    从文档创建向量存储",
+        "peekOfCode": "logger = get_logger(__name__)\nVectorStoreType = Literal[\"faiss\", \"inmemory\", \"qdrant\"]\ndef _load_qdrant_components() -> tuple[Any, Any]:\n    try:\n        from langchain_qdrant import QdrantVectorStore\n        from qdrant_client import QdrantClient\n    except ImportError as exc:\n        raise ImportError(\n            \"Qdrant 依赖未安装。请安装 langchain-qdrant 和 qdrant-client，\"\n            \"或将 VECTOR_STORE_TYPE 改回 faiss/inmemory。\"",
         "detail": "backend.rag.vector_stores",
         "documentation": {}
     },
@@ -3720,7 +4716,7 @@
         "kind": 5,
         "importPath": "backend.rag.vector_stores",
         "description": "backend.rag.vector_stores",
-        "peekOfCode": "VectorStoreType = Literal[\"faiss\", \"inmemory\"]\ndef create_vector_store(\n    documents: list[Document],\n    embeddings: Embeddings,\n    store_type: Optional[VectorStoreType | str] = None,\n    **kwargs,\n) -> VectorStore:\n    \"\"\"\n    从文档创建向量存储\n    Args:",
+        "peekOfCode": "VectorStoreType = Literal[\"faiss\", \"inmemory\", \"qdrant\"]\ndef _load_qdrant_components() -> tuple[Any, Any]:\n    try:\n        from langchain_qdrant import QdrantVectorStore\n        from qdrant_client import QdrantClient\n    except ImportError as exc:\n        raise ImportError(\n            \"Qdrant 依赖未安装。请安装 langchain-qdrant 和 qdrant-client，\"\n            \"或将 VECTOR_STORE_TYPE 改回 faiss/inmemory。\"\n        ) from exc",
         "detail": "backend.rag.vector_stores",
         "documentation": {}
     },
@@ -3920,6 +4916,105 @@
         "description": "backend.schemas.weather",
         "peekOfCode": "WeatherOutput = Literal[\"JSON\", \"XML\"]\nclass AmapWeatherRequestParams(BaseModel):\n    \"\"\"高德天气接口请求参数。\"\"\"\n    key: str = Field(description=\"高德地图 Web 服务 API Key\")\n    city: str = Field(description=\"城市 adcode\")\n    extensions: WeatherExtensions = Field(\n        default=\"base\",\n        description=\"气象类型，base 返回实况天气，all 返回预报天气\",\n    )\n    output: WeatherOutput = Field(default=\"JSON\", description=\"返回格式\")",
         "detail": "backend.schemas.weather",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_vector_store",
+        "kind": 2,
+        "importPath": "backend.scripts.run_beir_baseline",
+        "description": "backend.scripts.run_beir_baseline",
+        "peekOfCode": "def evaluate_vector_store(\n    vector_store: Any,\n    judgements: list[Any],\n    query_vectors: dict[str, list[float]],\n    mode: str,\n    k: int,\n    fetch_k: int,\n    candidate_k: int | None,\n) -> Any:\n    per_query: list[QueryEvaluation] = []",
+        "detail": "backend.scripts.run_beir_baseline",
+        "documentation": {}
+    },
+    {
+        "label": "run_dataset",
+        "kind": 2,
+        "importPath": "backend.scripts.run_beir_baseline",
+        "description": "backend.scripts.run_beir_baseline",
+        "peekOfCode": "def run_dataset(\n    dataset: str,\n    data_root: Path,\n    index_root: Path,\n    k: int,\n    retrieval_mode: str,\n    fetch_k: int,\n    candidate_k: int | None,\n    embedding_batch_size: int | None,\n    embedding_ctx_length: int | None,",
+        "detail": "backend.scripts.run_beir_baseline",
+        "documentation": {}
+    },
+    {
+        "label": "run_dataset_modes",
+        "kind": 2,
+        "importPath": "backend.scripts.run_beir_baseline",
+        "description": "backend.scripts.run_beir_baseline",
+        "peekOfCode": "def run_dataset_modes(\n    dataset: str,\n    modes: list[str],\n    data_root: Path,\n    index_root: Path,\n    k: int,\n    fetch_k: int,\n    candidate_k: int | None,\n    embedding_batch_size: int | None,\n    embedding_ctx_length: int | None,",
+        "detail": "backend.scripts.run_beir_baseline",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.scripts.run_beir_baseline",
+        "description": "backend.scripts.run_beir_baseline",
+        "peekOfCode": "def main() -> None:\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--datasets\", nargs=\"+\", default=[\"scifact\", \"nfcorpus\"])\n    parser.add_argument(\"--data-root\", type=Path, default=PROJECT_ROOT / \"data\" / \"beir\")\n    parser.add_argument(\n        \"--index-root\",\n        type=Path,\n        default=PROJECT_ROOT / \"data\" / \"indexes\" / \"beir\",\n    )\n    parser.add_argument(\"--output\", type=Path, default=PROJECT_ROOT / \"data\" / \"beir\" / \"retrieval-comparison.json\")",
+        "detail": "backend.scripts.run_beir_baseline",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "backend.scripts.run_beir_baseline",
+        "description": "backend.scripts.run_beir_baseline",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[2]\nsys.path.insert(0, str(PROJECT_ROOT))\nfrom langchain_core.documents import Document\nfrom backend.rag.embeddings import get_embeddings\nfrom backend.rag.evaluation import (\n    QueryEvaluation,\n    aggregate_evaluations,\n    evaluate_query,\n    load_beir_corpus,\n    load_beir_queries,",
+        "detail": "backend.scripts.run_beir_baseline",
+        "documentation": {}
+    },
+    {
+        "label": "chunk_corpus",
+        "kind": 2,
+        "importPath": "backend.scripts.run_beir_hybrid_experiment",
+        "description": "backend.scripts.run_beir_hybrid_experiment",
+        "peekOfCode": "def chunk_corpus(\n    corpus: list[Document],\n    chunk_size_chars: int,\n    chunk_overlap_chars: int,\n) -> list[Document]:\n    if chunk_size_chars <= 0:\n        raise ValueError(\"chunk_size_chars must be positive\")\n    if chunk_overlap_chars < 0 or chunk_overlap_chars >= chunk_size_chars:\n        raise ValueError(\"chunk_overlap_chars must be >= 0 and < chunk_size_chars\")\n    chunks: list[Document] = []",
+        "detail": "backend.scripts.run_beir_hybrid_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_dataset_modes",
+        "kind": 2,
+        "importPath": "backend.scripts.run_beir_hybrid_experiment",
+        "description": "backend.scripts.run_beir_hybrid_experiment",
+        "peekOfCode": "def evaluate_dataset_modes(\n    judgements: list[Any],\n    query_vectors: dict[str, list[float]],\n    vector_store: Any,\n    bm25: BM25Okapi,\n    bm25_chunk_ids: list[str],\n    chunk_to_doc: dict[str, str],\n    modes: list[str],\n    doc_top_k: int,\n    chunk_top_k: int,",
+        "detail": "backend.scripts.run_beir_hybrid_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "run_dataset",
+        "kind": 2,
+        "importPath": "backend.scripts.run_beir_hybrid_experiment",
+        "description": "backend.scripts.run_beir_hybrid_experiment",
+        "peekOfCode": "def run_dataset(\n    dataset: str,\n    data_root: Path,\n    index_root: Path,\n    modes: list[str],\n    doc_top_k: int,\n    chunk_top_k: int,\n    chunk_size_chars: int,\n    chunk_overlap_chars: int,\n    embedding_model: str | None,",
+        "detail": "backend.scripts.run_beir_hybrid_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.scripts.run_beir_hybrid_experiment",
+        "description": "backend.scripts.run_beir_hybrid_experiment",
+        "peekOfCode": "def main() -> None:\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--datasets\", nargs=\"+\", default=[\"scifact\", \"nfcorpus\"])\n    parser.add_argument(\"--data-root\", type=Path, default=PROJECT_ROOT / \"data\" / \"beir\")\n    parser.add_argument(\n        \"--index-root\",\n        type=Path,\n        default=PROJECT_ROOT / \"data\" / \"indexes\" / \"beir\",\n    )\n    parser.add_argument(",
+        "detail": "backend.scripts.run_beir_hybrid_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "backend.scripts.run_beir_hybrid_experiment",
+        "description": "backend.scripts.run_beir_hybrid_experiment",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[2]\nsys.path.insert(0, str(PROJECT_ROOT))\nfrom backend.rag.embeddings import get_embeddings\nfrom backend.rag.evaluation import (\n    QueryEvaluation,\n    aggregate_evaluations,\n    evaluate_query,\n    load_beir_corpus,\n    load_beir_queries,\n    reciprocal_rank_fusion,",
+        "detail": "backend.scripts.run_beir_hybrid_experiment",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN_PATTERN",
+        "kind": 5,
+        "importPath": "backend.scripts.run_beir_hybrid_experiment",
+        "description": "backend.scripts.run_beir_hybrid_experiment",
+        "peekOfCode": "TOKEN_PATTERN = re.compile(r\"[a-z0-9]+\")\ndef _index_exists(index_path: Path) -> bool:\n    return (index_path / \"index.faiss\").exists() and (index_path / \"index.pkl\").exists()\ndef _json_ready(value: Any) -> Any:\n    if isinstance(value, set):\n        return sorted(value)\n    if isinstance(value, list):\n        return [_json_ready(item) for item in value]\n    if isinstance(value, dict):\n        return {key: _json_ready(item) for key, item in value.items()}",
+        "detail": "backend.scripts.run_beir_hybrid_experiment",
         "documentation": {}
     },
     {
@@ -4139,6 +5234,51 @@
         "documentation": {}
     },
     {
+        "label": "_StaticRetriever",
+        "kind": 6,
+        "importPath": "backend.tests.rag.test_evaluation",
+        "description": "backend.tests.rag.test_evaluation",
+        "peekOfCode": "class _StaticRetriever:\n    def __init__(self, results: dict[str, list[Document]]) -> None:\n        self.results = results\n    def invoke(self, query: str) -> list[Document]:\n        return self.results[query]\ndef test_metric_formulas_use_top_k() -> None:\n    retrieved = [\"d1\", \"d2\", \"d3\", \"d4\"]\n    relevant = {\"d2\", \"d4\", \"d5\"}\n    assert recall_at_k(retrieved, relevant, k=3) == 1 / 3\n    assert precision_at_k(retrieved, relevant, k=3) == 1 / 3",
+        "detail": "backend.tests.rag.test_evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "test_metric_formulas_use_top_k",
+        "kind": 2,
+        "importPath": "backend.tests.rag.test_evaluation",
+        "description": "backend.tests.rag.test_evaluation",
+        "peekOfCode": "def test_metric_formulas_use_top_k() -> None:\n    retrieved = [\"d1\", \"d2\", \"d3\", \"d4\"]\n    relevant = {\"d2\", \"d4\", \"d5\"}\n    assert recall_at_k(retrieved, relevant, k=3) == 1 / 3\n    assert precision_at_k(retrieved, relevant, k=3) == 1 / 3\n    assert reciprocal_rank_at_k(retrieved, relevant, k=3) == 1 / 2\n    assert round(ndcg_at_k(retrieved, relevant, k=4), 4) == 0.4982\ndef test_reciprocal_rank_fusion_boosts_docs_seen_in_multiple_lists() -> None:\n    fused = reciprocal_rank_fusion(\n        [[\"d1\", \"d2\", \"d3\"], [\"d2\", \"d4\", \"d1\"]],",
+        "detail": "backend.tests.rag.test_evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "test_reciprocal_rank_fusion_boosts_docs_seen_in_multiple_lists",
+        "kind": 2,
+        "importPath": "backend.tests.rag.test_evaluation",
+        "description": "backend.tests.rag.test_evaluation",
+        "peekOfCode": "def test_reciprocal_rank_fusion_boosts_docs_seen_in_multiple_lists() -> None:\n    fused = reciprocal_rank_fusion(\n        [[\"d1\", \"d2\", \"d3\"], [\"d2\", \"d4\", \"d1\"]],\n        k=60,\n    )\n    assert fused[0][0] == \"d2\"\n    assert fused[1][0] == \"d1\"\n    assert {doc_id for doc_id, _ in fused} == {\"d1\", \"d2\", \"d3\", \"d4\"}\ndef test_evaluate_retriever_aggregates_metrics() -> None:\n    retriever = _StaticRetriever(",
+        "detail": "backend.tests.rag.test_evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "test_evaluate_retriever_aggregates_metrics",
+        "kind": 2,
+        "importPath": "backend.tests.rag.test_evaluation",
+        "description": "backend.tests.rag.test_evaluation",
+        "peekOfCode": "def test_evaluate_retriever_aggregates_metrics() -> None:\n    retriever = _StaticRetriever(\n        {\n            \"what is rag\": [\n                Document(page_content=\"x\", metadata={\"doc_id\": \"d2\"}),\n                Document(page_content=\"x\", metadata={\"doc_id\": \"d1\"}),\n            ],\n            \"what is bm25\": [\n                Document(page_content=\"x\", metadata={\"doc_id\": \"d4\"}),\n                Document(page_content=\"x\", metadata={\"doc_id\": \"d3\"}),",
+        "detail": "backend.tests.rag.test_evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "test_load_beir_dataset_files",
+        "kind": 2,
+        "importPath": "backend.tests.rag.test_evaluation",
+        "description": "backend.tests.rag.test_evaluation",
+        "peekOfCode": "def test_load_beir_dataset_files(tmp_path: Path) -> None:\n    (tmp_path / \"qrels\").mkdir()\n    (tmp_path / \"corpus.jsonl\").write_text(\n        '{\"_id\": \"d1\", \"title\": \"RAG\", \"text\": \"Retrieval augmented generation\"}\\n',\n        encoding=\"utf-8\",\n    )\n    (tmp_path / \"queries.jsonl\").write_text(\n        '{\"_id\": \"q1\", \"text\": \"what is rag\"}\\n',\n        encoding=\"utf-8\",\n    )",
+        "detail": "backend.tests.rag.test_evaluation",
+        "documentation": {}
+    },
+    {
         "label": "_FakeVectorStore",
         "kind": 6,
         "importPath": "backend.tests.rag.test_retrievers",
@@ -4152,7 +5292,16 @@
         "kind": 6,
         "importPath": "backend.tests.rag.test_retrievers",
         "description": "backend.tests.rag.test_retrievers",
-        "peekOfCode": "class _FakeRetriever:\n    def __init__(self) -> None:\n        self.vectorstore = _FakeVectorStore()\n        self.search_kwargs = {\"k\": 4, \"fetch_k\": 20}\ndef test_search_retriever_with_scores_uses_retriever_vectorstore() -> None:\n    retriever = _FakeRetriever()\n    results = search_retriever_with_scores(retriever, \"rag\", k=8)\n    assert results[0][1] == 0.88\n    assert retriever.vectorstore.calls == [{\"query\": \"rag\", \"k\": 8, \"fetch_k\": 20}]",
+        "peekOfCode": "class _FakeRetriever:\n    def __init__(self) -> None:\n        self.vectorstore = _FakeVectorStore()\n        self.search_kwargs = {\"k\": 4, \"fetch_k\": 20}\nclass _StaticRetriever(BaseRetriever):\n    docs: list[Document]\n    def _get_relevant_documents(self, query: str) -> list[Document]:\n        return self.docs\ndef test_search_retriever_with_scores_uses_retriever_vectorstore() -> None:\n    retriever = _FakeRetriever()",
+        "detail": "backend.tests.rag.test_retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "_StaticRetriever",
+        "kind": 6,
+        "importPath": "backend.tests.rag.test_retrievers",
+        "description": "backend.tests.rag.test_retrievers",
+        "peekOfCode": "class _StaticRetriever(BaseRetriever):\n    docs: list[Document]\n    def _get_relevant_documents(self, query: str) -> list[Document]:\n        return self.docs\ndef test_search_retriever_with_scores_uses_retriever_vectorstore() -> None:\n    retriever = _FakeRetriever()\n    results = search_retriever_with_scores(retriever, \"rag\", k=8)\n    assert results[0][1] == 0.88\n    assert retriever.vectorstore.calls == [{\"query\": \"rag\", \"k\": 8, \"fetch_k\": 20}]\ndef test_create_rrf_retriever_fuses_multiple_ranked_lists() -> None:",
         "detail": "backend.tests.rag.test_retrievers",
         "documentation": {}
     },
@@ -4161,7 +5310,25 @@
         "kind": 2,
         "importPath": "backend.tests.rag.test_retrievers",
         "description": "backend.tests.rag.test_retrievers",
-        "peekOfCode": "def test_search_retriever_with_scores_uses_retriever_vectorstore() -> None:\n    retriever = _FakeRetriever()\n    results = search_retriever_with_scores(retriever, \"rag\", k=8)\n    assert results[0][1] == 0.88\n    assert retriever.vectorstore.calls == [{\"query\": \"rag\", \"k\": 8, \"fetch_k\": 20}]",
+        "peekOfCode": "def test_search_retriever_with_scores_uses_retriever_vectorstore() -> None:\n    retriever = _FakeRetriever()\n    results = search_retriever_with_scores(retriever, \"rag\", k=8)\n    assert results[0][1] == 0.88\n    assert retriever.vectorstore.calls == [{\"query\": \"rag\", \"k\": 8, \"fetch_k\": 20}]\ndef test_create_rrf_retriever_fuses_multiple_ranked_lists() -> None:\n    dense = _StaticRetriever(\n        docs=[\n            Document(page_content=\"dense first\", metadata={\"doc_id\": \"d1\"}),\n            Document(page_content=\"dense second\", metadata={\"doc_id\": \"d2\"}),",
+        "detail": "backend.tests.rag.test_retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_rrf_retriever_fuses_multiple_ranked_lists",
+        "kind": 2,
+        "importPath": "backend.tests.rag.test_retrievers",
+        "description": "backend.tests.rag.test_retrievers",
+        "peekOfCode": "def test_create_rrf_retriever_fuses_multiple_ranked_lists() -> None:\n    dense = _StaticRetriever(\n        docs=[\n            Document(page_content=\"dense first\", metadata={\"doc_id\": \"d1\"}),\n            Document(page_content=\"dense second\", metadata={\"doc_id\": \"d2\"}),\n            Document(page_content=\"dense third\", metadata={\"doc_id\": \"d3\"}),\n        ]\n    )\n    sparse = _StaticRetriever(\n        docs=[",
+        "detail": "backend.tests.rag.test_retrievers",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_rerank_retriever_reorders_candidates",
+        "kind": 2,
+        "importPath": "backend.tests.rag.test_retrievers",
+        "description": "backend.tests.rag.test_retrievers",
+        "peekOfCode": "def test_create_rerank_retriever_reorders_candidates() -> None:\n    base = _StaticRetriever(\n        docs=[\n            Document(page_content=\"unrelated vector database\"),\n            Document(page_content=\"python decorator wraps a function\"),\n            Document(page_content=\"python class inheritance\"),\n        ]\n    )\n    retriever = create_rerank_retriever(base, k=1)\n    docs = retriever.invoke(\"python decorator function\")",
         "detail": "backend.tests.rag.test_retrievers",
         "documentation": {}
     },
@@ -4215,7 +5382,16 @@
         "kind": 2,
         "importPath": "backend.tests.rag.test_vector_stores",
         "description": "backend.tests.rag.test_vector_stores",
-        "peekOfCode": "def test_create_vector_store_rejects_unsupported_store_type(\n    sample_documents: list[Document],\n) -> None:\n    with pytest.raises(ValueError):\n        vector_stores.create_vector_store(\n            sample_documents,\n            _FakeEmbeddings(),\n            store_type=\"unknown\",\n        )\ndef test_add_documents_to_vector_store_adds_non_empty_documents() -> None:",
+        "peekOfCode": "def test_create_vector_store_rejects_unsupported_store_type(\n    sample_documents: list[Document],\n) -> None:\n    with pytest.raises(ValueError):\n        vector_stores.create_vector_store(\n            sample_documents,\n            _FakeEmbeddings(),\n            store_type=\"unknown\",\n        )\ndef test_create_vector_store_qdrant_missing_dependency_has_clear_error(",
+        "detail": "backend.tests.rag.test_vector_stores",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_vector_store_qdrant_missing_dependency_has_clear_error",
+        "kind": 2,
+        "importPath": "backend.tests.rag.test_vector_stores",
+        "description": "backend.tests.rag.test_vector_stores",
+        "peekOfCode": "def test_create_vector_store_qdrant_missing_dependency_has_clear_error(\n    sample_documents: list[Document],\n) -> None:\n    original_loader = vector_stores._load_qdrant_components\n    def fail_loader() -> tuple[Any, Any]:\n        raise ImportError(\"Qdrant 依赖未安装\")\n    vector_stores._load_qdrant_components = fail_loader\n    try:\n        with pytest.raises(ImportError, match=\"Qdrant\"):\n            vector_stores.create_vector_store(",
         "detail": "backend.tests.rag.test_vector_stores",
         "documentation": {}
     },
@@ -4658,6 +5834,42 @@
         "description": "backend.serve",
         "peekOfCode": "def dev() -> None:\n    \"\"\"Run the FastAPI app with uvicorn for local development.\"\"\"\n    project_root = Path(__file__).resolve().parents[1]\n    if str(project_root) not in sys.path:\n        sys.path.insert(0, str(project_root))\n    parser = argparse.ArgumentParser(description=\"Run the backend API server.\")\n    parser.add_argument(\"--host\", default=\"127.0.0.1\")\n    parser.add_argument(\"--port\", default=8000, type=int)\n    parser.add_argument(\"--reload\", action=argparse.BooleanOptionalAction, default=True)\n    args = parser.parse_args()",
         "detail": "backend.serve",
+        "documentation": {}
+    },
+    {
+        "label": "clean",
+        "kind": 2,
+        "importPath": "resume.tools_extract_pdf",
+        "description": "resume.tools_extract_pdf",
+        "peekOfCode": "def clean(text: str) -> str:\n    return \"\\n\".join(line.strip() for line in text.splitlines() if line.strip())\nout = []\nfor label, path, limit in DOCS:\n    reader = PdfReader(str(path))\n    out.append(f\"===== {label}: {len(reader.pages)} pages =====\")\n    pages = reader.pages if limit is None else reader.pages[:limit]\n    for page_no, page in enumerate(pages, 1):\n        text = clean(page.extract_text() or \"\")\n        out.append(f\"--- page {page_no} ---\")",
+        "detail": "resume.tools_extract_pdf",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT",
+        "kind": 5,
+        "importPath": "resume.tools_extract_pdf",
+        "description": "resume.tools_extract_pdf",
+        "peekOfCode": "ROOT = Path(__file__).resolve().parent\nDOCS = [\n    (\"paper\", ROOT / \"docs\" / \"paper\" / \"在投.pdf\", None),\n    (\"project\", ROOT / \"docs\" / \"project\" / \"2025申报书正式版.pdf\", None),\n]\ndef clean(text: str) -> str:\n    return \"\\n\".join(line.strip() for line in text.splitlines() if line.strip())\nout = []\nfor label, path, limit in DOCS:\n    reader = PdfReader(str(path))",
+        "detail": "resume.tools_extract_pdf",
+        "documentation": {}
+    },
+    {
+        "label": "DOCS",
+        "kind": 5,
+        "importPath": "resume.tools_extract_pdf",
+        "description": "resume.tools_extract_pdf",
+        "peekOfCode": "DOCS = [\n    (\"paper\", ROOT / \"docs\" / \"paper\" / \"在投.pdf\", None),\n    (\"project\", ROOT / \"docs\" / \"project\" / \"2025申报书正式版.pdf\", None),\n]\ndef clean(text: str) -> str:\n    return \"\\n\".join(line.strip() for line in text.splitlines() if line.strip())\nout = []\nfor label, path, limit in DOCS:\n    reader = PdfReader(str(path))\n    out.append(f\"===== {label}: {len(reader.pages)} pages =====\")",
+        "detail": "resume.tools_extract_pdf",
+        "documentation": {}
+    },
+    {
+        "label": "out",
+        "kind": 5,
+        "importPath": "resume.tools_extract_pdf",
+        "description": "resume.tools_extract_pdf",
+        "peekOfCode": "out = []\nfor label, path, limit in DOCS:\n    reader = PdfReader(str(path))\n    out.append(f\"===== {label}: {len(reader.pages)} pages =====\")\n    pages = reader.pages if limit is None else reader.pages[:limit]\n    for page_no, page in enumerate(pages, 1):\n        text = clean(page.extract_text() or \"\")\n        out.append(f\"--- page {page_no} ---\")\n        out.append(text[:3500])\n(ROOT / \"pdf_extract.txt\").write_text(\"\\n\".join(out), encoding=\"utf-8\")",
+        "detail": "resume.tools_extract_pdf",
         "documentation": {}
     }
 ]

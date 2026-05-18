@@ -1129,3 +1129,256 @@ openai.OpenAIError: Missing credentials. Please pass an `api_key`, `workload_ide
 2026-05-15 15:35:23.521 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
 2026-05-15 16:08:33.980 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
 2026-05-15 16:19:21.038 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:23:43.392 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:27:48.994 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:27:49.396 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:28:23.046 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:28:23.483 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:28:23.789 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=5183
+2026-05-18 12:28:24.769 | ERROR    | backend.rag.vector_stores:create_vector_store:145 | ❌ 创建向量库失败: Error code: 413 - {'code': 20042, 'message': 'input batch size 50 > maximum allowed batch size 32', 'data': None}
+2026-05-18 12:28:46.472 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:28:46.899 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:28:47.206 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=5183
+2026-05-18 12:28:48.204 | ERROR    | backend.rag.vector_stores:create_vector_store:145 | ❌ 创建向量库失败: Error code: 413 - {'code': 20042, 'message': 'input must have less than 512 tokens', 'data': None}
+2026-05-18 12:29:55.312 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:29:55.739 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:29:56.043 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=5183
+2026-05-18 12:29:57.060 | ERROR    | backend.rag.vector_stores:create_vector_store:145 | ❌ 创建向量库失败: Error code: 413 - {'code': 20042, 'message': 'input must have less than 512 tokens', 'data': None}
+2026-05-18 12:30:08.466 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:30:08.887 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:30:09.186 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=5183
+2026-05-18 12:30:11.300 | ERROR    | backend.rag.vector_stores:create_vector_store:145 | ❌ 创建向量库失败: Error code: 413 - {'code': 20042, 'message': 'input must have less than 512 tokens', 'data': None}
+2026-05-18 12:31:02.092 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:31:02.528 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:31:02.833 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=5183
+2026-05-18 12:31:03.720 | ERROR    | backend.rag.vector_stores:create_vector_store:145 | ❌ 创建向量库失败: Error code: 413 - {'code': 20042, 'message': 'input must have less than 512 tokens', 'data': None}
+2026-05-18 12:31:23.073 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:31:23.496 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:31:23.798 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=5183
+2026-05-18 12:31:24.760 | ERROR    | backend.rag.vector_stores:create_vector_store:145 | ❌ 创建向量库失败: Error code: 413 - {'code': 20042, 'message': 'input must have less than 512 tokens', 'data': None}
+2026-05-18 12:31:52.086 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:31:52.479 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:32:21.795 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:32:22.238 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:32:22.545 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=5183
+2026-05-18 12:32:46.412 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 12:32:46.412 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-similarity-k5
+2026-05-18 12:32:46.428 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 12:32:46.429 | INFO     | backend.rag.retrievers:create_retriever:155 | 🔍 创建检索器: search_type=similarity, k=5
+2026-05-18 12:32:46.429 | INFO     | backend.rag.retrievers:create_retriever:174 | ✅ 检索器创建成功
+2026-05-18 12:33:33.863 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:33:34.318 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:33:34.639 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-similarity-k5
+2026-05-18 12:33:34.731 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:33:34.731 | INFO     | backend.rag.retrievers:create_retriever:155 | 🔍 创建检索器: search_type=similarity, k=5
+2026-05-18 12:33:34.731 | INFO     | backend.rag.retrievers:create_retriever:174 | ✅ 检索器创建成功
+2026-05-18 12:34:27.431 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:34:27.898 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:34:28.219 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-similarity-k5
+2026-05-18 12:34:28.315 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:34:28.315 | INFO     | backend.rag.retrievers:create_retriever:155 | 🔍 创建检索器: search_type=similarity, k=5
+2026-05-18 12:34:28.316 | INFO     | backend.rag.retrievers:create_retriever:174 | ✅ 检索器创建成功
+2026-05-18 12:34:52.257 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:34:52.273 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=3633
+2026-05-18 12:35:09.436 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 12:35:09.437 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-similarity-k5
+2026-05-18 12:35:09.448 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 12:35:09.448 | INFO     | backend.rag.retrievers:create_retriever:155 | 🔍 创建检索器: search_type=similarity, k=5
+2026-05-18 12:35:09.448 | INFO     | backend.rag.retrievers:create_retriever:174 | ✅ 检索器创建成功
+2026-05-18 12:38:09.065 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:38:09.502 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:38:09.808 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=5183
+2026-05-18 12:38:34.017 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 12:38:34.017 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:38:34.036 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 12:38:34.036 | INFO     | backend.rag.retrievers:create_retriever:155 | 🔍 创建检索器: search_type=similarity, k=5
+2026-05-18 12:38:34.036 | INFO     | backend.rag.retrievers:create_retriever:174 | ✅ 检索器创建成功
+2026-05-18 12:39:04.322 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:39:04.338 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=5183
+2026-05-18 12:39:29.337 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 12:39:29.337 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:39:29.357 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 12:39:29.357 | INFO     | backend.rag.retrievers:create_retriever:155 | 🔍 创建检索器: search_type=mmr, k=5
+2026-05-18 12:39:29.357 | INFO     | backend.rag.retrievers:create_retriever:174 | ✅ 检索器创建成功
+2026-05-18 12:39:53.171 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:39:53.186 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=5183
+2026-05-18 12:41:58.249 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 12:41:58.249 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:41:58.266 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 12:41:58.266 | INFO     | backend.rag.retrievers:create_retriever:155 | 🔍 创建检索器: search_type=similarity, k=20
+2026-05-18 12:41:58.267 | INFO     | backend.rag.retrievers:create_retriever:174 | ✅ 检索器创建成功
+2026-05-18 12:42:20.891 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:42:20.907 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=3633
+2026-05-18 12:42:24.913 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:42:25.418 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:42:25.744 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:42:25.859 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:42:25.860 | INFO     | backend.rag.retrievers:create_retriever:155 | 🔍 创建检索器: search_type=similarity, k=5
+2026-05-18 12:42:25.860 | INFO     | backend.rag.retrievers:create_retriever:174 | ✅ 检索器创建成功
+2026-05-18 12:43:46.859 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 12:43:46.859 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 12:43:46.897 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 12:43:46.897 | INFO     | backend.rag.retrievers:create_retriever:155 | 🔍 创建检索器: search_type=similarity, k=5
+2026-05-18 12:43:46.897 | INFO     | backend.rag.retrievers:create_retriever:174 | ✅ 检索器创建成功
+2026-05-18 12:43:51.057 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:43:51.495 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:43:51.807 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:43:51.905 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:44:11.185 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:44:11.201 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=3633
+2026-05-18 12:44:13.948 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:44:13.964 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:44:13.980 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:44:15.142 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:44:15.158 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:44:15.174 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:44:36.830 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:44:37.254 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:44:37.557 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:44:37.648 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:44:37.952 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:44:37.968 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:44:37.983 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:44:39.131 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:44:39.147 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:44:39.163 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:44:39.629 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:44:39.644 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 12:44:39.655 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:45:36.330 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 12:45:36.331 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 12:45:36.343 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 12:45:36.343 | INFO     | backend.rag.retrievers:create_retriever:155 | 🔍 创建检索器: search_type=mmr, k=5
+2026-05-18 12:45:36.344 | INFO     | backend.rag.retrievers:create_retriever:174 | ✅ 检索器创建成功
+2026-05-18 12:46:00.634 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:46:00.649 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=3633
+2026-05-18 12:46:01.030 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:46:01.479 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:46:01.809 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 12:46:01.898 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:47:22.738 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 12:47:22.739 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 12:47:22.751 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 12:47:22.751 | INFO     | backend.rag.retrievers:create_retriever:155 | 🔍 创建检索器: search_type=similarity, k=20
+2026-05-18 12:47:22.752 | INFO     | backend.rag.retrievers:create_retriever:174 | ✅ 检索器创建成功
+2026-05-18 12:47:38.536 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:47:38.961 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:47:39.262 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 12:47:39.361 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:56:32.357 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:56:32.375 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 12:56:32.385 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:56:33.530 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:56:33.549 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 12:56:33.560 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:57:01.505 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 12:57:01.955 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:57:02.267 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:57:02.364 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:57:02.665 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:57:02.681 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:57:02.699 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:57:03.850 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:57:03.867 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 12:57:03.882 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:57:04.325 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:57:04.341 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 12:57:04.352 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:57:04.586 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:57:04.602 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 12:57:04.612 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 12:57:05.731 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 12:57:05.747 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 12:57:05.757 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:01:38.053 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:01:38.575 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:01:38.906 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 13:01:39.021 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:01:39.373 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:01:39.390 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 13:01:39.406 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:01:43.406 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:01:43.423 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 13:01:43.439 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:01:44.162 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:01:44.179 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 13:01:44.190 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:01:44.456 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:01:44.473 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 13:01:44.484 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:01:48.854 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:01:48.870 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 13:01:48.881 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:04:26.429 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:04:26.871 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:04:27.193 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 13:04:27.286 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:04:27.668 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:04:27.685 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 13:04:27.701 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:05:08.640 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:05:08.656 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-faiss
+2026-05-18 13:05:08.672 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:05:10.352 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:05:10.369 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 13:05:10.380 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:05:10.693 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:05:10.709 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 13:05:10.720 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:05:50.126 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:05:50.142 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-faiss
+2026-05-18 13:05:50.153 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:25:17.714 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:25:18.233 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:25:18.566 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=13781
+2026-05-18 13:28:14.181 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 13:28:14.182 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-chunks-faiss-c700-o100
+2026-05-18 13:28:14.243 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 13:28:51.603 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:28:52.093 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:28:52.417 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-chunks-faiss-c700-o100
+2026-05-18 13:28:52.524 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:36:58.412 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:36:58.931 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:36:59.273 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-chunks-faiss-c700-o100
+2026-05-18 13:36:59.382 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:37:13.128 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:37:13.147 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=10256
+2026-05-18 13:38:21.652 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 13:38:21.652 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-chunks-faiss-c700-o100
+2026-05-18 13:38:21.726 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 13:38:54.330 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:39:32.667 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:39:56.730 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:41:09.902 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:41:10.494 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:41:10.851 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-chunks-faiss-c700-o100
+2026-05-18 13:41:11.011 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:45:24.108 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 13:45:24.125 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-chunks-faiss-c700-o100
+2026-05-18 13:45:24.160 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:45:25.219 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:45:25.776 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-en-v1.5
+2026-05-18 13:45:26.157 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=13781
+2026-05-18 13:46:24.036 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 13:46:24.037 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\scifact-chunks-faiss-baai-bge-large-en-v1.5-c700-o100
+2026-05-18 13:46:24.098 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 13:47:17.334 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-en-v1.5
+2026-05-18 13:47:17.351 | INFO     | backend.rag.vector_stores:create_vector_store:101 | 🗄️  创建向量存储: type=faiss, documents=10256
+2026-05-18 13:49:00.576 | INFO     | backend.rag.vector_stores:create_vector_store:113 | ✅ FAISS 向量库创建成功
+2026-05-18 13:49:00.577 | INFO     | backend.rag.vector_stores:save_vector_store:174 | 💾 保存向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-chunks-faiss-baai-bge-large-en-v1.5-c700-o100
+2026-05-18 13:49:00.624 | INFO     | backend.rag.vector_stores:save_vector_store:180 | ✅ FAISS 向量库保存成功
+2026-05-18 13:50:26.909 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:50:27.422 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-en-v1.5
+2026-05-18 13:50:27.747 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-chunks-faiss-baai-bge-large-en-v1.5-c700-o100
+2026-05-18 13:50:27.869 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:51:01.601 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:51:17.110 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 13:51:17.635 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-en-v1.5
+2026-05-18 13:51:17.953 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-chunks-faiss-baai-bge-large-en-v1.5-c700-o100
+2026-05-18 13:51:18.073 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功
+2026-05-18 13:59:15.869 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 14:20:16.632 | INFO     | backend.config.logging:setup_logging:63 | 📝 日志系统初始化完成 - 级别: INFO, 文件: logs/app.log
+2026-05-18 14:32:50.536 | INFO     | backend.rag.embeddings:get_embeddings:35 | 🔢 创建 Embedding 模型: BAAI/bge-large-zh-v1.5
+2026-05-18 14:32:50.570 | INFO     | backend.rag.vector_stores:load_vector_store:234 | 📂 加载向量库: E:\Graduate\code\langchain-project\my-LC-StudyLab\data\indexes\beir\nfcorpus-chunks-faiss-c700-o100
+2026-05-18 14:32:50.604 | INFO     | backend.rag.vector_stores:load_vector_store:249 | ✅ FAISS 向量库加载成功

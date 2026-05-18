@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
-from typing import Optional, Literal, TYPE_CHECKING
+from typing import Any, Optional, Literal, TYPE_CHECKING
 
 from langchain_core.documents import Document
 from langchain_core.embeddings import Embeddings
@@ -24,7 +24,39 @@ from ..config import settings, get_logger
 logger = get_logger(__name__)
 
 
-VectorStoreType = Literal["faiss", "inmemory"]
+VectorStoreType = Literal["faiss", "inmemory", "qdrant"]
+
+
+def _load_qdrant_components() -> tuple[Any, Any]:
+    try:
+        from langchain_qdrant import QdrantVectorStore
+        from qdrant_client import QdrantClient
+    except ImportError as exc:
+        raise ImportError(
+            "Qdrant 依赖未安装。请安装 langchain-qdrant 和 qdrant-client，"
+            "或将 VECTOR_STORE_TYPE 改回 faiss/inmemory。"
+        ) from exc
+    return QdrantVectorStore, QdrantClient
+
+
+def _create_qdrant_client(path: Path | None = None) -> Any:
+    _, QdrantClient = _load_qdrant_components()
+    if settings.qdrant_url:
+        return QdrantClient(url=settings.qdrant_url)
+    if path is None:
+        path = settings.resolve_path(settings.vector_store_path) / "qdrant"
+    path.mkdir(parents=True, exist_ok=True)
+    return QdrantClient(path=str(path))
+
+
+def _resolve_qdrant_collection(load_path: Path | None = None, collection_name: str | None = None) -> str:
+    if collection_name:
+        return str(collection_name)
+    if settings.qdrant_collection:
+        return settings.qdrant_collection
+    if load_path is not None:
+        return load_path.name
+    return settings.qdrant_default_collection
 
 
 def create_vector_store(
@@ -88,9 +120,23 @@ def create_vector_store(
             )
             logger.info("✅ 内存向量库创建成功")
 
+        elif store_type == "qdrant":
+            QdrantVectorStore, _ = _load_qdrant_components()
+            path = Path(kwargs.pop("path", settings.resolve_path(settings.vector_store_path) / "qdrant"))
+            collection_name = _resolve_qdrant_collection(path, kwargs.pop("collection_name", None))
+            client = kwargs.pop("client", None) or _create_qdrant_client(path)
+            vector_store = QdrantVectorStore.from_documents(
+                documents=documents,
+                embedding=embeddings,
+                client=client,
+                collection_name=collection_name,
+                **kwargs,
+            )
+            logger.info(f"✅ Qdrant 向量库创建成功: collection={collection_name}")
+
         else:
             raise ValueError(
-                f"不支持的向量库类型: {store_type}。" f"支持的类型: faiss, inmemory"
+                f"不支持的向量库类型: {store_type}。" f"支持的类型: faiss, inmemory, qdrant"
             )
 
         return vector_store
@@ -139,6 +185,9 @@ def save_vector_store(
             raise ValueError("InMemoryVectorStore 不支持持久化")
 
         else:
+            if type(vector_store).__name__ == "QdrantVectorStore":
+                logger.info("✅ Qdrant 向量库由服务端或本地 Qdrant path 持久化")
+                return
             logger.warning(f"⚠️  未知的向量库类型: {type(vector_store)}")
             raise ValueError(f"不支持的向量库类型: {type(vector_store)}")
 
@@ -180,15 +229,14 @@ def load_vector_store(
     """
     load_path = Path(load_path)
 
-    if not load_path.exists():
-        raise FileNotFoundError(f"向量库路径不存在: {load_path}")
-
     store_type = store_type or settings.vector_store_type
 
     logger.info(f"📂 加载向量库: {load_path}")
 
     try:
         if store_type == "faiss":
+            if not load_path.exists():
+                raise FileNotFoundError(f"向量库路径不存在: {load_path}")
             if not FAISS_AVAILABLE:
                 raise ImportError("FAISS 未安装。请运行: pip install faiss-cpu")
 
@@ -201,10 +249,25 @@ def load_vector_store(
             logger.info("✅ FAISS 向量库加载成功")
 
         elif store_type == "inmemory":
+            if not load_path.exists():
+                raise FileNotFoundError(f"向量库路径不存在: {load_path}")
             raise ValueError("InMemoryVectorStore 不支持从磁盘加载")
 
+        elif store_type == "qdrant":
+            QdrantVectorStore, _ = _load_qdrant_components()
+            path = Path(kwargs.pop("path", load_path))
+            collection_name = _resolve_qdrant_collection(load_path, kwargs.pop("collection_name", None))
+            client = kwargs.pop("client", None) or _create_qdrant_client(path)
+            vector_store = QdrantVectorStore(
+                client=client,
+                collection_name=collection_name,
+                embedding=embeddings,
+                **kwargs,
+            )
+            logger.info(f"✅ Qdrant 向量库加载成功: collection={collection_name}")
+
         else:
-            raise ValueError(f"不支持的向量库类型: {store_type}。" f"支持的类型: faiss")
+            raise ValueError(f"不支持的向量库类型: {store_type}。" f"支持的类型: faiss, qdrant")
 
         return vector_store
 

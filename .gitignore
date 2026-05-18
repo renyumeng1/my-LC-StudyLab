@@ -6,3 +6,5 @@ frontend/node_modules/
 frontend/dist/
 .playwright-mcp/
 lc-studylab-*.png
+resume/
+data/
